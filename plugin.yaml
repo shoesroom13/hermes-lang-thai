@@ -1,0 +1,7 @@
+name: hermes-lang-th
+version: 1.0.0
+description: Thai (ภาษาไทย) language pack for Hermes Desktop, CLI, and TUI
+provides_locales:
+  - id: th
+    endonym: ไทย
+    rtl: false

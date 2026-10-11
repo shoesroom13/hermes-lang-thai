@@ -1,5 +1,7 @@
 # hermes-lang-thai
 
+![Hermes Desktop in Thai](screenshots/desktop-th.png)
+
 Thai (ภาษาไทย) language pack for [Hermes Agent](https://github.com/NousResearch/hermes-agent).
 
 Translates the Hermes Desktop UI to Thai. Currently covers **5,024 / 5,030 keys** of the

@@ -1,0 +1,1259 @@
+billing.autoReload.aDifferentCard: บัตรอีกใบ
+billing.autoReload.agreeAndTurnOn: ตกลงและเปิดใช้
+billing.autoReload.authorization: '*** Nous Research จะตัดเงินจากบัตร {0} เมื่อยอดคงเหลือต่ำกว่าข้อกำหนด สามารถปิดได้ทุกเมื่อที่นี่หรือบนพอร์ทัล'
+billing.autoReload.cardOnFile: 'บัตรที่ผูกไว้: {0}'
+billing.autoReload.description: เติมเงินอัตโนมัติเมื่อยอดคงเหลือไม่พอ
+billing.autoReload.distinctCardWarning: ⚠ การเติมเงินอัตโนมัติจะตัดเงินจาก {0} — ไม่ใช่บัตรที่คุณผูกไว้
+billing.autoReload.hint: ↑/↓ เลื่อน · Tab สลับช่อง · Enter ถัดไป/ยืนยัน · Esc ย้อนกลับ
+billing.autoReload.manageCardOnPortal: ใช้บัตรที่ผูกไว้ — จัดการบนพอร์ทัล
+billing.autoReload.noCardManageOnPortal: 🔴 ยังไม่มีบัตรที่บันทึกไว้ — จัดการการเรียกเก็บเงินบนพอร์ทัล
+billing.autoReload.reloadToError: 'เติมถึง: {0}'
+billing.autoReload.reloadToLabel: 'เติมยอดคงเหลือถึง:'
+billing.autoReload.reloadToMustExceedThreshold: ยอดที่เติมต้องมากกว่าข้อกำหนด
+billing.autoReload.thresholdError: 'กำหนดที่: {0}'
+billing.autoReload.thresholdLabel: 'เมื่อยอดคงเหลือต่ำกว่า:'
+billing.autoReload.title: เติมเงินอัตโนมัติ
+billing.autoReload.turnOff: ปิด
+billing.autoReload.turnedOff: ✅ ปิดการเติมเงินอัตโนมัติแล้ว
+billing.autoReload.turnedOn: '✅ เปิดการเติมเงินอัตโนมัติแล้ว: ต่ำกว่า {0} → เติมถึง {1}'
+billing.autoReload.yourCard: บัตรของคุณ
+billing.buy.addCardOnPortal: เพิ่มบัตรบนพอร์ทัล
+billing.buy.addCardOnce: เพิ่มบัตรครั้งเดียวที่หน้าการเรียกเก็บเงินในพอร์ทัล — หลังจากนี้เติมเงินในเทอร์มินัลได้เลย
+billing.buy.addCardThenCheckAgain: เพิ่มบัตรที่หน้าการเรียกเก็บเงิน แล้วกลับมาที่นี่เลือก "ตรวจสอบอีกครั้ง"
+billing.buy.cardFound: '✓ พบบัตรแล้ว: {0} — เลือกจำนวนเงิน'
+billing.buy.checkAgain: เพิ่มแล้ว — ตรวจสอบอีกครั้ง
+billing.buy.checkingForCard: กำลังตรวจสอบบัตร…
+billing.buy.customAmount: จำนวนเงินที่กำหนดเอง…
+billing.buy.enterCustomAmount: 'ระบุจำนวนเงินที่กำหนดเอง:'
+billing.buy.hint: ↑/↓ เลือก · 1-{0} เลือกด่วน · Enter ยืนยัน · Esc ย้อนกลับ
+billing.buy.invalidAmount: จำนวนเงินไม่ถูกต้อง
+billing.buy.invalidPreset: ค่าที่ตั้งไว้ไม่ถูกต้อง
+billing.buy.noSavedCardLine: ยังไม่มีบัตรที่บันทึกไว้
+billing.buy.portalLinkFailed: สร้างลิงก์พอร์ทัลไม่ได้ — ตั้งค่าพอร์ทัลไว้หรือยัง?
+billing.buy.refreshFailed: รีเฟรชสถานะการเรียกเก็บเงินไม่ได้ — ลองอีกครั้งภายหลัง
+billing.buy.stillNoCard: ยังไม่พบบัตร — เพิ่มให้เสร็จบนพอร์ทัลแล้วตรวจสอบอีกครั้ง
+billing.buy.title: เติมเงิน
+billing.buy.typingHint: Enter ยืนยัน · Esc ย้อนกลับ
+billing.common.back: ย้อนกลับ
+billing.common.cancel: ยกเลิก
+billing.common.invalid: ไม่ถูกต้อง
+billing.common.manageOnPortal: จัดการบนพอร์ทัล
+billing.common.noSavedCard: ยังไม่มีบัตรที่บันทึกไว้
+billing.common.payment: 'การชำระเงิน: {0}'
+billing.confirm.authorization: '*** Nous Research จะตัดเงินจากบัตรของคุณ'
+billing.confirm.hint: ↑/↓ เลือก · Enter ยืนยัน · Y/N ด่วน · Esc ย้อนกลับ
+billing.confirm.payNow: ชำระเงิน {0} ทันที
+billing.confirm.portalCardCharged: จะตัดเงินจากบัตรที่บันทึกไว้ในพอร์ทัล
+billing.confirm.title: ยืนยันการซื้อ
+billing.confirm.total: 'รวม: {0}'
+billing.limit.hint: ↑/↓ เลือก · 1-{0} เลือกด่วน · Enter ยืนยัน · Esc ย้อนกลับ
+billing.limit.noCapVisible: ไม่แสดงเพดานรายเดือน (จัดการบนพอร์ทัล)
+billing.limit.readOnly: วงเงินรายเดือนตั้งบนพอร์ทัล — ที่นี่ดูได้อย่างเดียว
+billing.limit.title: วงเงินใช้จ่ายรายเดือน
+billing.limit.usage: ใช้ไปแล้วเดือนนี้ {0} / {1}
+billing.limit.usageDefaultCeiling: ใช้ไปแล้วเดือนนี้ {0} / {1} (เพดานค่าเริ่มต้น)
+billing.overview.addFunds: เติมเงิน
+billing.overview.autoReload: เติมเงินอัตโนมัติ
+billing.overview.autoReloadOff: 'เติมเงินอัตโนมัติ: ปิด'
+billing.overview.autoReloadOn: 'เติมเงินอัตโนมัติ: เปิด (ต่ำกว่า {0} → {1})'
+billing.overview.card: 'บัตร: {0}'
+billing.overview.hint: ↑/↓ เลือก · 1-{0} เลือกด่วน · Enter ยืนยัน · Esc ปิด
+billing.overview.monthlyLimit: วงเงินรายเดือน
+billing.overview.needsBillingPermissions: การดำเนินการด้านการเรียกเก็บเงินต้องทำโดยผู้ที่มีสิทธิ์เรื่องการเรียกเก็บเงิน (เจ้าของ ผู้ดูแลระบบ หรือผู้ดูแลการเงิน)
+billing.overview.noCardHint: ยังไม่มีบัตรที่บันทึกไว้ — "เติมเงิน"จะพาไปเพิ่มบัตร
+billing.overview.org: 'องค์กร: {0}'
+billing.overview.remoteSpendingOff: องค์กรนี้ปิดการใช้จ่ายจากระยะไกลไว้ — ผู้ดูแลการเรียกเก็บเงินเปิดได้ที่หน้า Hermes Agent ในพอร์ทัล
+billing.overview.title: เติมเงิน · ยอดคงเหลือ {0}
+billing.stepUp.allow: อนุญาตการใช้จ่ายจากระยะไกล
+billing.stepUp.allowedResuming: ✓ อนุญาตการใช้จ่ายจากระยะไกลแล้ว — กำลังดำเนินการซื้อต่อ
+billing.stepUp.approveInPage: อนุมัติในหน้าที่เพิ่งเปิด
+billing.stepUp.declined: ไม่มีการตัดเงิน ต้องการอนุญาตการใช้จ่ายจากระยะไกลก็รัน /topup ได้เลย
+billing.stepUp.escCancel: Esc ยกเลิก
+billing.stepUp.grantedHint: Enter ดำเนินการต่อ · Esc ยกเลิก
+billing.stepUp.grantedTitle: อนุญาตการใช้จ่ายจากระยะไกลแล้ว
+billing.stepUp.heldHere: การเติมเงิน {0} ของคุณถูกพักไว้ที่นี่ จะดำเนินต่อเองเมื่อเสร็จสิ้น
+billing.stepUp.notAllowed: '! อนุญาตการใช้จ่ายจากระยะไกลไม่ได้ — ต้องให้ผู้ที่มีสิทธิ์เรื่องการเรียกเก็บเงิน (เจ้าของ ผู้ดูแลระบบ หรือผู้ดูแลการเงิน) อนุมัติ ไม่มีการตัดเงินจากบัตรของคุณ'
+billing.stepUp.notNow: ไว้คราวหลัง
+billing.stepUp.openingBrowser: กำลังเปิดเบราว์เซอร์เพื่ออนุญาตการใช้จ่ายจากระยะไกล…
+billing.stepUp.pressEnterToResume: กด Enter เพื่อดำเนินการต่อ
+billing.stepUp.promptBody: ต้องอนุญาตการใช้จ่ายจากระยะไกลครั้งหนึ่งก่อน จึงจะตัดเงินจากเทอร์มินัลนี้ได้
+billing.stepUp.promptDetail: จะเปิดเบราว์เซอร์เพื่ออนุมัติ จากนั้นการเติมเงิน {0} ของคุณจะดำเนินต่อที่นี่
+billing.stepUp.promptHint: ↑/↓ เลือก · Enter ยืนยัน · Y/N ด่วน · Esc ยกเลิก
+billing.stepUp.promptTitle: ตั้งค่าครั้งเดียว
+billing.stepUp.readyToFinish: การเติมเงิน {0} ของคุณพร้อมเสร็จสิ้นแล้ว
+billing.stepUp.resuming: กำลังดำเนินการเติมเงิน {0} ของคุณต่อ…
+billing.stepUp.stillNeedsApproval: '! การใช้จ่ายจากระยะไกลยังต้องได้รับการอนุมัติ — รัน /topup เพื่อลองใหม่ ไม่มีการตัดเงินจากบัตรของคุณ'
+billing.stepUp.title: อนุญาตการใช้จ่ายจากระยะไกล
+billing.stepUp.waitingForBrowser: กำลังรอเบราว์เซอร์…
+chatBits.branding.availableSkills: ทักษะที่ใช้ได้
+chatBits.branding.availableTools: เครื่องมือที่ใช้ได้
+chatBits.branding.charsSuffix: — {0} ตัวอักษร
+chatBits.branding.commitsBehindOne: '! ขาดไป {0} คอมมิต'
+chatBits.branding.commitsBehindOther: '! ขาดไป {0} คอมมิต'
+chatBits.branding.configured: กำหนดค่าแล้ว
+chatBits.branding.connected: เชื่อมต่อแล้ว
+chatBits.branding.connecting: กำลังเชื่อมต่อ
+chatBits.branding.disabled: ปิดใช้แล้ว
+chatBits.branding.failed: ไม่สำเร็จ
+chatBits.branding.helpHint: /help ดูคำสั่ง
+chatBits.branding.inCategoriesOne: อยู่ใน {0} หมวดหมู่
+chatBits.branding.inCategoriesOther: อยู่ใน {0} หมวดหมู่
+chatBits.branding.lazy: (โหลดภายหลัง)
+chatBits.branding.mcpServers: เซิร์ฟเวอร์ MCP
+chatBits.branding.mcpSummary: '{0} MCP'
+chatBits.branding.moreCategories: (อีก {0} หมวดหมู่…)
+chatBits.branding.moreToolsets: (อีก {0} ชุดเครื่องมือ…)
+chatBits.branding.noSystemPrompt: ยังไม่โหลดพรอมป์ระบบ
+chatBits.branding.runPrefix: ' - รัน '
+chatBits.branding.scanningSkills: กำลังสแกนทักษะ
+chatBits.branding.sessionLabel: 'เซสชัน: '
+chatBits.branding.skillsSummary: '{0} ทักษะ'
+chatBits.branding.systemPrompt: พรอมป์ระบบ
+chatBits.branding.tagFull: Nous Research · ทูตแห่งเหล่าเทพดิจิทัล
+chatBits.branding.tagMid: ทูตแห่งเหล่าเทพดิจิทัล
+chatBits.branding.toUpdate: ' เพื่ออัปเดต'
+chatBits.branding.toolsOne: '{0} เครื่องมือ'
+chatBits.branding.toolsOther: '{0} เครื่องมือ'
+chatBits.branding.toolsSummary: '{0} เครื่องมือ'
+chatBits.entry.dumpFailed: (ไม่สำเร็จ)
+chatBits.entry.exitingOom: 'hermes-tui: กำลังออกเพื่อเลี่ยง OOM; รีสตาร์ทเพื่อใช้งานต่อ'
+chatBits.entry.heapClimbing: 'hermes-tui: หน่วยความจำ heap พุ่งสูงเร็ว ({0}) — ผลลัพธ์เครื่องมือจำนวนมากหรือเซสชันที่ยาวเกินไปอาจกดดันหน่วยความจำ'
+chatBits.entry.memoryDump: 'hermes-tui: หน่วยความจำ {0} ({1}) — ถอด heap อัตโนมัติ → {2}'
+chatBits.entry.noTty: 'hermes-tui: ไม่มี TTY'
+chatBits.messageLine.chars: '{0} ตัวอักษร'
+chatBits.messageLine.emptyToolResult: (ผลลัพธ์เครื่องมือว่างเปล่า)
+chatBits.messageLine.longMessage: '[ข้อความยาว]'
+chatBits.messageLine.response: ตอบกลับ
+chatBits.messageLine.systemMessage: (ข้อความจากระบบ)
+chatBits.queued.editing: ' · กำลังแก้ไข {0} · Ctrl+X ลบ · Esc ยกเลิก'
+chatBits.queued.header: อยู่ในคิว ({0})
+chatBits.queued.more: …อีก {0} รายการ
+chatBits.thinking.activity: กิจกรรม
+chatBits.thinking.agentsHint: (/agents)
+chatBits.thinking.agentsToMonitor: (/agents เพื่อตรวจสอบ)
+chatBits.thinking.analyzingToolOutput: กำลังวิเคราะห์ผลลัพธ์เครื่องมือ…
+chatBits.thinking.approxTokens: ~{0} โทเคน
+chatBits.thinking.approxTotal: รวม ~{0}
+chatBits.thinking.argsHeader: 'อาร์กิวเมนต์:'
+chatBits.thinking.drafting: กำลังร่าง…
+chatBits.thinking.progress: ความคืบหน้า
+chatBits.thinking.spawnTree: แผนผังการสปอน
+chatBits.thinking.spawned: สปอนแล้ว
+chatBits.thinking.spawnedSuffix: d{0} · รวม {1}
+chatBits.thinking.statusQueued: รออยู่ในคิว
+chatBits.thinking.statusRunning: กำลังทำงาน
+chatBits.thinking.subagentFallback: ตัวช่วยย่อย {0}
+chatBits.thinking.subtreeTools: +{0}t ชั้นย่อย
+chatBits.thinking.thinking: กำลังคิด
+chatBits.thinking.tokShort: '{0} tok'
+chatBits.thinking.toolCalls: การเรียกเครื่องมือ
+chatBits.thinking.toolsOne: '{0} เครื่องมือ'
+chatBits.thinking.toolsOther: '{0} เครื่องมือ'
+chatBits.todo.incompleteOne: · ยังไม่เสร็จ · เหลืออีก {0} รายการรอดำเนินการ
+chatBits.todo.incompleteOther: · ยังไม่เสร็จ · เหลืออีก {0} รายการรอดำเนินการ/กำลังดำเนินการ
+chatBits.todo.title: สิ่งที่ต้องทำ
+common.cancel: ยกเลิก
+common.no: ไม่
+common.unknown: ไม่ทราบ
+common.yes: ใช่
+composer.interruptHint: Ctrl+C เพื่อหยุด…
+composer.placeholders.ask: อยากถามอะไรอยู่?
+composer.placeholders.config: ลองถามว่า “ตัวโหลด config ทำงานยังไง?”
+composer.placeholders.explain: ลองถามว่า “อธิบาย codebase นี้หน่อย”
+composer.placeholders.help: พิมพ์ /help เพื่อดูคำสั่ง
+composer.placeholders.lint: ลองถามว่า “แก้ lint error”
+composer.placeholders.refactor: ลองถามว่า “รีแฟกเตอร์โมดูล auth”
+composer.placeholders.test: ลองถามว่า “เขียนเทสต์สำหรับ…”
+connection.authorized.continue: ต่อไป
+connection.authorized.hint: Enter หรือ Esc เพื่อดำเนินต่อ
+connection.authorized.title: ได้รับสิทธิ์แล้ว แต่เครื่องมือยังใช้ไม่ได้
+connection.failure.expired: ลิงก์หมดอายุแล้ว
+connection.failure.failed: ไม่สำเร็จ
+connection.field.required: ต้องระบุ {0}
+connection.field.set: ตั้ง
+connection.header.moreToAnswer: ยังมีอีก {0} รายการที่ต้องตอบหลังจากนี้
+connection.hint.browser: Enter เปิดในเบราว์เซอร์ · Esc ข้าม · Ctrl+C หยุดรอบนี้
+connection.hint.finishing: Esc ปิด · Ctrl+C หยุดรอบนี้
+connection.hint.form: ↑/↓ หรือ Tab เลื่อน · ←/→ เลือก · Enter ยืนยัน · Esc ข้าม · Ctrl+C หยุดรอบนี้
+connection.hint.retry: ←/→ เลือก · Enter ยืนยัน · Esc ข้าม · Ctrl+C หยุดรอบนี้
+connection.hint.working: Esc ข้าม · Ctrl+C หยุดรอบนี้
+connection.notice.answerNotDelivered: การตอบกลับไม่ได้ส่งถึง Hermes โปรดลองอีกครั้ง
+connection.notice.browserDidNotOpen: เบราว์เซอร์ไม่เปิด โปรดคัดลอกลิงก์ด้านบน
+connection.notice.restartFailed: Hermes ไม่สามารถเริ่มการดำเนินการนี้ใหม่ได้ โปรดลองอีกครั้ง
+connection.selector.skip: ข้าม
+connection.selector.tryAgain: ลองอีกครั้ง
+connection.status.finishing: กำลังเสร็จสิ้น…
+connection.status.pending: รออยู่…
+connection.status.working: กำลังทำงาน…
+connection.verb.authorize: อนุญาต
+connection.verb.connect: เชื่อมต่อ
+connection.verb.enable: เปิดใช้งาน
+connection.verb.install: ติดตั้ง
+connection.verb.reconnect: เชื่อมต่อใหม่
+content.faces.face01: (｡•́︿•̀｡)
+content.faces.face02: (◔_◔)
+content.faces.face03: (¬‿¬)
+content.faces.face04: ( •_•)>⌐■-■
+content.faces.face05: (⌐■_■)
+content.faces.face06: (´･_･`)
+content.faces.face07: ◉_◉
+content.faces.face08: (°ロ°)
+content.faces.face09: ( ˘⌣˘)♡
+content.faces.face10: ヽ(>∀<☆)☆
+content.faces.face11: ٩(๑❛ᴗ❛๑)۶
+content.faces.face12: (⊙_⊙)
+content.faces.face13: (¬_¬)
+content.faces.face14: ( ͡° ͜ʖ ͡°)
+content.faces.face15: ಠ_ಠ
+content.fortunes.fortune01: แค่รีแฟกเตอร์ครั้งเดียวที่สะอาด ก็ถึงความชัดเจน
+content.fortunes.fortune02: เปลี่ยนชื่อเล็ก ๆ วันนี้ กำจัดบั๊กใหญ่วันพรุ่งนี้
+content.fortunes.fortune03: คอมมิตถัดไปของคุณจะสมบูรณ์แบบ
+content.fortunes.fortune04: เคสขอบที่คุณมองข้าม คำตอบอยู่ในใจคุณแล้ว
+content.fortunes.fortune05: diff เล็กที่สุด สบายใจที่สุด
+content.fortunes.fortune06: วันนี้เหมาะกับการล้างโค้ด มากกว่าการเพิ่มชั้นนามธรรม
+content.fortunes.fortune07: ฟังก์ชันช่วยที่คุณตามีอยู่ในโค้ดเบสอยู่แล้ว
+content.fortunes.fortune08: คุณจะปล่อยมันออกไปก่อนที่ความลังเลจะเข้าใกล้
+content.fortunes.fortune09: เทสต์วันนี้จะช่วยคุณในอนาคต
+content.fortunes.fortune10: สัญชาตญาณที่สงสัยสาขานั้นของคุณถูกต้อง
+content.legendaryFortunes.legendary01: 'ดรอปตำนาน: แก้เพียงบรรทัดเดียว ผ่านครั้งเดียว'
+content.legendaryFortunes.legendary02: 'ดรอปตำนาน: เทสต์ที่เพี้ยนทั้งหมดผ่านสะอาดหมด'
+content.legendaryFortunes.legendary03: 'ดรอปตำนาน: diff ของคุณคือบทเรียนในตัว'
+content.setup.actions: การกระทำ
+content.setup.exitRow: ออกแล้วรัน `hermes setup` เอง
+content.setup.footer: ในแดชบอร์ด ตั้งค่าเริ่มต้นโปรไฟล์ได้ที่หน้า「โมเดล」 ส่วนในเดสก์ท็อปคือ การตั้งค่า -> โมเดล
+content.setup.intro: Hermes ต้องมีผู้ให้บริการโมเดลก่อน จึงจะเริ่มเซสชันใน TUI ได้
+content.setup.modelRow: เลือกโมเดล (ต้องมีเซสชัน — เพิ่มผู้ให้บริการก่อน)
+content.setup.setupRow: รันตัวช่วยตั้งค่าครั้งแรกที่นี่ (เพิ่มผู้ให้บริการ)
+content.setup.title: ต้องตั้งค่าก่อน
+content.verbs.browser: กำลังท่องเว็บ
+content.verbs.clarify: กำลังถาม
+content.verbs.create_file: กำลังสร้างไฟล์
+content.verbs.delegate_task: กำลังมอบหมาย
+content.verbs.delete_file: กำลังลบไฟล์
+content.verbs.execute_code: กำลังรันโค้ด
+content.verbs.image_generate: กำลังสร้างภาพ
+content.verbs.list_files: กำลังเรียกดูไฟล์
+content.verbs.memory: กำลังเก็บความทรงจำ
+content.verbs.patch: กำลังแก้ไข
+content.verbs.read_file: กำลังอ่านไฟล์
+content.verbs.run_command: กำลังรันคำสั่ง
+content.verbs.search_code: กำลังค้นหาโค้ด
+content.verbs.search_files: กำลังค้นหาไฟล์
+content.verbs.terminal: เทอร์มินัล
+content.verbs.web_extract: กำลังดึงเนื้อหา
+content.verbs.web_search: กำลังค้นหาเว็บ
+content.verbs.write_file: กำลังเขียนไฟล์
+gatewayMsg.agents.workingNudge: ตัวช่วยกำลังทำงาน · ดูสดที่ /agents
+gatewayMsg.billing.enterCode: 'ถ้าได้รับการแจ้ง ให้กรอกรหัส: {0}'
+gatewayMsg.billing.openLinkRemoteSpending: '💳 เปิดลิงก์นี้เพื่ออนุมัติการใช้จ่ายระยะไกล:'
+gatewayMsg.clarify.timedOut: หมดเวลา
+gatewayMsg.error.unknown: ข้อผิดพลาดที่ไม่ทราบสาเหตุ
+gatewayMsg.goal.complete: ✓ เป้าหมายเสร็จสิ้นแล้ว
+gatewayMsg.goal.continuing: ↻ กำลังดำเนินเป้าหมายต่อ
+gatewayMsg.goal.paused: ⏸ หยุดเป้าหมายชั่วคราว
+gatewayMsg.moa.aggregating: 'MoA: กำลังรวบรวมผล…'
+gatewayMsg.moa.refs: 'MoA: อ้างอิง {0}/{1}'
+gatewayMsg.protocol.noise: 'เสียงรบกวนโปรโตคอล: {0}'
+gatewayMsg.protocol.noiseDetected: ตรวจพบเสียงรบกวนโปรโตคอล · รายละเอียดที่ /logs
+gatewayMsg.startup.commandCatalogUnavailable: 'ใช้รายการคำสั่งไม่ได้: {0}'
+gatewayMsg.startup.imageAttachFailed: 'แนบรูปตอนเริ่มต้นไม่สำเร็จ: {0}'
+gatewayMsg.startup.querySkipped: 'ข้ามการสืบค้นตอนเริ่มต้น: ไม่มีเซสชันที่เปิดอยู่'
+gatewayMsg.status.forgingSession: กำลังสร้างเซสชัน…
+gatewayMsg.status.protocolWarning: คำเตือนโปรโตคอล
+gatewayMsg.status.recoveringSession: กำลังกู้คืนเซสชัน…
+gatewayMsg.status.resumingMostRecent: กำลังทำเซสชันล่าสุดต่อ…
+gatewayMsg.voice.noSpeechLimit: 'เสียง: ตรวจไม่พบเสียงพูด 3 ครั้งติดต่อกัน หยุดโหมดต่อเนื่องแล้ว'
+gatewayMsg.voice.stopPhrase: 'เสียง: ตรวจพบคำสั่งหยุด — จบแชทเสียงแล้ว'
+gatewayMsg.wake.failed: 'ปลุก: {0}'
+gatewayMsg.wake.otherProfile: 'คำปลุกอยู่ในโปรไฟล์ ''{0}'' — รันด้วย: hermes -p {0} --tui'
+help.commands.clear: เริ่มเซสชันใหม่
+help.commands.copy: คัดลอกสิ่งที่เลือกหรือข้อความผู้ช่วยล่าสุด
+help.commands.details: ควบคุมความละเอียดของบันทึกการสนทนา
+help.commands.help: รายการคำสั่งและปุ่มลัดทั้งหมด
+help.commands.quit: ออกจาก hermes
+help.commands.resume: สลับเซสชันสดหรือกู้คืนเซสชันย้อนหลัง
+help.commonCommands: คำสั่งที่ใช้บ่อย
+help.hotkeys: ปุ่มลัด
+help.quickHelp: '? ความช่วยเหลือด่วน'
+help.quickHelpTail: '  ·  พิมพ์ /help เพื่อดูแผงทั้งหมด  ·  กด Backspace เพื่อปิด'
+hints.applyCompletion: ยืนยันคำเติม
+hints.arrows: เติมคำ / แก้ไขคิว / ประวัติ
+hints.collapseAgents: ย่อ / คืนค่ามุมมองตัวช่วยสด
+hints.continuation: ต่อบรรทัดหลายบรรทัด (สำรอง)
+hints.copySelection: คัดลอกส่วนที่เลือก
+hints.copySelectionForwarded: คัดลอกส่วนที่เลือกเมื่อเทอร์มินัลส่งต่อ
+hints.ctrlC: คัดลอกส่วนที่เลือก / ล้างฉบับร่าง / ขัดจังหวะ / ออก
+hints.ctrlCMac: ล้างฉบับร่าง / ขัดจังหวะ / ออก
+hints.deleteWord: ลบคำ
+hints.discardDraft: ทิ้งฉบับร่าง (กด ↑ เพื่อกู้คืน)
+hints.exit: ออก
+hints.expandAgents: ขยายตัวช่วยสด (เก็บฉบับร่างไว้)
+hints.homeEnd: ต้นบรรทัด / ท้ายบรรทัด
+hints.interpolate: แทรกผลลัพธ์ shell ในบรรทัด (เช่น “สาขาคือ {!git branch --show-current}”)
+hints.jumpWord: ข้ามทีละคำ
+hints.killLine: ลบถึงต้น/ท้ายบรรทัด (ซ้ำข้ามบรรทัดได้)
+hints.lineStartEnd: ต้นบรรทัด / ท้ายบรรทัด
+hints.modelPicker: เปิดตัวเลือกโมเดล (เก็บฉบับร่างไว้; สลับระหว่างสตรีมใช้ในเทิร์นถัดไป)
+hints.newline: แทรกบรรทัดใหม่
+hints.openEditor: เปิด $EDITOR (VSCode/Cursor ใช้ Alt+G แทนได้)
+hints.paste: วางข้อความ; /paste แนบรูปจากคลิปบอร์ด
+hints.redraw: วาดใหม่ / รีเฟรชหน้าจอ
+hints.sessionSwitcher: เปิดตัวสลับเซสชันสด (ข้อความในคิวจะถูกลบขณะแก้ไข)
+hints.shell: รันคำสั่ง shell (เช่น !ls, !git status)
+hints.undoRedo: ยกเลิก / ทำซ้ำการแก้ไข
+hubs.agentControls.loadingTranscript: กำลังโหลดบันทึกการสนทนาแบบเรียลไทม์…
+hubs.agentControls.notQueued: 'ไม่ได้เข้าคิว: ซับเอเจนต์จบไปแล้วหรือไม่รับการชี้นำแล้ว'
+hubs.agentControls.notQueuedError: 'ไม่ได้เข้าคิว: {0}'
+hubs.agentControls.queued: เข้าคิวสำหรับซับเอเจนต์แล้ว — จะนำไปใช้ที่ขอบเครื่องมือถัดไป
+hubs.agentControls.queueing: กำลังเข้าคิว…
+hubs.agentControls.steerHint: Enter เข้าคิว · Esc ย้อนกลับ · ร่างในช่องป้อนหลักจะถูกเก็บไว้
+hubs.agentControls.steerIntro: การชี้นำจะเข้าคิวที่ขอบเครื่องมือถัดไป งานปัจจุบันจะไม่ถูกขัดจังหวะ
+hubs.agentControls.steerTitle: ชี้นำ {0}
+hubs.agentControls.transcriptRefreshFailed: รีเฟรชบันทึกการสนทนาแบบเรียลไทม์ไม่สำเร็จ
+hubs.agentControls.transcriptTitle: บันทึกการสนทนาแบบเรียลไทม์
+hubs.agentControls.transcriptUnavailable: ไม่มีบันทึกการสนทนาแบบเรียลไทม์ ซับเอเจนต์อาจจบไปแล้ว ความคืบหน้าและผลลัพธ์ยังแสดงอยู่ด้านล่าง
+hubs.agentControls.truncatedPrefix: '[16 KiB ล่าสุด]'
+hubs.agents.caps: จำกัด d{0}/{1}
+hubs.agents.detail.apiCalls: การเรียก API
+hubs.agents.detail.depth: ความลึก
+hubs.agents.detail.elapsed: เวลาที่ใช้
+hubs.agents.detail.filesMore: …อีก {0} ไฟล์
+hubs.agents.detail.iteration: รอบวนซ้ำ
+hubs.agents.detail.model: โมเดล
+hubs.agents.detail.reasoningSuffix: ' · การให้เหตุผล {0}'
+hubs.agents.detail.subtree: ต้นไม้ย่อย
+hubs.agents.detail.subtreeTokens: โทเคนต้นไม้ย่อย
+hubs.agents.detail.subtreeValueOne: '{0} ตัวช่วย · d{1} · ⚡{2}'
+hubs.agents.detail.subtreeValueOther: '{0} ตัวช่วย · d{1} · ⚡{2}'
+hubs.agents.detail.tokens: โทเคน
+hubs.agents.detail.tokensValue: เข้า {0} · ออก {1}
+hubs.agents.detail.tools: เครื่องมือ
+hubs.agents.detail.toolsValue: '{0}（ต้นไม้ย่อย {1}）'
+hubs.agents.detail.toolsets: ชุดเครื่องมือ
+hubs.agents.diff.agents: ตัวช่วย
+hubs.agents.diff.baseline: A · แนวฐาน
+hubs.agents.diff.candidate: B · ตัวทดแทน
+hubs.agents.diff.delta: Δ
+hubs.agents.diff.depth: ความลึก
+hubs.agents.diff.duration: ระยะเวลา
+hubs.agents.diff.subtitle: แนวฐาน vs ตัวทดแทน · esc/q ปิด
+hubs.agents.diff.title: เปรียบเทียบการเล่นซ้ำ
+hubs.agents.diff.tokens: โทเคน
+hubs.agents.diff.tools: เครื่องมือ
+hubs.agents.empty: ยังไม่มีซับเอเจนต์ในรอบนี้ เรียก delegate_task เพื่อเติมต้นไม้นี้
+hubs.agents.filter.all: ทั้งหมด
+hubs.agents.filter.failed: ล้มเหลว
+hubs.agents.filter.leaf: โหนดใบ
+hubs.agents.filter.running: กำลังทำงาน
+hubs.agents.flash.killFailed: 'หยุดไม่สำเร็จ: {0}'
+hubs.agents.flash.killing: กำลังหยุด {0}
+hubs.agents.flash.killingSubtreeOne: กำลังหยุดต้นไม้ย่อย · {0} โหนด
+hubs.agents.flash.killingSubtreeOther: กำลังหยุดต้นไม้ย่อย · {0} โหนด
+hubs.agents.flash.liveTurn: รอบแบบเรียลไทม์
+hubs.agents.flash.notFound: 'ไม่พบ: {0}'
+hubs.agents.flash.pauseFailed: หยุดชั่วคราวไม่สำเร็จ
+hubs.agents.flash.replay: เล่นซ้ำ · {0}/{1}
+hubs.agents.flash.replayLocked: โหมดเล่นซ้ำ — ปิดการควบคุม
+hubs.agents.flash.spawningPaused: หยุดสร้างชั่วคราวแล้ว
+hubs.agents.flash.spawningResumed: กลับมาสร้างต่อแล้ว
+hubs.agents.flash.turnFinished: จบรอบนี้แล้ว · ดูได้อย่างอิสระ · q ปิด
+hubs.agents.hint.controls: ' · e ชี้นำ · t ติดตาม · x หยุด · X ต้นไม้ย่อย · p {0}'
+hubs.agents.hint.controlsLocked: ' · ล็อกการควบคุมแล้ว'
+hubs.agents.hint.detail: ↑↓/jk เลื่อน · PgUp/PgDn เปลี่ยนหน้า · g/G บน/ล่าง · Esc/← กลับรายการ{0} · q ปิด
+hubs.agents.hint.footerLive: Enter/t ติดตาม · d รายละเอียด · e ชี้นำ · x หยุด · Esc ย้อนกลับ
+hubs.agents.hint.footerReplay: Enter/d รายละเอียด · e ชี้นำ · x หยุด · Esc ย้อนกลับ
+hubs.agents.hint.history: ' · [ / ] ประวัติ {0}/{1}'
+hubs.agents.hint.list: ↑↓/jk ย้าย · g/G บน/ล่าง · {0}{1} · s เรียง:{2} · f ตัวกรอง:{3}{4} · q ปิด
+hubs.agents.hint.listNavLive: Enter ติดตาม · d/→ รายละเอียด
+hubs.agents.hint.listNavReplay: Enter/→ รายละเอียด
+hubs.agents.hint.pause: หยุดชั่วคราว
+hubs.agents.hint.resume: ทำต่อ
+hubs.agents.inheritModel: สืบทอด
+hubs.agents.processes: กระบวนการ
+hubs.agents.section.budget: งบประมาณ
+hubs.agents.section.files: ไฟล์
+hubs.agents.section.output: ผลลัพธ์
+hubs.agents.section.progress: ความคืบหน้า
+hubs.agents.section.summary: สรุป
+hubs.agents.section.toolCalls: การเรียกเครื่องมือ
+hubs.agents.sort.depthFirst: ลำดับการสร้าง
+hubs.agents.sort.durationDesc: ช้าที่สุด
+hubs.agents.sort.status: สถานะ
+hubs.agents.sort.toolsDesc: ทำงานมากที่สุด
+hubs.agents.status.completed: เสร็จสิ้นแล้ว
+hubs.agents.status.error: ผิดพลาด
+hubs.agents.status.failed: ล้มเหลว
+hubs.agents.status.interrupted: ถูกขัดจังหวะ
+hubs.agents.status.queued: อยู่ในคิว
+hubs.agents.status.running: กำลังทำงาน
+hubs.agents.status.timeout: หมดเวลา
+hubs.agents.subagentFallback: ซับเอเจนต์
+hubs.agents.timeline: เส้นเวลา
+hubs.agents.title.finishedAt: ' · เสร็จเมื่อ {0}'
+hubs.agents.title.lastTurn: รอบก่อนหน้า
+hubs.agents.title.pausedSuffix: ' · ⏸ หยุดชั่วคราว'
+hubs.agents.title.replay: เล่นซ้ำ {0}/{1}
+hubs.agents.title.spawnTree: ต้นไม้การสร้าง
+hubs.agentsPanel.collapsedHint: ' · Ctrl+T ขยาย · Ctrl+R คืนค่า'
+hubs.agentsPanel.done: '{0} เสร็จแล้ว'
+hubs.agentsPanel.expandedHint: ' · Ctrl+T ขยาย · Ctrl+R ย่อ'
+hubs.agentsPanel.liveAgents: '{0} ตัวช่วยออนไลน์'
+hubs.agentsPanel.moreHidden: ' · และอีก {0} ตัว'
+hubs.agentsPanel.processes: กระบวนการ
+hubs.agentsPanel.procs: '{0} โปรเซส'
+hubs.agentsPanel.procsDone: '{0} เสร็จแล้ว'
+hubs.agentsPanel.running: '{0} กำลังทำงาน'
+hubs.list.errorLine: 'ผิดพลาด: {0}'
+hubs.list.moreAbove: ' ↑ และอีก {0} รายการ'
+hubs.list.moreBelow: ' ↓ และอีก {0} รายการ'
+hubs.plugins.allScope: ปลั๊กอินทั้งหมด {0} ตัว
+hubs.plugins.bundledSuffix: ' · และอีก {0} ตัวสำเร็จรูป（Tab）'
+hubs.plugins.bundledTag: ' [สำเร็จรูป]'
+hubs.plugins.empty: ยังไม่มีปลั๊กอินที่ติดตั้ง
+hubs.plugins.hintClose: Esc/q ปิด
+hubs.plugins.hintList: ↑/↓ เลือก · Enter/space สลับ · Tab ผู้ใช้/ทั้งหมด · 1-9,0 เลือกด่วน · Esc/q ปิด
+hubs.plugins.installHint: 'ติดตั้ง: hermes plugins install owner/repo'
+hubs.plugins.loading: กำลังโหลดปลั๊กอิน…
+hubs.plugins.status.disabled: ปิดใช้งานแล้ว
+hubs.plugins.status.notEnabled: ยังไม่เปิดใช้งาน
+hubs.plugins.title: ศูนย์กลางปลั๊กอิน
+hubs.plugins.updating: กำลังอัปเดต…
+hubs.plugins.userScope: '{0} ปลั๊กอินของผู้ใช้'
+hubs.skills.categoryRow: '{0} · {1} ทักษะ'
+hubs.skills.emptyCategory: ยังไม่มีทักษะในหมวดนี้
+hubs.skills.hintActions: i ตรวจใหม่ · x ติดตั้งใหม่ · Enter/Esc ย้อนกลับ · q ปิด
+hubs.skills.hintCancel: Esc/q ยกเลิก
+hubs.skills.hintCategory: ↑/↓ เลือก · Enter เปิด · 1-9,0 เลือกด่วน · Esc/q ยกเลิก
+hubs.skills.hintSkill: ↑/↓ เลือก · Enter เปิด · 1-9,0 เลือกด่วน · Esc ย้อนกลับ · q ปิด
+hubs.skills.hintSkillEmpty: Esc ย้อนกลับ · q ปิด
+hubs.skills.installing: กำลังติดตั้ง…
+hubs.skills.loading: กำลังโหลดทักษะ…
+hubs.skills.loadingOne: กำลังโหลด…
+hubs.skills.pathLine: 'เส้นทาง: {0}'
+hubs.skills.selectCategory: เลือกหมวดหนึ่ง
+hubs.skills.skillCount: '{0} ทักษะ'
+hubs.skills.title: ศูนย์กลางทักษะ
+journey.closeHint: Esc/q ปิด
+journey.confirmDelete: ลบ {0}? y/N
+journey.empty: ยังไม่มีบันทึกการเรียนรู้ — ทักษะและความทรงจำที่เรียนรู้จะค่อยๆ ปรากฏที่นี่เมื่อคุณใช้ Hermes
+journey.error: 'ข้อผิดพลาด: {0}'
+journey.hint.close: q ปิด
+journey.hint.delete: d ลบ
+journey.hint.edit: e แก้ไข
+journey.hint.item: ↑↓/jk เลื่อน · PgUp/PgDn เปลี่ยนหน้า · e แก้ไข · d ลบ · Esc/← กลับ · q ปิด
+journey.hint.move: ↑↓/jk ย้าย
+journey.hint.open: Enter/→ เปิด
+journey.hint.topBottom: g/G บน/ล่าง
+journey.loading: กำลังจัดทำแผนที่การเรียนรู้ของคุณ…
+journey.noDetail: ยังไม่บันทึกรายละเอียดเพิ่ม
+journey.notice.cannotEdit: แก้ไขไม่ได้
+journey.notice.noChanges: ไม่มีการเปลี่ยนแปลง
+journey.slice.memoriesOne: '{0} ความทรงจำ'
+journey.slice.memoriesOther: '{0} ความทรงจำ'
+journey.slice.skillsOne: '{0} ทักษะ'
+journey.slice.skillsOther: '{0} ทักษะ'
+journey.subtitle: ทักษะและความทรงจำที่สะสมตามเวลา
+journey.title: แผนที่การเรียนรู้
+libText.agentRows.agent: ตัวช่วย
+libText.agentRows.resultReady: ผลลัพธ์พร้อมแล้ว
+libText.agentRows.starting: กำลังเริ่ม…
+libText.attachments.imageToken: '[[ รูปภาพ {0} ]]'
+libText.billingDialog.dismiss: ปิด
+libText.billingDialog.nousDetail: เครดิต Nous ของคุณหมดแล้ว — เติมเครดิตเพื่อใช้งานต่อ
+libText.billingDialog.nousTitle: เครดิต Nous หมดแล้ว
+libText.billingDialog.openBillingPage: เปิดหน้าบิลลิ่ง
+libText.billingDialog.providerDetail: '{0} รายงานว่าเครดิตหรือวงเงินของคุณหมดแล้ว'
+libText.billingDialog.providerTitle: เครดิตหมดแล้ว · {0}
+libText.billingDialog.switchProvider: สลับผู้ให้บริการ
+libText.billingDialog.topUp: เติมเครดิต
+libText.billingDialog.yourProvider: ผู้ให้บริการของคุณ
+libText.completion.unavailable: เติมอัตโนมัติใช้งานไม่ได้
+libText.completion.unavailableMeta: ใช้งานไม่ได้
+libText.gateway.attachUrlChanged: URL แนบของเกตเวย์มีการเปลี่ยนแปลง
+libText.gateway.closed: เกตเวย์ปิดแล้ว
+libText.gateway.error: 'เกตเวย์เกิดข้อผิดพลาด: {0}'
+libText.gateway.exited: เกตเวย์ออกแล้ว
+libText.gateway.exitedWithCode: เกตเวย์ออกแล้ว (รหัส {0})
+libText.gateway.restarting: เกตเวย์กำลังรีสตาร์ท
+libText.gateway.websocketClosed: websocket ของเกตเวย์ปิดแล้ว
+libText.gateway.websocketClosedDuringConnect: websocket ของเกตเวย์ปิดขณะเชื่อมต่อ ({0})
+libText.gateway.websocketClosedWithCode: websocket ของเกตเวย์ปิดแล้ว (รหัส {0})
+libText.gateway.websocketConnectionFailed: การเชื่อมต่อ websocket ของเกตเวย์ล้มเหลว
+libText.gateway.websocketStartupFailed: เริ่ม websocket ของเกตเวย์ไม่สำเร็จ
+libText.gateway.websocketUnavailable: websocket ของเกตเวย์ใช้งานไม่ได้
+libText.messages.backgroundAgentWorkFinished: ตัวช่วยเบื้องหลังทำงานเสร็จแล้ว
+libText.messages.backgroundAgentsFinishedOne: ตัวช่วยเบื้องหลัง {0} ตัวทำงานเสร็จแล้ว
+libText.messages.backgroundAgentsFinishedOther: ตัวช่วยเบื้องหลัง {0} ตัวทำงานเสร็จแล้ว
+libText.messages.backgroundProcessFinished: โปรเซสเบื้องหลังทำงานเสร็จแล้ว
+libText.messages.longMessage: '{0} [ข้อความยาว]'
+libText.messages.messageFallback: (ข้อความ)
+libText.messages.modelChanged: เปลี่ยนโมเดลแล้ว
+libText.messages.personalityChanged: เปลี่ยนบุคลิกภาพแล้ว
+libText.messages.resumedInterruptedTurn: ทำต่อเทิร์นที่ถูกขัดจังหวะแล้ว
+libText.subagentTree.agentsOne: '{0} ตัวช่วย'
+libText.subagentTree.agentsOther: '{0} ตัวช่วย'
+libText.subagentTree.tokens: '{0} tok'
+libText.subagentTree.toolsOne: '{0} เครื่องมือ'
+libText.subagentTree.toolsOther: '{0} เครื่องมือ'
+libText.terminalParity.appleTerminal: ตรวจพบ Apple Terminal · ถ้าคลิปบอร์ดมีแค่รูป ให้ใช้ /paste แทน หาก Cmd+←/→/⌫ ถูกแม็ปใหม่ ลอง Ctrl+A / Ctrl+E / Ctrl+U
+libText.terminalParity.ideSetup: ตรวจพบเทอร์มินัล {0} · รัน /terminal-setup เพื่อให้ Cmd+Enter และ Undo ทำงานสอดคล้องกัน
+libText.terminalParity.remote: ตรวจพบเซสชัน SSH · คลิปบอร์ดข้อความเชื่อมผ่าน OSC52 ได้ แต่คลิปบอร์ดรูปภาพและเส้นทางสกรีนช็อตยังต้องอยู่บนเครื่องที่รัน Hermes
+libText.terminalParity.tmux: ตรวจพบ tmux · การคัดลอก/วางคลิปบอร์ดจะใช้ passthrough เมื่อทำได้ เปิด allow-passthrough เพื่อเพิ่มความเชื่อถือได้ของ OSC52
+libText.terminalSetup.addedOne: เพิ่มคีย์ลัดเทอร์มินัล {1} แล้ว {0} รายการ
+libText.terminalSetup.addedOther: เพิ่มคีย์ลัดเทอร์มินัล {1} แล้ว {0} รายการ
+libText.terminalSetup.alreadyConfigured: คีย์ลัดเทอร์มินัล {0} ถูกตั้งค่าไว้แล้ว
+libText.terminalSetup.configureFailed: 'ตั้งค่าคีย์ลัดเทอร์มินัล {0} ไม่สำเร็จ: {1}'
+libText.terminalSetup.conflicts: 'คีย์ลัดเทอร์มินัลที่มีอยู่ใน {0} ชนกัน: {1}'
+libText.terminalSetup.keybindingsNotArray: 'keybindings.json ของ {0} ไม่ใช่อาร์เรย์ JSON: {1}'
+libText.terminalSetup.migratedOne: แปลง binding เก่า {0} รายการเป็นการเข้ารหัส CSI u แล้ว
+libText.terminalSetup.migratedOther: แปลง binding เก่า {0} รายการเป็นการเข้ารหัส CSI u แล้ว
+libText.terminalSetup.mustRunLocally: การตั้งค่าเทอร์มินัล {0} ต้องรันบนเครื่องนี้ ทำผ่านเซสชัน SSH ไม่ได้
+libText.terminalSetup.noSupportedIde: 'ตรวจไม่พบเทอร์มินัล IDE ที่รองรับ รองรับ: VS Code, Cursor, Windsurf'
+libText.terminalSetup.readFailed: 'อ่าน binding คีย์ลัด {0} ไม่สำเร็จ: {1}'
+libText.terminalSetup.settingsPathUnknown: หาสถานที่ตั้งค่า {0} บนแพลตฟอร์มนี้ไม่ได้
+libText.terminalSetup.summaryIn: '{0} (อยู่ใน {1})'
+libText.text.argsLabel: อาร์กิวเมนต์
+libText.text.clarifyAnswered: ✓ {0} → {1}
+libText.text.clarifyHead: คำถาม ({0} ข้อ)
+libText.text.clarifyReason: ({0})
+libText.text.clarifyUnanswered: · {0} (ยังไม่ตอบ)
+libText.text.errorLabel: ข้อผิดพลาด
+libText.text.omittedChars: '[{0}; ตัดทิ้ง {1} ตัวอักษร]'
+libText.text.omittedLinesChars: '[{0}; ตัดทิ้ง {1} บรรทัด / {2} ตัวอักษร]'
+libText.text.pasteLinesChip: '[{0} บรรทัด]'
+libText.text.resultLabel: ผลลัพธ์
+libText.text.showingLiveTail: แสดงผลล่าสุดแบบเรียลไทม์
+pickers.common.error: 'ข้อผิดพลาด: {0}'
+pickers.common.filter: 'ตัวกรอง: {0}'
+pickers.common.invalidResponse: 'คำตอบไม่ถูกต้อง: {0}'
+pickers.common.moreAbove: ' ↑ อีก {0} รายการ'
+pickers.common.moreBelow: ' ↓ อีก {0} รายการ'
+pickers.common.typeToFilter: พิมพ์เพื่อกรอง
+pickers.model.disconnect.disconnecting: กำลังตัดการเชื่อมต่อ…
+pickers.model.disconnect.hint: y/Enter ยืนยัน · n/Esc ยกเลิก
+pickers.model.disconnect.reauthLater: เลือกมันอีกครั้งในภายหลังเพื่อยืนยันตัวตนใหม่
+pickers.model.disconnect.removesCredentials: จะล้างข้อมูลรับรอง {0} ที่บันทึกไว้
+pickers.model.disconnect.title: ตัดการเชื่อมต่อ {0}?
+pickers.model.effort.hint: ↑/↓ เลือก · Enter สลับ · Esc ย้อนกลับ · q ปิด
+pickers.model.effort.subtitle: '{0} · มีผลพร้อมการสลับ (ขอบเขตเดียวกัน) · Esc ย้อนกลับ'
+pickers.model.effort.title: ระดับการให้เหตุผล (ขั้นตอนที่ 3/3)
+pickers.model.escQCancelHint: Esc/q ยกเลิก
+pickers.model.failedToSaveKey: บันทึกคีย์ไม่สำเร็จ
+pickers.model.key.empty: (ว่าง)
+pickers.model.key.hint: Enter บันทึก · Ctrl+U ล้าง · Esc ย้อนกลับ
+pickers.model.key.pasteBelow: วาง API คีย์ของคุณด้านล่าง (บันทึกไว้ที่ ~/.hermes/.env)
+pickers.model.key.saving: กำลังบันทึก…
+pickers.model.key.title: ตั้งค่า {0}
+pickers.model.loading: กำลังโหลดโมเดล…
+pickers.model.modelStage.emptyHint: Esc ย้อนกลับ · q ปิด
+pickers.model.modelStage.hint: ↑/↓ เลือก · Enter ถัดไป · Esc ล้าง/ย้อนกลับ · q ปิด
+pickers.model.modelStage.noMatches: ไม่มีโมเดลที่ตรงกับตัวกรอง
+pickers.model.modelStage.noneListed: ผู้ให้บริการรายนี้ไม่ได้ระบุโมเดลไว้
+pickers.model.modelStage.subtitle: '{0} · Esc ย้อนกลับ'
+pickers.model.modelStage.title: เลือกโมเดล (ขั้นตอนที่ 2/3)
+pickers.model.modelStage.unknownProvider: (ผู้ให้บริการที่ไม่รู้จัก)
+pickers.model.noProviders: ไม่มีผู้ให้บริการที่ใช้ได้
+pickers.model.pasteKeyToActivate: วาง {0} เพื่อเปิดใช้งาน
+pickers.model.persist.label: 'เก็บถาวร: {0}'
+pickers.model.persist.onlySuffix: ' เท่านั้น'
+pickers.model.persist.scopeGlobal: ทั้งระบบ
+pickers.model.persist.scopeSession: เซสชันนี้
+pickers.model.persist.toggleHint: ' · ^g สลับ'
+pickers.model.provider.current: 'ปัจจุบัน: {0}'
+pickers.model.provider.filterHint: พิมพ์เพื่อกรอง · ↑/↓ เลือก
+pickers.model.provider.hint: ↑/↓ เลือก · Enter เลือกใช้ · ^d ตัดการเชื่อมต่อ · Esc ล้าง/ย้อนกลับ · q ปิด
+pickers.model.provider.modelCountOne: '{0} โมเดล'
+pickers.model.provider.modelCountOther: '{0} โมเดล'
+pickers.model.provider.needsSetup: (ต้องตั้งค่า)
+pickers.model.provider.noKey: (ไม่มีคีย์)
+pickers.model.provider.noMatches: ไม่มีผู้ให้บริการที่ตรงกัน
+pickers.model.provider.subtitle: ขั้นตอนถัดไปแสดงโมเดล ID เต็มรูปแบบ · Enter ดำเนินต่อ
+pickers.model.provider.title: เลือกผู้ให้บริการ (ขั้นตอนที่ 1/3)
+pickers.model.provider.unknown: (ไม่ทราบ)
+pickers.model.provider.warning: 'เตือน: {0}'
+pickers.model.reasoning.keepCurrent: รักษาระดับปัจจุบัน
+pickers.model.reasoning.none: ไม่มี (ปิดการให้เหตุผล)
+pickers.model.runHermesModelToConfigure: รัน `hermes model` เพื่อตั้งค่า
+pickers.pet.adopting: กำลังรับเลี้ยง…
+pickers.pet.escCancelHint: Esc ยกเลิก
+pickers.pet.hint: ↑/↓ เลือก · Enter รับเลี้ยง · พิมพ์เพื่อกรอง · Esc ยกเลิก
+pickers.pet.loading: กำลังโหลดสัตว์เลี้ยง…
+pickers.pet.noMatches: ไม่มีสัตว์เลี้ยงที่ตรงกับ "{0}"
+pickers.pet.noneAvailable: ไม่มีสัตว์เลี้ยงที่ใช้ได้
+pickers.pet.officialTag: ' · ทางการ'
+pickers.pet.petCountOne: '{0} ตัว'
+pickers.pet.petCountOther: '{0} ตัว'
+pickers.pet.title: สัตว์เลี้ยง
+pickers.session.age.daysAgo: '{0} วันที่แล้ว'
+pickers.session.age.today: วันนี้
+pickers.session.age.yesterday: เมื่อวาน
+pickers.session.counts: '{0} ตัวออนไลน์ · {1} ตัวทำต่อได้'
+pickers.session.currentOrDefault: ปัจจุบัน/ค่าเริ่มต้น
+pickers.session.draftModel: 'โมเดล: {0}'
+pickers.session.errors.alreadyClosed: เซสชันถูกปิดไปแล้ว
+pickers.session.errors.couldNotLoadResumable: โหลดเซสชันที่ทำต่อได้ไม่สำเร็จ
+pickers.session.hint.close: ' ปิด'
+pickers.session.hint.delete: ' ลบ'
+pickers.session.hint.model: ' โมเดล'
+pickers.session.hint.move: ' ย้าย · '
+pickers.session.hint.new: ' ใหม่ · '
+pickers.session.hint.newRowLabel: 'แถวใหม่:'
+pickers.session.hint.refresh: ' รีเฟรช · '
+pickers.session.hint.resumableLabel: 'ทำต่อได้:'
+pickers.session.hint.resume: ' ทำต่อ · '
+pickers.session.hint.sessionRowLabel: 'แถวเซสชัน:'
+pickers.session.hint.start: ' เริ่ม · '
+pickers.session.hint.switch: ' สลับ · '
+pickers.session.hint.typePrompt: ' พิมพ์พรอมป์ · '
+pickers.session.liveSessionsOne: '{0} เซสชันออนไลน์'
+pickers.session.liveSessionsOther: '{0} เซสชันออนไลน์'
+pickers.session.loading: กำลังโหลดเซสชัน…
+pickers.session.modelUnknown: โมเดล?
+pickers.session.newRowMarker: +new
+pickers.session.noOtherSessions: ไม่มีเซสชันอื่น — กด Enter ที่ +new เพื่อสร้างใหม่
+pickers.session.promptLabel: 'พรอมป์ › '
+pickers.session.row.closing: กำลังปิด…
+pickers.session.row.current: ปัจจุบัน
+pickers.session.row.deleting: กำลังลบ…
+pickers.session.row.draft: ✎ ร่าง
+pickers.session.row.messageCount: '{0} ข้อความ'
+pickers.session.row.new: ใหม่
+pickers.session.row.pressDAgain: กด d อีกครั้งเพื่อลบ
+pickers.session.row.startNew: เริ่มเซสชันออนไลน์ใหม่
+pickers.session.row.untitled: (ไม่มีชื่อ)
+pickers.session.selectNewPrefix: 'เลือก '
+pickers.session.selectNewSuffix: ' เพื่อพิมพ์พรอมป์'
+pickers.session.status.idle: ว่าง
+pickers.session.status.starting: กำลังเริ่ม
+pickers.session.status.waiting: กำลังรอ
+pickers.session.status.working: กำลังทำงาน
+pickers.session.title: เซสชัน
+prompt.approval.always: อนุญาตเสมอ
+prompt.approval.deny: ปฏิเสธ
+prompt.approval.moreLines: … อีก {0} บรรทัด (เนื้อหาเต็มอยู่ด้านบน)
+prompt.approval.once: อนุญาตครั้งเดียว
+prompt.approval.session: อนุญาตในเซสชันนี้
+prompt.approval.title: ⚠ ต้องการการอนุมัติ
+prompt.clarify.hint: ↑/↓ เลือก · Enter {0} · Tab/Shift+Tab สลับคำถาม · Esc/Ctrl+C ยกเลิก
+prompt.clarify.typingHint: Enter {0} · Esc ย้อนกลับ
+prompt.clarify.confirmAndContinue: ยืนยันและทำต่อ
+prompt.clarify.lockAnswer: ล็อกคำตอบ
+prompt.clarify.other: อื่น ๆ (กรอกคำตอบของคุณ)
+prompt.clarify.skipped: (ข้ามแล้ว)
+prompt.clarify.toggle: Space สลับ
+prompt.confirm.cancel: ไม่
+prompt.confirm.confirm: ใช่
+prompt.confirm.hint: ↑/↓ เลือก · Enter ยืนยัน · Y/N ทางลัด · Esc ยกเลิก
+rpc.requestFailed: คำขอไม่สำเร็จ
+secure.secret.forEnvVar: สำหรับ {0}
+secure.sudo.title: ต้องใช้รหัสผ่าน sudo
+secure.vault.unlockHint: รหัสผ่านหลัก · ป้อนแบบซ่อน · ส่งเฉพาะถึง CLI ของตัวจัดการรหัสผ่าน · Esc ล็อกต่อ
+secure.vault.unlockTitle: ปลดล็อก {0} ในเซสชันนี้
+secure.vault.saveTitle: บันทึกข้อมูลเข้าสู่ระบบ {0}
+secure.vault.saveIdentifierHint: อีเมลหรือชื่อผู้ใช้ · จากนั้นป้อนรหัสผ่าน · Esc หรือเว้นว่างเพื่อไม่บันทึก
+secure.vault.savePasswordTitle: รหัสผ่าน {0}
+secure.vault.savePasswordHint: ซ่อน · เข้ารหัสในเครื่องนี้สำหรับ {0} · ไม่แสดงให้โมเดลเห็น
+secure.vault.codeTitle: รหัสยืนยัน {0}
+secure.vault.codeHint: ป้อนเฉพาะบนหน้าเว็บ · ไม่แสดงให้โมเดลเห็น · Esc ข้าม
+session.approval.approved: อนุมัติแล้ว ({0})
+session.approval.denied: ปฏิเสธแล้ว
+session.common.invalidResponse: 'ข้อความตอบกลับไม่ถูกต้อง: {0}'
+session.handoff.exitedWithCode: hermes {0} ออกจากโปรแกรมแล้ว รหัส {1}
+session.handoff.launchError: 'เกิดข้อผิดพลาดในการเปิด hermes: {0}'
+session.handoff.launching: กำลังเปิด `hermes {0}`…
+session.handoff.stillNoProvider: ยังไม่ได้กำหนดผู้ให้บริการ
+session.input.dashboardNewSession: กำลังเริ่มการสนทนาใหม่บนแดชบอร์ด…
+session.input.failedToOpenEditor: เปิดตัวแก้ไขไม่สำเร็จ
+session.input.failedToOpenEditorWith: 'เปิดตัวแก้ไขไม่สำเร็จ: {0}'
+session.input.secretCancelled: ยกเลิกการป้อนรหัสลับแล้ว
+session.input.sudoCancelled: ยกเลิก sudo แล้ว
+session.input.vaultStaysLocked: '{0} ยังคงล็อกอยู่'
+session.input.loginNotSaved: ยังไม่ได้บันทึกข้อมูลเข้าสู่ระบบ {0}
+session.input.codeSkipped: ข้ามรหัสยืนยันของ {0} แล้ว
+session.input.voiceError: 'เกิดข้อผิดพลาดเสียง: {0}'
+session.input.voiceModeOff: 'เสียง: ปิดโหมดแล้ว — ใช้ /voice on เพื่อเปิด'
+session.input.voiceStillTranscribing: 'เสียง: กำลังถอดเสียงอยู่ รออีกครั้ง'
+session.input.yoloNeedsSession: yolo ต้องมีเซสชันที่ใช้งานอยู่
+session.input.yoloOff: ปิด yolo แล้ว
+session.input.yoloOn: เปิด yolo แล้ว
+session.input.yoloToggleFailed: สลับ yolo ไม่สำเร็จ
+session.lifecycle.failedToSetTitle: 'ตั้งชื่อเซสชันไม่สำเร็จ: {0}'
+session.lifecycle.interruptBeforeSwitch: โปรดหยุดรอบปัจจุบันก่อน แล้วลอง{0}อีกครั้ง
+session.lifecycle.newLiveSessionStarted: เริ่มเซสชันสดใหม่แล้ว
+session.lifecycle.sessionTitleSet: 'ตั้งชื่อเซสชันแล้ว: {0}'
+session.lifecycle.switchSessions: สลับเซสชัน
+session.lifecycle.titleQueuedSuffix: ' (อยู่ในคิว จะใช้เมื่อเซสชันเริ่มต้นเรียบร้อย)'
+session.main.clarifyQuestionsOne: '{0} คำถาม'
+session.main.clarifyQuestionsOther: '{0} คำถาม'
+session.main.failedToStartLiveSession: เริ่มเซสชันสดใหม่ไม่สำเร็จ
+session.main.invalidModelSwitchResponse: 'ข้อความตอบกลับไม่ถูกต้อง: การสลับโมเดล'
+session.main.modelSwitched: โมเดล → {0}
+session.main.skipped: (ข้ามแล้ว)
+session.main.voiceOff: ปิดเสียงแล้ว
+session.main.voiceOn: เปิดเสียงแล้ว
+session.main.voiceRec: ● กำลังอัดเสียง
+session.main.voiceStt: ◉ กำลังถอดเสียง
+session.main.voiceTtsSuffix: ' [tts]'
+session.main.widgetFailedToLoad: 'วิดเจ็ต {0} โหลดไม่สำเร็จ: {1}'
+session.main.widgetLive: วิดเจ็ต /{0} พร้อมแล้ว — พิมพ์ /{0} เพื่อเปิด
+session.main.widgetRemoved: วิดเจ็ต /{0} ถูกลบออกแล้ว (ไฟล์ถูกลบ)
+session.request.dangerousCommand: คำสั่งที่มีความเสี่ยง
+session.status.approvalNeeded: ต้องได้รับการอนุมัติ
+session.status.closingSession: กำลังปิดเซสชัน…
+session.status.interrupting: กำลังหยุด…
+session.status.reconnecting: กำลังเชื่อมต่อใหม่…
+session.status.restarting: กำลังรีสตาร์ท…
+session.status.resuming: กำลังดำเนินต่อ…
+session.status.secretInputNeeded: ต้องป้อนรหัสลับ
+session.status.setupRequired: ต้องตั้งค่า
+session.status.setupRunning: กำลังตั้งค่า…
+session.status.startingAgent: กำลังเริ่มตัวช่วย…
+session.status.stopped: หยุดแล้ว
+session.status.sudoPasswordNeeded: ต้องใช้รหัสผ่าน sudo
+session.status.switchingSession: กำลังสลับเซสชัน…
+session.status.unlockVault: ปลดล็อก {0}
+session.status.saveLogin: บันทึกข้อมูลเข้าสู่ระบบ {0}
+session.status.verificationCode: รหัสยืนยันของ {0}
+session.status.waitingForInput: รอการป้อนข้อมูล…
+session.turn.interrupted: หยุดแล้ว
+slashCmd.core.battery.state: ตัวบ่งชี้แบตเตอรี่ {0}
+slashCmd.core.battery.statusLive: ตัวบ่งชี้แบตเตอรี่ {0} — ปัจจุบัน {1} {2}%
+slashCmd.core.battery.statusNoBattery: ตัวบ่งชี้แบตเตอรี่ {0} — ไม่พบแบตเตอรี่บนเครื่องนี้
+slashCmd.core.battery.usage: 'วิธีใช้: /battery [on|off|status]'
+slashCmd.core.clear.cancelLabel: ไม่ ทำต่อเซสชันปัจจุบัน
+slashCmd.core.clear.confirmClear: ใช่ ล้างเซสชัน
+slashCmd.core.clear.confirmNew: ใช่ เริ่มเซสชันใหม่
+slashCmd.core.clear.detail: การกระทำนี้จะยุติการสนทนาปัจจุบันและล้างบันทึกการสนทนา
+slashCmd.core.clear.forgingSession: กำลังสร้างเซสชัน…
+slashCmd.core.clear.newSessionStarted: เริ่มเซสชันใหม่แล้ว
+slashCmd.core.clear.switchSessions: สลับเซสชัน
+slashCmd.core.clear.titleClear: ล้างเซสชันปัจจุบัน?
+slashCmd.core.clear.titleNew: เริ่มเซสชันใหม่?
+slashCmd.core.copy.clipboardFailed: คัดลอกไปคลิปบอร์ดไม่สำเร็จ — ลองตั้ง HERMES_TUI_FORCE_OSC52=1 เพื่อบังคับใช้ escape sequence
+slashCmd.core.copy.copied: คัดลอกไปคลิปบอร์ดแล้ว
+slashCmd.core.copy.copiedCharsOne: คัดลอก {0} อักขระแล้ว
+slashCmd.core.copy.copiedCharsOther: คัดลอก {0} อักขระแล้ว
+slashCmd.core.copy.failed: 'คัดลอกไม่สำเร็จ: {0}'
+slashCmd.core.copy.nothingToCopy: ไม่มีอะไรให้คัดลอก — เริ่มการสนทนาก่อน
+slashCmd.core.copy.sentOsc52: ส่งซีเควนส์ OSC52 แล้ว (ต้องรองรับโดยเทอร์มินัล)
+slashCmd.core.copy.usage: 'วิธีใช้: /copy [number]'
+slashCmd.core.density.state: โหมดกระชับ {0}
+slashCmd.core.density.usage: 'วิธีใช้: /density [on|off|toggle]'
+slashCmd.core.details.current: 'รายละเอียด: {0}{1}'
+slashCmd.core.details.reset: รีเซ็ตแล้ว
+slashCmd.core.details.section: 'รายละเอียด {0}: {1}'
+slashCmd.core.details.sectionUsage: 'วิธีใช้: /details <section> [hidden|collapsed|expanded|reset]'
+slashCmd.core.details.usage: 'วิธีใช้: /details [hidden|collapsed|expanded|cycle] หรือ /details <section> [hidden|collapsed|expanded|reset]'
+slashCmd.core.focus.disabled: มุมมองโฟกัสปิดใช้งานแล้ว
+slashCmd.core.focus.enabled: มุมมองโฟกัสเปิดใช้งาน — แสดงเฉพาะพรอมป์ของคุณและการตอบกลับสุดท้าย
+slashCmd.core.focus.statusOff: มุมมองโฟกัสปิดอยู่
+slashCmd.core.focus.statusOn: มุมมองโฟกัสเปิดอยู่ — แสดงเฉพาะพรอมป์ของคุณและการตอบกลับสุดท้าย
+slashCmd.core.focus.usage: 'วิธีใช้: /focus [on|off|status]'
+slashCmd.core.fortune.usage: 'วิธีใช้: /fortune [random|daily]'
+slashCmd.core.help.detailsGlobal: ตั้งโหมดแสดงรายละเอียดตัวช่วยส่วนกลาง
+slashCmd.core.help.detailsSection: กำหนดค่าเฉพาะบล็อก (thinking/tools/subagents/activity)
+slashCmd.core.help.dialogTest: เปิดตัวอย่างกล่องโต้ตอบพร้อมพื้นหลังจำลอง
+slashCmd.core.help.fortune: แสดงข้อความบ่งชี้ท้องถิ่นแบบสุ่มหรือประจำวัน
+slashCmd.core.help.gridTest: เปิดการสาธิตกริดวิดเจ็ตแบบโต้ตอบ
+slashCmd.core.help.skillCommandsAvailable: '{0} คำสั่งทักษะที่ใช้ได้ — พิมพ์ /skills เพื่อเรียกดู'
+slashCmd.core.help.tuiSection: TUI
+slashCmd.core.history.empty: (ว่าง)
+slashCmd.core.history.hermesTag: 'Hermes #{0}'
+slashCmd.core.history.noConversation: ยังไม่มีการสนทนา
+slashCmd.core.history.pageTitle: ประวัติ
+slashCmd.core.history.toolCallsOne: ({0} ครั้งการเรียกเครื่องมือ)
+slashCmd.core.history.toolCallsOther: ({0} ครั้งการเรียกเครื่องมือ)
+slashCmd.core.history.youTag: 'คุณ #{0}'
+slashCmd.core.logs.none: ไม่มีบันทึกเกตเวย์
+slashCmd.core.logs.pageTitle: บันทึก
+slashCmd.core.mouse.tracking: การติดตามเมาส์ {0}
+slashCmd.core.mouse.usage: 'วิธีใช้: /mouse [on|off|toggle|wheel|buttons|all]'
+slashCmd.core.paste.usage: 'วิธีใช้: /paste'
+slashCmd.core.prompt.editorFailed: 'ตัวแก้ไขเกิดข้อผิดพลาด: {0}'
+slashCmd.core.queue.countOne: '{0} ข้อความอยู่ในคิว'
+slashCmd.core.queue.countOther: '{0} ข้อความอยู่ในคิว'
+slashCmd.core.queue.queued: 'อยู่ในคิว: "{0}"'
+slashCmd.core.quit.dashboardDisabled: ออกจากระบบปิดใช้งานในแชทแดชบอร์ดแบบโฮสต์ — ใช้ /new เพื่อเริ่มเซสชันใหม่
+slashCmd.core.redraw.done: วาดหน้าจอใหม่แล้ว
+slashCmd.core.retry.nothing: ไม่มีอะไรให้ลองอีกครั้ง
+slashCmd.core.save.failed: บันทึกไม่สำเร็จ
+slashCmd.core.save.noActiveSession: ไม่มีเซสชันที่ใช้งานอยู่ — ไม่มีอะไรให้บันทึก
+slashCmd.core.save.noConversation: ยังไม่มีการสนทนา
+slashCmd.core.save.saved: 'บันทึกการสนทนาไปที่: {0}'
+slashCmd.core.status.empty: (ไม่มีสถานะ)
+slashCmd.core.status.noActiveSession: ไม่มีเซสชันที่ใช้งานอยู่
+slashCmd.core.status.pageTitle: สถานะ
+slashCmd.core.statusbar.state: แถบสถานะ {0}
+slashCmd.core.statusbar.usage: 'วิธีใช้: /statusbar [on|off|top|bottom|toggle]'
+slashCmd.core.steer.noActiveTurnQueued: 'ไม่มีรอบที่กำลังดำเนินอยู่ — เข้าคิวไว้รอบถัดไป: "{0}"'
+slashCmd.core.steer.queued: 'ข้อความชี้นำเข้าคิวแล้ว — จะส่งหลังการเรียกเครื่องมือครั้งถัดไป: "{0}"'
+slashCmd.core.steer.rejected: ข้อความชี้นำถูกปฏิเสธ — ไม่มีรอบที่กำลังดำเนินอยู่ เข้าคิวไว้รอบถัดไป
+slashCmd.core.steer.usage: 'วิธีใช้: /steer <prompt>'
+slashCmd.core.terminalSetup.failed: 'ตั้งค่าเทอร์มินัลไม่สำเร็จ: {0}'
+slashCmd.core.terminalSetup.restartIde: รีสตาร์ทเทอร์มินัล IDE เพื่อให้แป้นลัดใหม่มีผล
+slashCmd.core.terminalSetup.usage: 'วิธีใช้: /terminal-setup [auto|vscode|cursor|windsurf]'
+slashCmd.core.title.current: 'หัวเรื่อง: {0}'
+slashCmd.core.title.noActiveSession: ไม่มีเซสชันที่ใช้งานอยู่
+slashCmd.core.title.none: ยังไม่ได้ตั้งหัวเรื่อง
+slashCmd.core.title.queuedSuffix: ' (อยู่ในคิว รอการเริ่มต้นเซสชันเสร็จสิ้น)'
+slashCmd.core.title.set: 'ตั้งหัวเรื่องเซสชันแล้ว: {0}{1}'
+slashCmd.core.title.usage: 'วิธีใช้: /title <หัวเรื่องเซสชันของคุณ>'
+slashCmd.core.undo.nothing: ไม่มีอะไรให้ย้อนกลับ
+slashCmd.core.undo.undidOne: ย้อนกลับ {0} ข้อความแล้ว
+slashCmd.core.undo.undidOther: ย้อนกลับ {0} ข้อความแล้ว
+slashCmd.core.update.dashboardDisabled: อัปเดตปิดใช้งานในแชทแดชบอร์ดแบบโฮสต์ — สภาพแวดล้อมแบบโฮสต์จัดการแยกต่างหาก
+slashCmd.core.update.exiting: กำลังออกจาก TUI เพื่อรันอัปเดต...
+slashCmd.debug.heapdump.diagPath: 'ข้อมูลการวินิจฉัย: {0}'
+slashCmd.debug.heapdump.failed: 'สร้าง heap dump ไม่สำเร็จ: {0}'
+slashCmd.debug.heapdump.heapPath: 'heap dump: {0}'
+slashCmd.debug.heapdump.unknownError: ข้อผิดพลาดที่ไม่ทราบสาเหตุ
+slashCmd.debug.heapdump.writing: กำลังเขียน heap dump (heap {0} · rss {1})…
+slashCmd.debug.mem.arrayBuffers: array buffers
+slashCmd.debug.mem.external: ภายนอก
+slashCmd.debug.mem.heapTotal: heap ทั้งหมด
+slashCmd.debug.mem.heapUsed: heap ที่ใช้
+slashCmd.debug.mem.panelTitle: หน่วยความจำ
+slashCmd.debug.mem.rss: rss
+slashCmd.debug.mem.seconds: '{0} วินาที'
+slashCmd.debug.mem.uptime: ระยะเวลาทำงาน
+slashCmd.debug.themeInfo.dark: มืด
+slashCmd.debug.themeInfo.detectedMode: โหมดที่ตรวจพบ
+slashCmd.debug.themeInfo.light: สว่าง
+slashCmd.debug.themeInfo.noReply: (ไม่มีการตอบกลับ)
+slashCmd.debug.themeInfo.osc11Background: พื้นหลัง OSC-11
+slashCmd.debug.themeInfo.panelTitle: ธีม
+slashCmd.debug.themeInfo.unset: (ยังไม่ได้ตั้ง)
+slashCmd.debug.widgetsReload.loaded: 'โหลดแล้ว: {0}'
+slashCmd.debug.widgetsReload.none: ไม่พบวิดเจ็ตของผู้ใช้
+slashCmd.debug.widgetsReload.summary: วิดเจ็ต — {0}
+slashCmd.ops.agents.paused: ตัวช่วยย่อย · หยุดชั่วคราว
+slashCmd.ops.agents.resumed: ตัวช่วยย่อย · ทำต่อ
+slashCmd.ops.agents.stateActive: กำลังทำงาน
+slashCmd.ops.agents.statePaused: หยุดชั่วคราว
+slashCmd.ops.agents.status: ตัวช่วยย่อย · {0} · จำกัด d{1}/{2}
+slashCmd.ops.browser.checking: กำลังตรวจสอบการดีบั๊กระยะไกลของเบราว์เซอร์ตระกูล Chromium บน {0}...
+slashCmd.ops.browser.connected: 'เชื่อมต่อเบราว์เซอร์แล้ว: {0}'
+slashCmd.ops.browser.connectedLive: เชื่อมต่อเบราว์เซอร์ตระกูล Chromium ที่กำลังทำงานผ่าน CDP แล้ว
+slashCmd.ops.browser.disconnected: ยกเลิกการเชื่อมต่อเบราว์เซอร์แล้ว
+slashCmd.ops.browser.endpoint: 'เอนด์พอยต์: {0}'
+slashCmd.ops.browser.modeBrowserUse: 'เบราว์เซอร์: โหมด Browser Use (ใช้ browser_exec ผ่าน Browser Use CLI 3.0)'
+slashCmd.ops.browser.newSessionsOnly: ใช้ได้กับเซสชันใหม่ — เซสชันปัจจุบันยังคงเครื่องมือเดิม (ใช้ /new เพื่อเริ่มเซสชันใหม่)
+slashCmd.ops.browser.nextCallUsesEndpoint: การเรียกเครื่องมือเบราว์เซอร์ครั้งถัดไปจะใช้เอนด์พอยต์ CDP นี้
+slashCmd.ops.browser.notConnected: ยังไม่ได้เชื่อมต่อเบราว์เซอร์ (ลอง /browser connect <url> หรือตั้ง browser.cdp_url ใน config.yaml)
+slashCmd.ops.browser.urlUnavailable: (url ไม่พร้อมใช้)
+slashCmd.ops.browser.usage: 'วิธีใช้: /browser [connect|disconnect|status|use] [url] · ถาวร: ตั้ง browser.cdp_url ใน config.yaml'
+slashCmd.ops.browser.useDisabled: ปิดโหมด Browser Use แล้ว — คืนเครื่องมือเบราว์เซอร์ในตัว
+slashCmd.ops.browser.useEnabled: เปิดโหมด Browser Use แล้ว — ใช้ browser_exec ผ่าน Browser Use CLI 3.0
+slashCmd.ops.browser.useUsage: 'วิธีใช้: /browser use [off]'
+slashCmd.ops.reloadEnv.reloadedOne: โหลด .env ใหม่แล้ว (อัปเดต {0} ตัวแปร)
+slashCmd.ops.reloadEnv.reloadedOther: โหลด .env ใหม่แล้ว (อัปเดต {0} ตัวแปร)
+slashCmd.ops.reloadMcp.complete: โหลดใหม่เสร็จสิ้น
+slashCmd.ops.reloadMcp.confirmRequired: /reload-mcp ต้องมีการยืนยัน
+slashCmd.ops.reloadMcp.reloaded: โหลดเซิร์ฟเวอร์ MCP ใหม่แล้ว
+slashCmd.ops.reloadMcp.reloadedAlways: โหลดเซิร์ฟเวอร์ MCP ใหม่แล้ว · /reload-mcp ครั้งถัดไปจะรันเลยไม่ต้องยืนยัน
+slashCmd.ops.reloadSkills.pageTitle: โหลดทักษะใหม่
+slashCmd.ops.reloadSkills.reloaded: โหลดทักษะใหม่แล้ว
+slashCmd.ops.replay.archivedTitle: ต้นไม้派生ที่เก็บถาวรแล้ว
+slashCmd.ops.replay.indexOutOfRange: 'replay: ดัชนีอยู่นอกช่วง 1..{0} · ใช้ /replay list เพื่อดูบันทึกบนดิสก์'
+slashCmd.ops.replay.noneOnDisk: ไม่มีต้นไม้派生ที่เก็บไว้ของเซสชันนี้บนดิสก์
+slashCmd.ops.replay.noneThisSession: เซสชันนี้ไม่มีต้นไม้派生ที่เสร็จสิ้น · ลอง /replay list
+slashCmd.ops.replay.snapshotEmpty: สแนปช็อตว่างหรืออ่านไม่ได้
+slashCmd.ops.replay.subagentsLabel: '{0} ตัวช่วยย่อย'
+slashCmd.ops.replay.usageLoad: 'วิธีใช้: /replay load <path>'
+slashCmd.ops.replayDiff.unresolved: 'replay-diff: แกะดัชนีไม่ได้ · มี {0} บันทึกในประวัติ'
+slashCmd.ops.replayDiff.usage: 'วิธีใช้: /replay-diff <a> <b> (เช่น /replay-diff 1 2 เพื่อเปรียบเทียบคู่ล่าสุด)'
+slashCmd.ops.rollback.diffTitle: ผลต่างการย้อนกลับ
+slashCmd.ops.rollback.failed: 'ย้อนกลับไม่สำเร็จ: {0}'
+slashCmd.ops.rollback.listTitle: เช็คพอยต์การย้อนกลับ
+slashCmd.ops.rollback.noChanges: ไม่มีการเปลี่ยนแปลงนับตั้งแต่เช็คพอยต์นี้
+slashCmd.ops.rollback.noMetadata: (ไม่มีเมทาดาต้า)
+slashCmd.ops.rollback.noSession: ไม่มีเซสชันที่ใช้งานอยู่ — ไม่มีอะไรให้ย้อนกลับ
+slashCmd.ops.rollback.noneFound: ไม่พบเช็คพอยต์
+slashCmd.ops.rollback.notEnabled: ยังไม่เปิดใช้เช็คพอยต์
+slashCmd.ops.rollback.restored: 'ย้อนกลับแล้ว คืนค่า {0}: {1}'
+slashCmd.ops.rollback.restoredDetail: คืนค่าแล้ว
+slashCmd.ops.rollback.unknownError: ข้อผิดพลาดที่ไม่ทราบสาเหตุ
+slashCmd.ops.rollback.usageDiff: 'วิธีใช้: /rollback diff <checkpoint>'
+slashCmd.ops.rollback.workspaceTarget: พื้นที่ทำงาน
+slashCmd.ops.skills.browseMore: พิมพ์ /skills browse {0} เพื่อดูเพิ่ม
+slashCmd.ops.skills.browseTitle: เรียกดูทักษะ
+slashCmd.ops.skills.browseTitlePage: เรียกดูทักษะ — หน้า {0}
+slashCmd.ops.skills.fetching: กำลังดึงทักษะชุมชน (สแกน 6 แหล่ง อาจใช้เวลาประมาณ 15 วินาที)…
+slashCmd.ops.skills.inspectTitle: ทักษะ
+slashCmd.ops.skills.installFailed: ติดตั้งไม่สำเร็จ
+slashCmd.ops.skills.installed: ติดตั้ง {0} แล้ว
+slashCmd.ops.skills.installing: กำลังติดตั้ง {0}…
+slashCmd.ops.skills.listTitle: ทักษะ
+slashCmd.ops.skills.noResults: 'ไม่มีผลลัพธ์ที่ตรงกัน: {0}'
+slashCmd.ops.skills.noneOnPage: ไม่มีทักษะในหน้า {0}
+slashCmd.ops.skills.noneOnPageWithTotal: ไม่มีทักษะในหน้า {0} (รวม {1} รายการ)
+slashCmd.ops.skills.pageOf: หน้า {0} จาก {1}
+slashCmd.ops.skills.rowCategory: หมวดหมู่
+slashCmd.ops.skills.rowName: ชื่อ
+slashCmd.ops.skills.rowPath: เส้นทาง
+slashCmd.ops.skills.searchTitle: 'ค้นหา: {0}'
+slashCmd.ops.skills.skillsTotal: ทั้งหมด {0} ทักษะ
+slashCmd.ops.skills.unknownSkill: 'ทักษะที่ไม่รู้จัก: {0}'
+slashCmd.ops.skills.usageBrowse: 'วิธีใช้: /skills browse [page] (page ต้องเป็นจำนวนเต็มบวก)'
+slashCmd.ops.skills.usageInspect: 'วิธีใช้: /skills inspect <name>'
+slashCmd.ops.skills.usageInstall: 'วิธีใช้: /skills install <name or url>'
+slashCmd.ops.skills.usageSearch: 'วิธีใช้: /skills search <query>'
+slashCmd.ops.slashWorker.pluginsNoOutput: '/plugins: ไม่มีผลลัพธ์'
+slashCmd.ops.slashWorker.pluginsTitle: ปลั๊กอิน
+slashCmd.ops.slashWorker.skillsNoOutput: '/skills: ไม่มีผลลัพธ์'
+slashCmd.ops.slashWorker.skillsTitle: ทักษะ
+slashCmd.ops.slashWorker.toolsNoOutput: '/tools: ไม่มีผลลัพธ์'
+slashCmd.ops.slashWorker.toolsTitle: เครื่องมือ
+slashCmd.ops.slashWorker.warning: 'เตือน: {0}'
+slashCmd.ops.stop.stoppedOne: หยุดโปรเซสพื้นหลัง {0} ตัวแล้ว
+slashCmd.ops.stop.stoppedOther: หยุดโปรเซสพื้นหลัง {0} ตัวแล้ว
+slashCmd.ops.tools.builtinExample: 'ชุดเครื่องมือในตัว: /tools {0} web'
+slashCmd.ops.tools.disabled: 'ปิดใช้งาน: {0}'
+slashCmd.ops.tools.enabled: 'เปิดใช้งาน: {0}'
+slashCmd.ops.tools.mcpExample: 'เครื่องมือ MCP: /tools {0} github:create_issue'
+slashCmd.ops.tools.missingServers: 'เซิร์ฟเวอร์ MCP ที่ขาด: {0}'
+slashCmd.ops.tools.sessionReset: รีเซ็ตเซสชันแล้ว การตั้งค่าเครื่องมือใหม่มีผลแล้ว
+slashCmd.ops.tools.unknownToolsets: 'ชุดเครื่องมือที่ไม่รู้จัก: {0}'
+slashCmd.ops.tools.usage: 'วิธีใช้: /tools {0} <name> [name ...]'
+slashCmd.session.bg.started: เริ่มงานพื้นหลัง {0} แล้ว
+slashCmd.session.bg.usage: /bg <พรอมป์>
+slashCmd.session.branch.branched: แยกสาขาแล้ว → {0}
+slashCmd.session.btw.answering: btw {0} — กำลังตอบตามสแนปช็อตการสนทนา
+slashCmd.session.btw.usage: /btw <คำถาม>
+slashCmd.session.busy.mode: 'โหมดอินพุตเมื่อไม่ว่าง: {0}'
+slashCmd.session.busy.usage: 'วิธีใช้: /busy [queue|steer|interrupt|status]'
+slashCmd.session.compress.compressedOne: บีบอัด {0} ข้อความแล้ว
+slashCmd.session.compress.compressedOther: บีบอัด {0} ข้อความแล้ว
+slashCmd.session.compress.nothing: ไม่มีอะไรให้บีบอัด
+slashCmd.session.compress.tokSuffix: ' · {0} tok'
+slashCmd.session.fast.mode: 'โหมดเร็ว: {0}'
+slashCmd.session.fast.usage: 'วิธีใช้: /fast [normal|fast|ultrafast|status|on|off|toggle]'
+slashCmd.session.indicator.current: 'ตัวบ่งชี้: {0}'
+slashCmd.session.indicator.switched: ตัวบ่งชี้ → {0}
+slashCmd.session.indicator.usage: 'วิธีใช้: /indicator [{0}]'
+slashCmd.session.model.cancel: ยกเลิก
+slashCmd.session.model.expensiveDetail: ราคาที่รู้จักของโมเดลนี้สูงผิดปกติ
+slashCmd.session.model.expensiveTitle: เลือกโมเดลราคาสูง
+slashCmd.session.model.invalidResponse: 'ข้อผิดพลาด: การตอบกลับไม่ถูกต้อง: การสลับโมเดล'
+slashCmd.session.model.switchAnyway: สลับต่อไป
+slashCmd.session.model.switched: โมเดล → {0}
+slashCmd.session.model.switchedDeferred: โมเดล → {0} (มีผลรอบถัดไป)
+slashCmd.session.personality.changed: 'บุคลิกภาพ: {0}'
+slashCmd.session.personality.changedCleared: 'บุคลิกภาพ: {0} · ล้างบันทึกการสนทนาแล้ว'
+slashCmd.session.personality.defaultValue: ค่าเริ่มต้น
+slashCmd.session.pet.noOutput: '/pet: ไม่มีผลลัพธ์'
+slashCmd.session.pet.warning: "เตือน: {0}\n\n  {1}"
+slashCmd.session.reasoning.current: 'การให้เหตุผล: {0}'
+slashCmd.session.reasoning.currentWithDisplay: 'การให้เหตุผล: {0} · แสดง {1}'
+slashCmd.session.sessions.busyGuardAction: สลับเซสชัน
+slashCmd.session.skin.current: 'สกิน: {0}'
+slashCmd.session.skin.defaultValue: ค่าเริ่มต้น
+slashCmd.session.skin.switched: สกิน → {0}
+slashCmd.session.theme.current: 'ธีม: {0}'
+slashCmd.session.theme.switched: ธีม → {0}
+slashCmd.session.theme.usage: 'วิธีใช้: /theme [auto|light|dark]'
+slashCmd.session.usage.balanceTitle: ยอดคงเหลือ
+slashCmd.session.usage.compressions: 'จำนวนการบีบอัด: {0}'
+slashCmd.session.usage.context: 'บริบท: {0} / {1} ({2}%)'
+slashCmd.session.usage.cta: รัน /subscription เพื่อเปลี่ยนแพ็กเกจ · /topup เพื่อเติมยอดคงเหลือ
+slashCmd.session.usage.freeNote: '> ฟรี · เฉพาะโมเดลฟรี รัน /subscription เพื่อใช้โมเดลแบบชำระเงิน'
+slashCmd.session.usage.freePlan: ฟรี
+slashCmd.session.usage.lowBalanceFallback: ต่ำกว่า $5
+slashCmd.session.usage.lowNote: '! ยอดคงเหลือต่ำ · เหลือ {0} รัน /topup หรือ /subscription'
+slashCmd.session.usage.noCalls: ยังไม่มีการเรียก API
+slashCmd.session.usage.nousBalanceTitle: ยอดคงเหลือ Nous
+slashCmd.session.usage.plan: 'แพ็กเกจ: {0}'
+slashCmd.session.usage.planRenews: 'แพ็กเกจ: {0} · ต่ออายุ {1}'
+slashCmd.session.usage.rowApiCalls: การเรียก API
+slashCmd.session.usage.rowInputTokens: tokens ขาเข้า
+slashCmd.session.usage.rowModel: โมเดล
+slashCmd.session.usage.rowOutputTokens: tokens ขาออก
+slashCmd.session.usage.rowTotalTokens: tokens ทั้งหมด
+slashCmd.session.usage.usageTitle: การใช้งาน
+slashCmd.session.verbose.current: 'เอาต์พุตแบบละเอียด: {0}'
+slashCmd.session.voice.disabled: โหมดเสียงปิดใช้งานแล้ว
+slashCmd.session.voice.enabled: โหมดเสียงเปิดใช้งานแล้ว
+slashCmd.session.voice.enabledWithTts: โหมดเสียงเปิดใช้งานแล้ว (เปิดใช้ TTS)
+slashCmd.session.voice.off: ปิด
+slashCmd.session.voice.offHint: '  /voice off  ปิดโหมดเสียง'
+slashCmd.session.voice.on: เปิด
+slashCmd.session.voice.recordHint: '  {0} เริ่ม/หยุดอัดเสียง'
+slashCmd.session.voice.requirements: '  ข้อกำหนด:'
+slashCmd.session.voice.statusMode: '  โหมด:      {0}'
+slashCmd.session.voice.statusRecordKey: '  ปุ่มอัดเสียง:    {0}'
+slashCmd.session.voice.statusTitle: สถานะโหมดเสียง
+slashCmd.session.voice.statusTts: '  TTS:       {0}'
+slashCmd.session.voice.ttsDisabled: ปิดใช้เสียง TTS แล้ว
+slashCmd.session.voice.ttsEnabled: เปิดใช้เสียง TTS แล้ว
+slashCmd.session.voice.ttsHint: '  /voice tts  สลับเอาต์พุตเสียง'
+slashCmd.session.yolo.off: yolo ปิดอยู่
+slashCmd.session.yolo.on: yolo เปิดอยู่
+slashCmd.setup.setup.done: ตั้งค่าเสร็จสิ้น — กำลังเริ่มเซสชัน…
+slashCmd.subscription.billingUnreachable: เชื่อมต่อบริการบิลไม่ได้ — ตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง
+slashCmd.subscription.manageUrlFailed: สร้าง URL จัดการไม่ได้ — พอร์ทัลของคุณตั้งค่าหรือยัง?
+slashCmd.subscription.notLoggedIn: ยังไม่ได้เข้าสู่ระบบ Nous Portal — รัน /portal เพื่อเข้าสู่ระบบ แล้วรัน /subscription
+slashCmd.subscription.openBrowserFailedManage: 'เปิดเบราว์เซอร์ไม่ได้ — เข้าหน้าสมาชิกของคุณเอง: {0}'
+slashCmd.subscription.openBrowserFailedPortal: เปิดเบราว์เซอร์ไม่ได้ — เข้า {0} เพื่อทำขั้นตอนนี้ให้เสร็จ
+slashCmd.subscription.openingManage: กำลังเปิดหน้าสมาชิกในเบราว์เซอร์ — ทำเสร็จที่นั่น แล้วรัน /subscription ใหม่
+slashCmd.subscription.openingPortal: กำลังเปิดพอร์ทัลในเบราว์เซอร์ — ทำเสร็จที่นั่น แล้วรัน /subscription ใหม่
+slashCmd.topup.charge.authenticationRequired: 🔴 ธนาคารของคุณต้องการการยืนยันตัวตน (3DS) ทำขั้นตอนยืนยันบนพอร์ทัลเพื่อเสร็จสิ้นการซื้อครั้งนี้
+slashCmd.topup.charge.cardDeclined: 🔴 บัตรของคุณถูกปฏิเสธ ลองบัตรใบอื่นบนพอร์ทัล
+slashCmd.topup.charge.couldNotCheck: '🔴 ตรวจสอบสถานะการเรียกเก็บเงินไม่ได้: {0}'
+slashCmd.topup.charge.couldNotCheckFallback: ข้อผิดพลาด
+slashCmd.topup.charge.creditsFallback: เครดิต
+slashCmd.topup.charge.failedReason: 🔴 การเรียกเก็บเงินไม่สำเร็จ ({0})
+slashCmd.topup.charge.paymentMethodExpired: 🔴 บัตรของคุณหมดอายุแล้ว อัปเดตบนพอร์ทัล
+slashCmd.topup.charge.settled: ✅ เพิ่ม {0} แล้ว
+slashCmd.topup.charge.submitted: 💳 ส่งการเรียกเก็บเงินแล้ว — กำลังยืนยันการชำระ…
+slashCmd.topup.charge.timedOut: 🟡 ผ่านไป 5 นาทียังดำเนินอยู่ — นี่คือไทม์เอาต์ ไม่ใช่ความล้มเหลว ตรวจดู /topup หรือพอร์ทัลภายหลัง
+slashCmd.topup.charge.unconfirmed: 🟡 ผลการเรียกเก็บเงินครั้งก่อนยังไม่ยืนยัน — ตรวจยอดคงเหลือ/ประวัติก่อนลองใหม่
+slashCmd.topup.error.autoTopUpDisabledFailures: ปิดการเติมเงินอัตโนมัติแล้วเนื่องจากการเรียกเก็บเงินล้มเหลวติดต่อกัน แก้ปัญหาบัตรก่อน แล้วเปิดใช้อีกครั้งจาก /topup → การเติมเงินอัตโนมัติ
+slashCmd.topup.error.consentRequired: การกระทำนี้ต้องทำขั้นตอนยืนยันและยินยอมบัตรแบบครั้งเดียวบนพอร์ทัลก่อน จึงจะทำต่อได้
+slashCmd.topup.error.generic: 🔴 {0}
+slashCmd.topup.error.genericFallback: คำขอบิลล้มเหลว
+slashCmd.topup.error.idempotencyConflict: 🔴 คีย์การเรียกเก็บนี้ถูกใช้กับธุรกรรมอื่นที่ยอดต่างกันแล้ว เริ่มเติมเงินใหม่
+slashCmd.topup.error.insufficientScope: การกระทำนี้ต้องอนุญาตการใช้จ่ายระยะไกลก่อน เริ่มเติมเงินหนึ่งครั้งเพื่ออนุญาต แล้วลองใหม่
+slashCmd.topup.error.monthlyCapExceeded: 🔴 ถึงเพดานการใช้จ่ายรายเดือนแล้ว
+slashCmd.topup.error.monthlyCapExceededRemaining: 🔴 ถึงเพดานการใช้จ่ายรายเดือนแล้ว — เหลือพื้นที่ ${0}
+slashCmd.topup.error.noPaymentMethod: 💳 ยังไม่มีบัตรที่บันทึกไว้สำหรับเรียกเก็บจากเทอร์มินัล ตั้งค่าบัตรใบหนึ่งบนพอร์ทัล (การซื้อครั้งเดียวจะไม่บันทึกบัตรที่ใช้ซ้ำได้)
+slashCmd.topup.error.orgAccessDenied: โทเคนนี้ไม่ได้ผูกกับองค์กรที่คุณจัดการได้ เข้าสู่ระบบด้วยองค์กรที่ถูกต้อง หรือจัดการบนพอร์ทัล
+slashCmd.topup.error.portal: 'พอร์ทัล: {0}'
+slashCmd.topup.error.rateLimited: 🟡 คำขอเรียกเก็บเงินมากเกินไป{0} นี่ไม่ใช่การชำระเงินที่ล้มเหลว
+slashCmd.topup.error.remoteSpendingDisabled: บัญชีนี้ปิดการใช้จ่ายระยะไกล — ผู้ดูแลบิลสามารถเปิดได้ที่หน้า Hermes Agent บนพอร์ทัล
+slashCmd.topup.error.retryIn: ' (ลองใหม่ในประมาณ {0} นาที)'
+slashCmd.topup.error.revokedByAdmin: ผู้ดูแลหยุดการใช้จ่ายระยะไกลของเทอร์มินัลนี้แล้ว
+slashCmd.topup.error.revokedByYou: คุณหยุดการใช้จ่ายระยะไกลของเทอร์มินัลนี้แล้ว
+slashCmd.topup.error.revokedReconnect: '{0} เชื่อมต่อใหม่เพื่อกู้คืน — รัน /portal เพื่ออนุมัติเทอร์มินัลนี้อีกครั้ง'
+slashCmd.topup.error.roleRequired: การเพิ่มเงินต้องมีสิทธิ์ด้านบิล (เจ้าของ ผู้ดูแล หรือผู้ดูแลการเงิน) หรือจัดการบนพอร์ทัล
+slashCmd.topup.error.sessionRevoked: เซสชันของคุณออกจากระบบแล้ว รัน /portal เพื่อเข้าสู่ระบบใหม่
+slashCmd.topup.error.stripeUnavailable: 🟡 Stripe มีปัญหาตอนนี้ — ลองใหม่ภายหลัง{0}
+slashCmd.topup.error.upgradeCapExceeded: 🔴 ถึงเพดานการเปลี่ยนแพ็กเกจรายวันแล้ว (5 ครั้งต่อองค์กร) — ลองใหม่พรุ่งนี้ หรือจัดการบนพอร์ทัล
+slashCmd.topup.notLoggedIn: 💳 ยังไม่ได้เข้าสู่ระบบ Nous Portal — รัน /portal เพื่อเข้าสู่ระบบ แล้ว /topup
+slashCmd.topup.openingPortal: 'กำลังเปิดพอร์ทัล: {0}'
+slashCmd.topup.validate.invalid: ใส่ยอดเงินดอลลาร์ เช่น 100 (ทศนิยมไม่เกิน 2 หลัก)
+slashCmd.topup.validate.maximum: สูงสุด ${0}
+slashCmd.topup.validate.minimum: ขั้นต่ำ ${0}
+slashCmd.topup.validate.notPositive: ยอดต้องมากกว่า $0
+slashCmd.wake.disabledInConfig: ปิดใช้งานในการตั้งค่า
+slashCmd.wake.enabledInConfig: เปิดใช้งานในการตั้งค่า
+slashCmd.wake.forPhrase: ฟัง "{0}"
+slashCmd.wake.listenerOff: 'ปลุก: ตัวรับฟังปิดอยู่{0}'
+slashCmd.wake.listening: 'ปลุก: กำลังฟัง{0}'
+slashCmd.wake.micSilent: ⚠ ไมโครโฟนออกแต่เสียงเงียบ
+slashCmd.wake.notOwnerStop: อินเทอร์เฟซนี้ไม่ได้ถือตัวรับฟัง
+slashCmd.wake.notRunning: ไม่ได้ทำงานอยู่
+slashCmd.wake.notStarted: 'ปลุก: ยังไม่เริ่ม — {0}'
+slashCmd.wake.nothingToStop: 'ปลุก: ไม่มีตัวรับฟังให้หยุด — {0}{1}'
+slashCmd.wake.off: 'ปลุก: ปิดอยู่{0} · /wake on เพื่อเริ่มฟัง'
+slashCmd.wake.offOwnedBy: 'ปลุก: ปิดที่นี่ · ตัวรับฟังถูกถือโดย {0}{1}'
+slashCmd.wake.ownedBy: ถือโดย {0}
+slashCmd.wake.reason.disabled: ปิดใช้งาน (ตั้งค่า wake_word.enabled)
+slashCmd.wake.reason.disabledForSurface: จำกัดไว้ที่อินเทอร์เฟซอื่น (ตั้งค่า wake_word.surface)
+slashCmd.wake.reason.notOwner: ตัวรับฟังถูกถือโดยอินเทอร์เฟซอื่น
+slashCmd.wake.reason.owned: ตัวรับฟังถูกถือโดยอินเทอร์เฟซอื่น
+slashCmd.wake.reason.unavailable: ไม่พร้อมใช้
+slashCmd.wake.reason.unknown: ไม่รู้จัก
+slashCmd.wake.unavailable: 'ปลุก: ไม่พร้อมใช้'
+slashCmd.wake.usage: 'วิธีใช้: /wake [on|off|status]'
+slashCmd.wake.withHint: '{0} — {1}'
+status.bgTasks: '{0} งานเบื้องหลัง'
+status.compacting: กำลังบีบอัด
+status.compressions: บีบอัดแล้ว {0} ครั้ง
+status.devCredits: (เครดิตพัฒนา)
+status.fast: ด่วน
+status.mcpReloaded: โหลด MCP ใหม่แล้วหลังเปลี่ยนการตั้งค่า
+status.paused: ⏸ หยุดชั่วคราว
+status.ready: พร้อม
+status.resumesWhenSubagentFinishes: ↩ ทำต่อเมื่อตัวช่วยย่อยเสร็จ
+status.resumesWhenSubagentsFinish: ↩ ทำต่อเมื่อตัวช่วยย่อย {0} ตัวเสร็จ
+status.running: กำลังทำงาน…
+status.sessionCount: '{0} เซสชัน'
+status.summoning: กำลังเรียก hermes…
+subscription.confirm.blockedFallback: ไม่สามารถเปลี่ยนแปลงได้ที่นี่ — จัดการได้ที่พอร์ทัล
+subscription.confirm.cancelBody: ยกเลิก {0} — ยังใช้งานได้จนถึง {1} จากนั้นจะไม่ต่ออายุ
+subscription.confirm.cancelKeepCredits: เครดิตที่เหลือในรอบนี้ยังใช้ได้ และยกเลิกการยกเลิกได้ทุกเมื่อก่อนรอบนี้จบ
+subscription.confirm.cardCharged: จะเรียกเก็บเงินจากบัตร {0} (บัตรที่ผูกกับการสมัครสมาชิกของคุณ)
+subscription.confirm.cardChargedGeneric: จะเรียกเก็บเงินจากบัตรที่ผูกกับการสมัครสมาชิกของคุณ
+subscription.confirm.chargedNow: จะเรียกเก็บ {0} ทันที (คำนวณตามสัดส่วน)
+subscription.confirm.chargedProrated: จะเรียกเก็บตามสัดส่วนทันที
+subscription.confirm.chipChargedNow: เรียกเก็บทันที
+subscription.confirm.chipScheduled: กำหนดเวลาแล้ว · ยังไม่วันนี้
+subscription.confirm.creditsDelta: 'เครดิตต่อเดือนเปลี่ยนเป็น: {0}'
+subscription.confirm.hint: ↑/↓ เลือก · Enter ยืนยัน · Esc ย้อนกลับ
+subscription.confirm.noOp: คุณกำลังใช้ {0} อยู่ — ไม่ต้องเปลี่ยนแปลง
+subscription.confirm.payAndUpgrade: จ่าย {0} แล้วอัปเกรดทันที
+subscription.confirm.scheduleChangeTo: กำหนดเปลี่ยนเป็น {0}
+subscription.confirm.scheduledBody: เปลี่ยนเป็น {0} — มีผล {1} ไม่มีการเรียกเก็บตอนนี้ ก่อนถึงจุดนั้นคุณยังใช้แพ็กเกจปัจจุบันได้
+subscription.confirm.titleCancellation: ยืนยันการยกเลิก
+subscription.confirm.titleChange: ยืนยันการเปลี่ยนแพ็กเกจ
+subscription.confirm.upgradeNowProrated: อัปเกรดทันที (เรียกเก็บตามสัดส่วน)
+subscription.confirm.upgradeTo: อัปเกรดเป็น {0}
+subscription.confirm.working: กำลังดำเนินการ…
+subscription.overview.cancelSubscription: ยกเลิกการสมัครสมาชิก
+subscription.overview.changePlan: เปลี่ยนแพ็กเกจ
+subscription.overview.creditsPerMonth: ' · เครดิต ${0}/เดือน'
+subscription.overview.freeNudge: โมเดลแบบชำระเงินต้องมีแพ็กเกจ สมัครแล้วใช้ได้เลย
+subscription.overview.hint: ↑/↓ เลือก · Enter ยืนยัน · Esc ปิด
+subscription.overview.keepPlanUndo: ใช้ {0} ต่อ (ยกเลิกการเปลี่ยนแปลงนี้)
+subscription.overview.keepUntilThen: จนถึงตอนนั้นคุณยังใช้ {0} (และเครดิต) ได้ต่อ
+subscription.overview.lowNudge: เครดิตเหลือน้อย · เหลือ {0} เติมเครดิตหรืออัปเกรดก่อนที่งานจะขาดตอนกลางทาง
+subscription.overview.lowNudgeAmountFallback: น้อยกว่า $5
+subscription.overview.noPortalUrl: 🔴 ไม่มีลิงก์พอร์ทัล — จัดการการสมัครสมาชิกของคุณที่พอร์ทัลของ Nous
+subscription.overview.org: 'องค์กร: {0}'
+subscription.overview.scheduledChange: ⏳ การเปลี่ยนแปลงที่กำหนดไว้
+subscription.overview.startSubscription: เริ่มสมัครสมาชิก
+subscription.overview.tierRow: '{0} · {1}/เดือน'
+subscription.picker.current: 'ปัจจุบัน: {0} เลือกแพ็กเกจเพื่อดูตัวอย่างก่อนยืนยัน'
+subscription.picker.downgrade: ลดระดับ
+subscription.picker.hint: ↑/↓ เลือก · Enter ดูตัวอย่าง · Esc ย้อนกลับ
+subscription.picker.noOtherPlans: ยังไม่มีแพ็กเกจอื่นให้สลับ
+subscription.picker.tierRow: '{0} · {1}/เดือน · {2}'
+subscription.picker.title: เปลี่ยนแพ็กเกจ
+subscription.picker.upgrade: อัปเกรด
+subscription.result.alreadyOn: คุณใช้ {0} อยู่แล้ว
+subscription.result.cancellationScheduled: กำหนดไว้แล้ว — แพ็กเกจยังใช้ได้จนจบรอบบิลนี้ แล้วจึงยกเลิก วันนี้ยังไม่เปลี่ยนอะไร
+subscription.result.cardDeclinedTryDifferent: บัตรถูกปฏิเสธ — ลองใช้บัตรใบอื่นที่พอร์ทัล
+subscription.result.changeScheduled: กำหนดไว้แล้ว — วันนี้แพ็กเกจยังไม่เปลี่ยน คุณจะใช้แพ็กเกจปัจจุบันจนจบรอบบิลนี้ แล้วสลับอัตโนมัติ
+subscription.result.couldNotPreview: ดูตัวอย่างการเปลี่ยนแปลงนี้ไม่ได้
+subscription.result.genericError: เกิดข้อผิดพลาด ลองอีกครั้ง หรือจัดการที่พอร์ทัล
+subscription.result.paymentFailed: บัตรถูกปฏิเสธ อัปเดตวิธีชำระเงินที่พอร์ทัลแล้วลองใหม่
+subscription.result.requiresAction: การอัปเกรดนี้ต้องยืนยันตัวตนเพิ่มเติม (3DS) กรุณาทำที่พอร์ทัลให้จบ
+subscription.result.resumed: ยกเลิกการเปลี่ยนแปลงที่รออยู่แล้ว — คุณจะใช้แพ็กเกจปัจจุบันต่อ
+subscription.result.scopeStillDenied: ยังไม่ได้รับสิทธิ์ใช้จ่ายระยะไกลสำหรับเครื่องนี้ — การอนุญาตไม่สำเร็จ ลองใหม่ หรือทำการเปลี่ยนแปลงนี้ได้ที่พอร์ทัล
+subscription.result.upgradeUnconfirmed: ยืนยันผลอัปเกรดไม่ได้ — บัตรอาจถูกเรียกเก็บหรือไม่ก็ได้ รัน /subscription อีกครั้งเพื่อเช็กแพ็กเกจก่อนลองใหม่
+subscription.result.upgraded: อัปเกรดเป็น {0} แล้ว เครดิตรายเดือนใหม่จะเข้าอีกสักครู่
+subscription.result.verifyCard: ยืนยันบัตรของคุณที่พอร์ทัลเพื่อทำการอัปเกรดนี้ให้จบ
+subscription.resultScreen.hint: ↑/↓ เลือก · Enter · Esc ปิด
+subscription.resultScreen.openPortalToFinish: เปิดพอร์ทัลเพื่อทำให้จบ
+subscription.resultScreen.rerunHint: รัน /subscription อีกครั้งได้ทุกเมื่อเพื่อดู
+subscription.resultScreen.stillApplying: อัปเกรดสำเร็จแล้ว กำลังดำเนินการ — รีเฟรชอีกครั้งในภายหลัง
+subscription.resultScreen.titleApplying: กำลังดำเนินการ…
+subscription.resultScreen.titleDone: เสร็จสิ้น
+subscription.resultScreen.titleFailed: ทำไม่สำเร็จ
+subscription.resultScreen.titleStillApplying: ยังดำเนินการอยู่
+subscription.shared.back: ย้อนกลับ
+subscription.shared.cancel: ยกเลิก
+subscription.shared.close: ปิด
+subscription.shared.freePlan: แพ็กเกจฟรี
+subscription.shared.manageOnPortal: จัดการที่พอร์ทัล
+subscription.shared.periodEndFallback: เมื่อจบรอบบิลนี้
+subscription.shared.theSelectedPlan: แพ็กเกจที่เลือก
+subscription.shared.thisPlan: แพ็กเกจนี้
+subscription.shared.yourNewPlan: แพ็กเกจใหม่ของคุณ
+subscription.shared.yourPlan: แพ็กเกจของคุณ
+subscription.status.cancels: ยกเลิก
+subscription.status.freePlan: 'แพ็กเกจ: ฟรี · ใช้ได้เฉพาะโมเดลฟรี'
+subscription.status.left: ' · เหลือ {0}'
+subscription.status.plan: 'แพ็กเกจ: {0}'
+subscription.status.renews: ' · ต่ออายุ {0}'
+subscription.status.transition: ' → {0}'
+subscription.status.viewOnly: ' · ดูอย่างเดียว'
+subscription.stepUp.allow: อนุญาตการใช้จ่ายระยะไกล
+subscription.stepUp.continue: ต่อไป
+subscription.stepUp.continueChange: ดำเนินการเปลี่ยนแปลงนี้ต่อ
+subscription.stepUp.granted: อนุญาตการใช้จ่ายระยะไกลแล้ว ดำเนินการต่อเพื่อทำการเปลี่ยนแปลงให้จบ
+subscription.stepUp.hint: ↑/↓ เลือก · Enter · Esc ย้อนกลับ
+subscription.stepUp.hintWaiting: รอการอนุมัติ… · Esc ยกเลิก
+subscription.stepUp.hintWorking: กำลังดำเนินการ…
+subscription.stepUp.promptBody: การเปลี่ยนแพ็กเกจต้องมีการอนุญาตการใช้จ่ายระยะไกลสำหรับเครื่องนี้ก่อน อนุญาตที่นี่แล้วทำต่อ
+subscription.stepUp.promptNote: ให้ผู้ที่มีสิทธิ์ด้านบิล (เจ้าของ แอดมิน หรือผู้จัดการการเงิน) อนุมัติในเบราว์เซอร์ครั้งเดียวก็พอ
+subscription.stepUp.resuming: กำลังดำเนินการเปลี่ยนแปลงของคุณ…
+subscription.stepUp.title: การใช้จ่ายระยะไกล
+subscription.stepUp.waiting: กำลังเปิดเบราว์เซอร์เพื่ออนุมัติ… ทำให้จบที่นั่นแล้วกลับมาที่นี่ — จะไม่มีการเรียกเก็บเงินก่อนที่คุณจะทำต่อ
+subscription.stepUpDenial.notAllowed: ไม่ได้รับอนุญาตให้ใช้จ่ายระยะไกล — ต้องมีผู้ที่มีสิทธิ์ด้านบิล (เจ้าของ แอดมิน หรือผู้จัดการการเงิน) อนุมัติ หรือคุณก็ทำการเปลี่ยนแปลงนี้ได้ที่พอร์ทัล
+subscription.stepUpDenial.rateLimited: ทำเกินจำนวนครั้งที่กำหนด — รอสักครู่แล้วลองใหม่
+subscription.stepUpDenial.remoteSpendingRevoked: การใช้จ่ายระยะไกลของเครื่องนี้ถูกปิดแล้ว — เชื่อมต่อใหม่จากพอร์ทัลแล้วลองอีกครั้ง
+subscription.stepUpDenial.sessionRevoked: เซสชันหมดอายุ — รัน /portal เพื่อเข้าสู่ระบบใหม่ แล้วลองเปลี่ยนอีกครั้ง
+subscription.team.body: เครื่องนี้เชื่อมต่อกับ {0} แล้ว ทีมใช้เครดิตร่วมกัน · ใช้ /topup เพื่อเพิ่มเงิน
+subscription.team.hint: Enter/Esc ปิด
+subscription.team.orgFallback: องค์กรหนึ่งของทีม
+subscription.team.personalNote: การสมัครสมาชิกส่วนตัวเป็นของบัญชีส่วนตัวของคุณ
+subscription.team.title: สมัครสมาชิกแบบทีม
+userMessages.backend.connectionLost: การเชื่อมต่อกับ Hermes หายไป — กำลังเชื่อมต่อใหม่และเปิดแชทของคุณอีกครั้ง…
+userMessages.backend.connectionLostActivity: การเชื่อมต่อหายไป · กำลังเชื่อมต่อใหม่…
+userMessages.backend.gaveUpActivity: Hermes หยุดทำงานแล้ว · ดู /logs สำหรับรายละเอียด
+userMessages.backend.gaveUpLogs: พิมพ์ /logs เพื่อดูล็อกทั้งหมด หรือ /quit แล้วรัน `hermes doctor` เพื่อตรวจการติดตั้ง
+userMessages.backend.gaveUpReconnect: Hermes จะพยายามเชื่อมต่อใหม่ในพื้นหลังอยู่เรื่อยๆ และจะเปิดแชทนี้อีกครั้งเมื่อสำเร็จ ถ้ายังไม่สำเร็จ ให้พิมพ์ /resume
+userMessages.backend.gaveUpTitle: Hermes หยุดทำงานและไม่สามารถเริ่มใหม่ได้ แชทของคุณถูกบันทึกแล้ว
+userMessages.backend.gaveUpTitleWithCode: Hermes หยุดทำงาน (รหัสออก {0}) และไม่สามารถเริ่มใหม่ได้ แชทของคุณถูกบันทึกแล้ว
+userMessages.backend.reconnecting: ลองอีกครั้งใน {0} วินาที
+userMessages.backend.reconnectingAttempt: ลองอีกครั้งใน {0} วินาที (ครั้งที่ {1})
+userMessages.backend.restarting: Hermes หยุดทำงานอย่างไม่คาดคิด — กำลังเริ่มใหม่และเปิดแชทของคุณอีกครั้ง (การตอบกลับที่ค้างอยู่จะหายไป)
+userMessages.backend.restartingActivity: Hermes หยุดทำงานอย่างไม่คาดคิด · กำลังเริ่มใหม่…
+userMessages.backend.slowStart: Hermes ใช้เวลาสตาร์ตนานกว่าปกติ ยังรออยู่… ถ้าเชื่อมต่อไม่ได้เลย พิมพ์ /logs เพื่อดูเอาต์พุตล่าสุดของแบ็กเอนด์ หรือ /quit แล้วรัน `hermes doctor`
+userMessages.backend.slowStartStatus: กำลังเริ่มทำงาน…
+userMessages.backend.stderrProblem: เกิดปัญหาภายใน Hermes · ดู /logs สำหรับรายละเอียด
+userMessages.backend.stderrProblemNamed: เกิดปัญหาภายใน Hermes ({0}) · ดู /logs สำหรับรายละเอียด
+userMessages.credential.currentProvider: ผู้ให้บริการปัจจุบัน
+userMessages.credential.missingKey: ยังไม่ได้ตั้งค่า API key สำหรับ {0} จึงส่งข้อความไม่ได้ พิมพ์ /model แล้วเลือก {0} เพื่อวางคีย์ (หรือรัน /setup)
+userMessages.details: 'รายละเอียด: {0}'
+userMessages.promptTimeout.secret: หน้าต่างกรอกคีย์ปิดไปแล้วเพราะไม่ได้รับตอบกลับตรงเวลา ขั้นตอนที่ต้องการคีย์จึงถูกข้าม กรุณาส่งคำขอใหม่เมื่อพร้อมกรอก
+userMessages.promptTimeout.sudo: หน้าต่างกรอกรหัสผ่านปิดไปแล้วเพราะไม่ได้รับตอบกลับตรงเวลา คำสั่งนี้จึงถูกข้าม กรุณาส่งคำขอใหม่เมื่อพร้อมกรอก
+userMessages.promptTimeout.vaultCode: หน้าต่างกรอกโค้ดยืนยันปิดไปแล้วเพราะไม่ได้รับตอบกลับตรงเวลา การเข้าสู่ระบบจึงถูกข้าม กรุณาส่งคำขอใหม่เมื่อมีโค้ดแล้ว
+userMessages.promptTimeout.vaultSaveLogin: หน้าต่างบันทึกข้อมูลล็อกอินปิดไปแล้วเพราะไม่ได้รับตอบกลับตรงเวลา จึงไม่มีอะไรถูกบันทึก กรุณาส่งคำขอใหม่เมื่อพร้อม
+userMessages.promptTimeout.vaultUnlockPrompt: หน้าต่างปลดล็อกปิดไปแล้วเพราะไม่ได้รับตอบกลับตรงเวลา ตัวจัดการรหัสผ่านจึงถูกล็อกอยู่ กรุณาส่งคำขอใหม่เมื่อพร้อมปลดล็อก
+userMessages.rpc.notConnected: Hermes ยังไม่ได้เชื่อมต่อ จึงยังไม่ได้ส่งข้อความเมื่อกี้ ระบบจะเชื่อมต่อใหม่เอง รอสักครู่แล้วลองอีกครั้ง ถ้าเป็นปัญหาต่อเนื่องให้พิมพ์ /logs
+userMessages.rpc.sessionNotFound: แชทนี้ไม่ได้เชื่อมต่อกับแบ็กเอนด์อีกต่อไป (ว่างไว้นานหรือแบ็กเอนด์รีสตาร์ท) ประวัติของคุณถูกบันทึกไว้แล้ว พิมพ์ /resume เพื่อเปิดใหม่
+userMessages.rpc.slashCrashed: '/{0} ทำไม่สำเร็จ: command helper เกิด crash ลองอีกครั้ง หรือพิมพ์ /logs เพื่อดู stack trace'
+userMessages.rpc.slashTimedOut: '/{0} ทำไม่สำเร็จ: command helper หมดเวลา ลองอีกครั้ง ถ้าเกิดซ้ำให้พิมพ์ /logs และรายงานบรรทัดสุดท้าย'
+userMessages.rpc.timedOut: Hermes ไม่ตอบกลับภายใน {0} วินาที ลองอีกครั้ง ถ้าเกิดซ้ำให้พิมพ์ /logs และรายงานบรรทัดสุดท้าย
+userMessages.rpc.versionSkew: เวอร์ชันของ terminal UI กับแบ็กเอนด์ Hermes ไม่เข้ากัน รัน /update หรือออกจากโปรแกรมแล้วรัน `hermes update` แล้วเปิด TUI ใหม่
+userMessages.skills.noneInstalled: ยังไม่ได้ติดตั้งทักษะใด ๆ พิมพ์ /skills browse เพื่อเรียกดูแคตตาล็อก หรือ /skills install <name>
+userMessages.turn.code.auth.hint: แก้คีย์ด้วย /model แล้วส่ง /retry
+userMessages.turn.code.auth.title: ผู้ให้บริการโมเดลปฏิเสธ API key นี้
+userMessages.turn.code.authPermanent.hint: แก้คีย์ด้วย /model แล้วส่ง /retry
+userMessages.turn.code.authPermanent.title: ผู้ให้บริการโมเดลปฏิเสธ API key นี้
+userMessages.turn.code.billing.hint: เติมเครดิตเข้าบัญชี หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.code.billing.title: ผู้ให้บริการโมเดลรายงานว่าเครดิตหมดแล้ว
+userMessages.turn.code.billingUnverified.hint: เติมเครดิตเข้าบัญชี หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.code.billingUnverified.title: ผู้ให้บริการโมเดลรายงานว่าเครดิตหมดแล้ว
+userMessages.turn.code.contentPolicyBlocked.hint: พูดใหม่ในอีกแบบแล้วส่งซ้ำ
+userMessages.turn.code.contentPolicyBlocked.title: ผู้ให้บริการโมเดลปฏิเสธคำขอนี้ (นโยบายเนื้อหา)
+userMessages.turn.code.contextOverflow.hint: รัน /compress แล้วส่ง /retry
+userMessages.turn.code.contextOverflow.title: การสนทนายาวเกินขีดจำกัดของโมเดลนี้
+userMessages.turn.code.formatError.hint: ลองส่ง /retry ถ้ายังไม่สำเร็จให้สลับโมเดลด้วย /model
+userMessages.turn.code.formatError.hintNoRetry: เลือกโมเดลอื่นด้วย /model ถ้ายังไม่สำเร็จให้สลับด้วย /model
+userMessages.turn.code.formatError.title: ผู้ให้บริการโมเดลปฏิเสธรูปแบบคำขอ
+userMessages.turn.code.modelNotFound.hint: เลือกโมเดลอื่นด้วย /model
+userMessages.turn.code.modelNotFound.title: ผู้ให้บริการโมเดลไม่รู้จักโมเดลนี้
+userMessages.turn.code.overloaded.hint: รอสักครู่แล้วส่ง /retry
+userMessages.turn.code.overloaded.title: ผู้ให้บริการโมเดลโหลดหนักเกินไป
+userMessages.turn.code.payloadTooLarge.hint: รัน /compress แล้วส่ง /retry
+userMessages.turn.code.payloadTooLarge.title: คำขอนี้ใหญ่เกินไปสำหรับโมเดลนี้
+userMessages.turn.code.providerPolicyBlocked.hint: สลับผู้ให้บริการด้วย /model
+userMessages.turn.code.providerPolicyBlocked.title: ผู้ให้บริการโมเดลปฏิเสธคำขอนี้ (นโยบายบัญชี)
+userMessages.turn.code.rateLimit.hint: รอสักครู่แล้วส่ง /retry
+userMessages.turn.code.rateLimit.title: ผู้ให้บริการโมเดลจำกัดอัตราการเรียกใช้งานอยู่
+userMessages.turn.code.serverError.hint: รอสักครู่แล้วส่ง /retry
+userMessages.turn.code.serverError.title: ผู้ให้บริการโมเดลเกิดข้อผิดพลาดภายใน
+userMessages.turn.code.sslCertVerification.hint: ตรวจ certificate ของ endpoint แล้วส่ง /retry
+userMessages.turn.code.sslCertVerification.title: ยืนยันการเชื่อมต่อกับผู้ให้บริการโมเดลไม่ได้ (TLS)
+userMessages.turn.code.timeout.hint: ลองส่ง /retry ถ้าเกิดซ้ำให้สลับโมเดลด้วย /model
+userMessages.turn.code.timeout.hintNoRetry: เลือกโมเดลอื่นด้วย /model ถ้าเกิดซ้ำให้สลับด้วย /model
+userMessages.turn.code.timeout.title: ผู้ให้บริการโมเดลไม่ตอบกลับทันเวลา
+userMessages.turn.code.upstreamBlocked.hint: ตั้ง User-Agent ผ่าน extra_headers ของผู้ให้บริการ หรือสลับด้วย /model
+userMessages.turn.code.upstreamBlocked.title: คำขอถูก firewall/CDN หน้าผู้ให้บริการโมเดลบล็อก
+userMessages.turn.code.upstreamRateLimit.hint: รอสักครู่แล้วส่ง /retry
+userMessages.turn.code.upstreamRateLimit.title: ผู้ให้บริการโมเดลจำกัดอัตราการเรียกใช้งานอยู่
+userMessages.turn.fallback.hint: ส่ง /retry หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.fallback.hintNoRetry: เลือกโมเดลอื่นด้วย /model หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.fallback.title: คำขอล้มเหลว
+userMessages.turn.layer.auth.hint: แก้ credentials ด้วย /model แล้วส่ง /retry
+userMessages.turn.layer.auth.title: ผู้ให้บริการโมเดลปฏิเสธ credentials
+userMessages.turn.layer.billing.hint: เติมเครดิตเข้าบัญชี หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.layer.billing.title: ผู้ให้บริการโมเดลรายงานว่าเครดิตหมดแล้ว
+userMessages.turn.layer.disk.hint: คืนพื้นที่บางส่วนแล้วส่ง /retry
+userMessages.turn.layer.disk.title: ดิสก์เต็ม Hermes บันทึกเทิร์นนี้ไม่ได้
+userMessages.turn.layer.endpoint.hint: ตรวจว่า endpoint ทำงานอยู่แล้วส่ง /retry
+userMessages.turn.layer.endpoint.title: endpoint โมเดลที่คุณกำหนดเองไม่ตอบกลับ
+userMessages.turn.layer.gateway.hint: ส่ง /retry หรือพิมพ์ /logs เพื่อดู stack trace
+userMessages.turn.layer.gateway.hintNoRetry: เลือกโมเดลอื่นด้วย /model หรือพิมพ์ /logs เพื่อดู stack trace
+userMessages.turn.layer.gateway.title: Hermes เกิดข้อผิดพลาดภายในขณะรันเทิร์นนี้
+userMessages.turn.layer.provider.hint: ส่ง /retry หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.layer.provider.hintNoRetry: เลือกโมเดลอื่นด้วย /model หรือสลับผู้ให้บริการด้วย /model
+userMessages.turn.layer.provider.title: ผู้ให้บริการโมเดลตอบกลับมาพร้อมข้อผิดพลาด
+userMessages.turn.layer.streaming.hint: ส่ง /retry
+userMessages.turn.layer.streaming.hintNoRetry: เลือกโมเดลอื่นด้วย /model
+userMessages.turn.layer.streaming.title: การเชื่อมต่อกับผู้ให้บริการโมเดลขาดระหว่างการตอบกลับ
+userMessages.turn.notAnswered: '{0} ข้อความของคุณไม่ได้รับการตอบกลับ'
+userMessages.turn.withProvider: '{0} ({1})'

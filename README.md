@@ -4,10 +4,9 @@
 
 Thai (ภาษาไทย) language pack for [Hermes Agent](https://github.com/NousResearch/hermes-agent).
 
-Translates the Hermes Desktop UI to Thai. Currently covers **5,024 / 5,030 keys** of the
-Desktop catalog. The remaining 6 keys use English fallback because they need
-arrays or conditional logic that the YAML overlay format cannot express —
-they are listed in [Known limitations](#known-limitations) below.
+Translates the Hermes UI to Thai across **all three surfaces** — Desktop, core
+(CLI / gateway / messaging platforms), and the Ink TUI — **9,720 / 9,726 keys
+(99.9%)**. Checked against the English catalogs with `hermes plugins validate`.
 
 ## Install
 
@@ -24,13 +23,18 @@ app picks up the language immediately when you switch it in Settings.
 | Surface | Status | Keys |
 |---------|--------|------|
 | Desktop | Translated | 5,024 / 5,030 |
-| CLI / gateway | Not yet | 0 |
-| TUI (`hermes --tui`) | Not yet | 0 |
+| Core (CLI / gateway / platforms) | Translated | 3,437 / 3,437 |
+| TUI (`hermes --tui`) | Translated | 1,259 / 1,259 |
+| **Total** | | **9,720 / 9,726 (99.9%)** |
+
+Core groups: `cli` (1,497), `gateway` (815), `platform` (418 — Telegram, Discord,
+Slack, WhatsApp, Matrix, …), `tips` (388), `slash` (119), `display` (132),
+`approval` (38), `explainer` (30).
 
 ## Known limitations
 
-Six keys fall back to English because the YAML overlay format only supports
-plain text and positional `{0}` placeholders, not arrays or conditionals:
+Six Desktop keys fall back to English because the YAML overlay format only
+supports plain text and positional `{0}` placeholders, not arrays or conditionals:
 
 | Key | Type | Impact |
 |-----|------|--------|
@@ -48,8 +52,9 @@ TypeScript catalog shape.
 ## Contributing
 
 Found a typo or want to add a missing key? Open an issue or a pull request.
-The `locales/th.desktop.yaml` file is a flat nested YAML — edit the Thai
-value in place and keep the structure unchanged.
+The `locales/*.yaml` files are flat YAML overlays — edit the Thai value in
+place and keep the structure unchanged. Placeholders (`{0}`, `{1}`), CLI flags,
+slash commands, env vars, and brand names must be preserved verbatim.
 
 ## License
 

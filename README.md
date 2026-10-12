@@ -5,7 +5,7 @@
 Thai (ภาษาไทย) language pack for [Hermes Agent](https://github.com/NousResearch/hermes-agent).
 
 Translates the Hermes UI to Thai across **all three surfaces** — Desktop, core
-(CLI / gateway / messaging platforms), and the Ink TUI — **9,720 / 9,726 keys
+(CLI / gateway / messaging platforms), and the Ink TUI — **9,719 / 9,725 keys
 (99.9%)**. Checked against the English catalogs with `hermes plugins validate`.
 
 ## Install
@@ -22,10 +22,10 @@ app picks up the language immediately when you switch it in Settings.
 
 | Surface | Status | Keys |
 |---------|--------|------|
-| Desktop | Translated | 5,024 / 5,030 |
+| Desktop | Translated | 5,023 / 5,030 |
 | Core (CLI / gateway / platforms) | Translated | 3,437 / 3,437 |
 | TUI (`hermes --tui`) | Translated | 1,259 / 1,259 |
-| **Total** | | **9,720 / 9,726 (99.9%)** |
+| **Total** | | **9,719 / 9,725 (99.9%)** |
 
 Core groups: `cli` (1,497), `gateway` (815), `platform` (418 — Telegram, Discord,
 Slack, WhatsApp, Matrix, …), `tips` (388), `slash` (119), `display` (132),
@@ -33,7 +33,7 @@ Slack, WhatsApp, Matrix, …), `tips` (388), `slash` (119), `display` (132),
 
 ## Known limitations
 
-Six Desktop keys fall back to English because the YAML overlay format only
+Seven Desktop keys fall back to English because the YAML overlay format only
 supports plain text and positional `{0}` placeholders, not arrays or conditionals:
 
 | Key | Type | Impact |
@@ -44,6 +44,7 @@ supports plain text and positional `{0}` placeholders, not arrays or conditional
 | `sidebar.projects.toggle` | Conditional function | English "Show/Hide sessions" label |
 | `sidebar.projects.branchOff` | Object-returning function | English "branch off" label in branch picker |
 | `intro.custom` | Array-returning function | English fallback intro text (main intro still works) |
+| `yoloSystem` | Conditional function | English "YOLO on/off for this session" label |
 
 These can be resolved by contributing Thai to the bundled catalogs in the
 upstream repo (`apps/desktop/src/i18n/th.ts`), which supports the full

@@ -942,7 +942,7 @@ slashCmd.session.personality.changed: 'บุคลิกภาพ: {0}'
 slashCmd.session.personality.changedCleared: 'บุคลิกภาพ: {0} · ล้างบันทึกการสนทนาแล้ว'
 slashCmd.session.personality.defaultValue: ค่าเริ่มต้น
 slashCmd.session.pet.noOutput: '/pet: ไม่มีผลลัพธ์'
-slashCmd.session.pet.warning: "เตือน: {0}\n\n  {1}"
+slashCmd.session.pet.warning: "เตือน: {0}\n{1}"
 slashCmd.session.reasoning.current: 'การให้เหตุผล: {0}'
 slashCmd.session.reasoning.currentWithDisplay: 'การให้เหตุผล: {0} · แสดง {1}'
 slashCmd.session.sessions.busyGuardAction: สลับเซสชัน

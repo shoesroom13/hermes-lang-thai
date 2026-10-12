@@ -27,7 +27,7 @@ approval:
     denied: คุณได้ปฏิเสธ{noun}นี้ — จึงไม่ถูกรัน
     timeout: ไม่ได้รับการตอบกลับภายใน {window} — {noun}นี้ไม่ถูกรัน
     notify_failed: ส่งคำขออนุมัติไม่สำเร็จ — {noun}นี้ไม่ถูกรัน
-    cancelled: คำขออนุมัติถูถอนออกหรือไม่ส่งถึงคุณ — {noun}นี้ไม่ถูกรัน
+    cancelled: คำขออนุมัติถูกถอนออกหรือไม่ส่งถึงคุณ — {noun}นี้ไม่ถูกรัน
     blocked: ไม่ได้รับอนุญาตให้รัน{noun}นี้ในเซสชันที่ไม่มีการดูแล
     default: '{noun}นี้ไม่ถูกรัน'
   noun:
@@ -413,36 +413,12 @@ cli:
     palette_hint: พิมพ์เพื่อกรอง {total} คำสั่ง — ↑/↓ แล้ว Enter เพื่อแทรก, Esc เพื่อยกเลิก
     palette_empty: (ไม่มีคำสั่งที่ตรงกัน)
     vault_code_title: 🔐 รหัสยืนยันสำหรับ {site}
-    vault_code_body: '{site} ต้องการรหัสใช้ครั้งเดียว (ข้อความ อีเมล หรือแอปยืนยันตัวตน)
-
-
-      พิมพ์รหัสแล้วกด Enter — {agent_name} จะกรอกให้คุณ
-
-
-      กด Enter ที่บรรทัดว่างเพื่อข้าม โมเดลไม่เห็นรหัสนี้'
+    vault_code_body: "{site} ต้องการรหัสใช้ครั้งเดียว (ข้อความ อีเมล หรือแอปยืนยันตัวตน)\nพิมพ์รหัสแล้วกด Enter — {agent_name} จะกรอกให้คุณ\nกด Enter ที่บรรทัดว่างเพื่อข้าม โมเดลไม่เห็นรหัสนี้"
     vault_save_title: 🔐 บันทึกการเข้าสู่ระบบสำหรับ {site}
-    vault_save_body: 'agent ถึงหน้าเข้าสู่ระบบที่ยังไม่มีข้อมูลบันทึกไว้สำหรับเว็บนี้
-
-
-      พิมพ์อีเมล / ชื่อผู้ใช้ที่คุณใช้เข้าสู่ระบบ (จะแสดง) แล้วกด Enter
-
-
-      กด Enter ที่บรรทัดว่างเพื่อข้าม ไม่มีอะไรที่นี่แสดงให้โมเดลเห็น'
-    vault_save_pw_body: 'ตอนนี้เป็นรหัสผ่าน (ซ่อน) มันถูกเข้ารหัสบนเครื่องนี้ ผูกกับ
-
-
-      {origin} และถูกกรอกเข้าหน้าได้โดยโมเดลไม่เคยเห็นมัน
-
-
-      กด Enter ที่บรรทัดว่างเพื่อข้าม'
+    vault_save_body: "agent ถึงหน้าเข้าสู่ระบบที่ยังไม่มีข้อมูลบันทึกไว้สำหรับเว็บนี้\nพิมพ์อีเมล / ชื่อผู้ใช้ที่คุณใช้เข้าสู่ระบบ (จะแสดง) แล้วกด Enter\nกด Enter ที่บรรทัดว่างเพื่อข้าม ไม่มีอะไรที่นี่แสดงให้โมเดลเห็น"
+    vault_save_pw_body: "ตอนนี้เป็นรหัสผ่าน (ซ่อน) มันถูกเข้ารหัสบนเครื่องนี้ ผูกกับ\n{origin} และถูกกรอกเข้าหน้าได้โดยโมเดลไม่เคยเห็นมัน\nกด Enter ที่บรรทัดว่างเพื่อข้าม"
     vault_unlock_title: 🔐 ปลดล็อก {backend}
-    vault_unlock_body: 'agent ต้องการเข้าสู่ระบบเว็บด้วยข้อมูลที่บันทึกไว้ใน {backend}
-
-
-      พิมพ์ master password ของคุณ (ซ่อน) เพื่อปลดล็อกสำหรับเซสชันนี้
-
-
-      กด Enter ที่บรรทัดว่างเพื่อล็อกไว้ โมเดลไม่เห็นรหัสผ่าน'
+    vault_unlock_body: "agent ต้องการเข้าสู่ระบบเว็บด้วยข้อมูลที่บันทึกไว้ใน {backend}\nพิมพ์ master password ของคุณ (ซ่อน) เพื่อปลดล็อกสำหรับเซสชันนี้\nกด Enter ที่บรรทัดว่างเพื่อล็อกไว้ โมเดลไม่เห็นรหัสผ่าน"
     sudo_title: 🔐 ต้องการรหัสผ่าน Sudo
     sudo_body: พิมพ์รหัสผ่านด้านล่าง (ซ่อน) หรือกด Enter เพื่อข้าม
     secret_title: 🔑 ต้องการตั้งค่าสกิล
@@ -500,30 +476,15 @@ cli:
     activated_skills_label: 'สกิลที่เปิดใช้:'
     redaction_disabled_title: ⚠  การปกปิดข้อมูลลับถูกปิดใช้
     redaction_disabled_body: (HERMES_REDACT_SECRETS={value}) API key และโทเคนอาจปรากฏเต็มรูปแบบในผลลัพธ์แชท, session JSON และบันทึก ตั้ง {setting} ใน config.yaml เพื่อเปิดใช้อีกครั้ง
-    stdin_unavailable: 'ข้อผิดพลาด: stdin (fd 0) ไม่พร้อมใช้งาน
-
-
-      อาจเกิดกับการติดตั้ง Python บางแบบ (เช่น uv-managed cPython บน macOS)
-
-
-      ลองติดตั้ง Python ใหม่ด้วย pyenv หรือ Homebrew แล้วรันใหม่: hermes setup'
+    stdin_unavailable: "ข้อผิดพลาด: stdin (fd 0) ไม่พร้อมใช้งาน\nอาจเกิดกับการติดตั้ง Python บางแบบ (เช่น uv-managed cPython บน macOS)\nลองติดตั้ง Python ใหม่ด้วย pyenv หรือ Homebrew แล้วรันใหม่: hermes setup"
     shutting_down: กำลังปิดระบบ… (กำลังสรุปเซสชัน)
     session_deleted: ✓ ลบเซสชัน {session_id} แล้ว
     session_delete_missing: ✗ ไม่พบเซสชัน {session_id} สำหรับการลบ
   voice:
-    err_termux_app_missing: 'ตรวจพบแพ็กเกจคำสั่ง Termux:API แต่แอป Android หายไป
-
-
-      ติดตั้ง/อัปเดตแอป Android Termux:API แล้วลอง /voice on อีกครั้ง'
-    err_mic_access: 'โหมดเสียงต้องการสิทธิ์เข้าถึงไมโครโฟน
-
-
-      รัน pkg install termux-api และติดตั้งแอป Android Termux:API แล้วลอง /voice on อีกครั้ง'
+    err_termux_app_missing: "ตรวจพบแพ็กเกจคำสั่ง Termux:API แต่แอป Android หายไป\nติดตั้ง/อัปเดตแอป Android Termux:API แล้วลอง /voice on อีกครั้ง"
+    err_mic_access: "โหมดเสียงต้องการสิทธิ์เข้าถึงไมโครโฟน\nรัน pkg install termux-api และติดตั้งแอป Android Termux:API แล้วลอง /voice on อีกครั้ง"
     err_audio_capture: โหมดเสียงต้องมีการบันทึกเสียง
-    err_stt_provider: 'โหมดเสียงต้องการผู้ให้บริการ STT สำหรับถอดเสียง
-
-
-      รัน hermes tools และตั้งค่า Speech-to-Text แล้วรีสตาร์ท Hermes'
+    err_stt_provider: "โหมดเสียงต้องการผู้ให้บริการ STT สำหรับถอดเสียง\nรัน hermes tools และตั้งค่า Speech-to-Text แล้วรีสตาร์ท Hermes"
     silence_autostop: ตรวจพบความเงียบ — หยุดอัตโนมัติ...
     hint_continuous: หยุดอัตโนมัติเมื่อเงียบ | {shortcut} เพื่อหยุดและออกจากโหมดต่อเนื่อง
     hint_termux: การบันทึกผ่าน Termux:API | {shortcut} เพื่อหยุด
@@ -1593,10 +1554,7 @@ cli:
     unknown: คำขอโมเดลล้มเหลว รัน /model เพื่อสลับ หรือ `hermes doctor` เพื่อตรวจการตั้งค่า
     the_provider: ผู้ให้บริการ
     the_current_model: โมเดลปัจจุบัน
-    with_details: '{lead}
-
-
-      รายละเอียด: {details}'
+    with_details: "{lead}\nรายละเอียด: {details}"
     agent_init_failed: 'Hermes เริ่มการเชื่อมต่อโมเดลไม่สำเร็จ: {error} ข้อความของคุณไม่ได้ส่ง รัน `hermes doctor` เพื่อตรวจการตั้งค่า หรือ /model เพื่อเลือกผู้ให้บริการอื่น'
   gateway:
     starting: กำลังเริ่ม Hermes Gateway (แพลตฟอร์มข้อความ)...
@@ -1925,7 +1883,7 @@ explainer:
     locked: เทิร์นนี้หยุดลงเพราะที่จัดเก็บข้อมูลเซสชันถูกใช้งานอยู่ (โพรเซส Hermes อื่นกำลังเขียนลงฐานข้อมูลสถานะ) ข้อความของคุณน่าจะถูกบันทึกแล้ว — โปรดส่งอีกครั้งในครู่เดียว
     replaced: ไฟล์ฐานข้อมูลเซสชันถูกแทนที่ขณะ Hermes กำลังทำงาน ข้อความนี้จึงไม่ได้ถูกบันทึก (เก็บสำเนาอยู่ที่ {home}/sessions/) ให้หยุด Hermes (`hermes {profile_arg}gateway stop`) แล้วรัน `hermes {profile_arg}doctor` — ไม่ใช่ `hermes {profile_arg}doctor --fix` เพราะคำสั่งนั้นจะไปซ่อมไฟล์ผิดตัวแทน — จากนั้นเริ่มใหม่แล้วส่งข้อความของคุณอีกครั้ง ขั้นตอนการกู้คืนขั้นสูงอยู่ในล็อก
     deleted_wal: 'โพรเซส Hermes อื่นยังถือสำเนาเก่าของ write-ahead log ของฐานข้อมูลเซสชันอยู่ จึงหยุดการเขียนเพื่อรักษาไฟล์ให้ปลอดภัย และข้อความนี้ไม่ได้ถูกบันทึก (เก็บสำเนาอยู่ที่ {home}/sessions/) ไม่มีข้อมูลหายเลย ให้ปิดโพรเซส Hermes ทั้งหมดของโปรไฟล์นี้ (แอป Desktop, `hermes {profile_arg}gateway stop`, dashboard, cron) แล้วรัน `hermes {profile_arg}doctor` — มันจะระบุโพรเซสที่ยังถือล็อกอยู่ — จากนั้นเริ่ม Hermes ใหม่และส่งข้อความของคุณอีกครั้ง ห้ามรัน `doctor --fix` หรือลบไฟล์ state.db ใด ๆ ขณะที่ยังทำงานอยู่ คู่มือ: {recovery_docs}'
-    corrupt: "เทิร์นนี้หยุดลงเพราะฐานข้อมูลสถานะรายงานความเสียหายเชิงโครงสร้าง (ถ้าเริ่มใหม่ บทสนทนาจะหายทั้งหมด) การเคลียร์พื้นที่ดิสก์ไม่ช่วยอะไร ตัวเลือกการกู้คืน:\n1. รัน `hermes {profile_arg}doctor --fix`\n2. หยุดเกตเวย์ แล้วกู้คืนด้วย:\n   hermes {profile_arg}sessions recover --source {db_path} --inspect-only\n   (ถ้ารายงานว่ากู้คืนได้) hermes {profile_arg}sessions recover --source {db_path} --output recovered-state.db\n   — การกู้คืนจะสำรองไฟล์ที่เสียหายก่อน ห้ามรัน `sqlite3 ... \\\".recover\\\"` กับ state.db ที่กำลังทำงานอยู่ เพราะ sqlite3 CLI ที่มีช่องโหว่อาจทำให้เสียหายมากกว่านี้\n3. กู้คืนจากสำเนาสำรองใน {backups_dir}/\nจากนั้นส่งข้อความของคุณอีกครั้ง"
+    corrupt: "เทิร์นนี้หยุดลงเพราะฐานข้อมูลสถานะรายงานความเสียหายเชิงโครงสร้าง (ถ้าเริ่มใหม่ บทสนทนาจะหายทั้งหมด) การเคลียร์พื้นที่ดิสก์ไม่ช่วยอะไร ตัวเลือกการกู้คืน:\n1. รัน `hermes {profile_arg}doctor --fix`\n2. หยุดเกตเวย์ แล้วกู้คืนด้วย:\n   hermes {profile_arg}sessions recover --source {db_path} --inspect-only\n   (ถ้ารายงานว่ากู้คืนได้) hermes {profile_arg}sessions recover --source {db_path} --output recovered-state.db\n   — การกู้คืนจะสำรองไฟล์ที่เสียหายก่อน ห้ามรัน `sqlite3 ... \".recover\"` กับ state.db ที่กำลังทำงานอยู่ เพราะ sqlite3 CLI ที่มีช่องโหว่อาจทำให้เสียหายมากกว่านี้\n3. กู้คืนจากสำเนาสำรองใน {backups_dir}/\nจากนั้นส่งข้อความของคุณอีกครั้ง"
     fts_index: 'เทิร์นนี้หยุดลงเพราะดัชนีการค้นหาของเซสชัน (FTS5) เสียหายและถอดออกไม่ได้ ข้อความนี้จึงไม่ได้ถูกบันทึก ตัวเก็บข้อความเองไม่เสียหาย: ห้ามรันเครื่องมือกู้คืนหรือกู้คืนจากสำเนาสำรอง รัน `hermes {profile_arg}doctor --fix` (หรือรีสตาร์ท Hermes ซึ่งจะซ่อมดัชนีตอนเปิด) แล้วส่งข้อความของคุณอีกครั้ง'
     disk: 'Hermes บันทึกบทสนทนานี้ลงดิสก์ไม่ได้ จึงหยุดทำงานแทนที่จะให้ข้อความของคุณหาย ดิสก์อาจจะเต็ม: คืนพื้นที่ว่าง (หรือแก้ไขสิทธิ์ของ {home}/state.db) แล้วส่งข้อความของคุณอีกครั้ง'
     default: 'Hermes บันทึกบทสนทนานี้ไม่ได้ จึงหยุดทำงานแทนที่จะให้ข้อความของคุณหาย สาเหตุที่เป็นไปได้: ไดรฟ์เต็มพื้นที่ หรือโพรเซส Hermes อื่นกำลังถือฐานข้อมูลอยู่ ปิดหน้าต่าง Hermes อื่น ๆ รัน `hermes {profile_arg}doctor` เพื่อตรวจสอบที่จัดเก็บข้อมูล แล้วส่งข้อความของคุณอีกครั้ง'
@@ -1967,7 +1925,7 @@ gateway:
     err_stale_override: บันทึกลง config.yaml แล้ว แต่การโอเวอร์ไรด์ของเซสชันที่เก่าไม่ได้ถูกล้าง ({error})
     next_turn_only: '    (เทิร์นถัดไปเท่านั้น — กลับเป็นค่าเดิมหลังจากตอบหนึ่งครั้ง)'
     switch_cancelled: 🟡 ยกเลิกการสลับโมเดลแล้ว โมเดลปัจจุบันไม่เปลี่ยน ({model})
-    guard_confirm: "⚠️ **{title}**\n\n\n      {message}\n\n\n      _ทางเลือกสำรองด้วยข้อความ: ตอบกลับ `{prefix}approve` เพื่อสลับ หรือ `{prefix}cancel` เพื่อคงโมเดลปัจจุบัน_"
+    guard_confirm: "⚠️ **{title}**\n\n{message}\n\n_ทางเลือกสำรองด้วยข้อความ: ตอบกลับ `{prefix}approve` เพื่อสลับ หรือ `{prefix}cancel` เพื่อคงโมเดลปัจจุบัน_"
   agents:
     header: 🤖 **เอเจนต์และงานที่ทำงานอยู่**
     active_agents: '**เอเจนต์ที่ทำงานอยู่:** {count}'
@@ -1993,36 +1951,36 @@ gateway:
     always_singular: ✅ อนุมัติคำสั่งแล้ว (อนุมัติแพตเทิร์นนี้แบบถาวร) เอเจนต์กำลังทำงานต่อ...
     always_plural: ✅ อนุมัติคำสั่งแล้ว (อนุมัติแพตเทิร์นนี้แบบถาวร) ({count} คำสั่ง) เอเจนต์กำลังทำงานต่อ...
   background:
-    usage: "การใช้งาน: /bg <พรอมต์>\n\n      ตัวอย่าง: /bg Summarize the top HN stories today\n\n\n      รันพรอมต์ในเซสชันแยก คุณแชทต่อได้ — ผลลัพธ์จะปรากฏที่นี่เมื่อเสร็จ"
-    started: "\U0001F504 เริ่มงานเบื้องหลังแล้ว: \"{preview}\"\n\n      รหัสงาน: {task_id}\n\n      คุณแชทต่อได้ — ผลลัพธ์จะปรากฏเมื่อเสร็จ"
+    usage: "การใช้งาน: /bg <พรอมต์>\nตัวอย่าง: /bg Summarize the top HN stories today\n\nรันพรอมต์ในเซสชันแยก คุณแชทต่อได้ — ผลลัพธ์จะปรากฏที่นี่เมื่อเสร็จ"
+    started: "\U0001F504 เริ่มงานเบื้องหลังแล้ว: \"{preview}\"\nรหัสงาน: {task_id}\nคุณแชทต่อได้ — ผลลัพธ์จะปรากฏเมื่อเสร็จ"
     task_finished: ✅ งานเบื้องหลังเสร็จแล้ว
     task_failed: ❌ งานเบื้องหลังล้มเหลว
     exit_code: รหัสออก {code}
-    last_output: ". ผลลัพธ์ล่าสุด:\n\n      ```\n\n      {tail}\n\n      ```"
-    rerun_hint: "\n\n      ขอให้ฉันรันอีกครั้งหรือแสดงล็อกทั้งหมดได้"
+    last_output: ". ผลลัพธ์ล่าสุด:\n```\n{tail}\n```"
+    rerun_hint: "\nขอให้ฉันรันอีกครั้งหรือแสดงล็อกทั้งหมดได้"
     no_credentials: ❌ งานเบื้องหลังเริ่มไม่ได้ เพราะยังไม่ได้ตั้งค่าการลงชื่อเข้าใช้โมเดล AI ใช้ /login หรือรัน `hermes setup` บนโฮสต์
-    complete_header: "✅ งานเบื้องหลังเสร็จสมบูรณ์\n\n      พรอมต์: \"{preview}\"\n\n\n      "
+    complete_header: "✅ งานเบื้องหลังเสร็จสมบูรณ์\nพรอมต์: \"{preview}\"\n\n"
     no_response: (ไม่มีผลลัพธ์ที่สร้างขึ้น)
     failed: ❌ งานเบื้องหลัง "{preview}" ของคุณล้มเหลวก่อนเสร็จ ส่ง /bg อีกครั้งเพื่อลองใหม่ หรือใช้ /agents เพื่อดูว่าอะไรยังทำงานอยู่
-    final_output: "{header}\n\n\n      ผลลัพธ์สุดท้าย:\n\n      ```\n\n      {output}\n\n      ```"
+    final_output: "{header}\n\nผลลัพธ์สุดท้าย:\n```\n{output}\n```"
     still_running: ⏳ งานเบื้องหลังยังทำงานอยู่
-    recent_output: "{header}\n\n\n      ผลลัพธ์ล่าสุด:\n\n      ```\n\n      {output}\n\n      ```"
+    recent_output: "{header}\n\nผลลัพธ์ล่าสุด:\n```\n{output}\n```"
   btw:
-    usage: "การใช้งาน: /btw <คำถาม>\n\n      ตัวอย่าง: /btw which file was that error in?\n\n\n      ตอบคำถามยิบย่อยเกี่ยวกับบทสนทนานี้โดยไม่ขัดจังหวะ สำหรับงานเบื้องหลังแบบอิสระ ใช้ /bg <พรอมต์>"
+    usage: "การใช้งาน: /btw <คำถาม>\nตัวอย่าง: /btw which file was that error in?\n\nตอบคำถามยิบย่อยเกี่ยวกับบทสนทนานี้โดยไม่ขัดจังหวะ สำหรับงานเบื้องหลังแบบอิสระ ใช้ /bg <พรอมต์>"
     no_history: ยังไม่มีบทสนทนา — ส่งคำถามของคุณเป็นข้อความปกติแทน
     no_provider: '❌ ตอบคำถามยิบย่อยไม่ได้: ยังไม่ได้ตั้งค่าข้อมูลยืนยันผู้ให้บริการ'
-    started: "\U0001F4AC คำถามยิบย่อย: \"{preview}\"\n\n      กำลังตอบจากสแนปชอตของบทสนทนานี้ — งานปัจจุบันทำต่อ"
-    answer: "\U0001F4AC /btw: \"{preview}\"\n\n\n      {answer}"
-    failed: "❌ /btw ล้มเหลว: \"{preview}\"\n\n      {error}"
+    started: "\U0001F4AC คำถามยิบย่อย: \"{preview}\"\nกำลังตอบจากสแนปชอตของบทสนทนานี้ — งานปัจจุบันทำต่อ"
+    answer: "\U0001F4AC /btw: \"{preview}\"\n\n{answer}"
+    failed: "❌ /btw ล้มเหลว: \"{preview}\"\n{error}"
   branch:
     db_unavailable: ฐานข้อมูลเซสชันไม่พร้อมใช้งาน
     no_conversation: ไม่มีบทสนทนาที่จะแยก — ส่งข้อความก่อน
     create_failed: 'สร้างสาขาไม่สำเร็จ: {error}'
     switch_failed: สร้างสาขาแล้วแต่สลับไปไม่สำเร็จ
-    branched_one: "⑂ แยกไปที่ **{title}** (คัดลอก {count} ข้อความ)\n\n      เดิม: `{parent}`\n\n      สาขา: `{new}`\n\n      ใช้ `/resume` เพื่อกลับไปที่ต้นฉบับ"
-    branched_many: "⑂ แยกไปที่ **{title}** (คัดลอก {count} ข้อความ)\n\n      เดิม: `{parent}`\n\n      สาขา: `{new}`\n\n      ใช้ `/resume` เพื่อกลับไปที่ต้นฉบับ"
-    branched_thread_one: "⑂ แยกไปที่ **{title}** ในเธรดใหม่ (คัดลอก {count} ข้อความ)\n\n      เธรด: {thread}\n\n      เดิม: `{parent}` — แชทนี้ยังอยู่กับเดิม\n\n      สาขา: `{new}`\n\n      ใช้ `/branch --here` หากต้องการแยกในแชทนี้แทน"
-    branched_thread_many: "⑂ แยกไปที่ **{title}** ในเธรดใหม่ (คัดลอก {count} ข้อความ)\n\n      เธรด: {thread}\n\n      เดิม: `{parent}` — แชทนี้ยังอยู่กับเดิม\n\n      สาขา: `{new}`\n\n      ใช้ `/branch --here` หากต้องการแยกในแชทนี้แทน"
+    branched_one: "⑂ แยกไปที่ **{title}** (คัดลอก {count} ข้อความ)\nเดิม: `{parent}`\nสาขา: `{new}`\nใช้ `/resume` เพื่อกลับไปที่ต้นฉบับ"
+    branched_many: "⑂ แยกไปที่ **{title}** (คัดลอก {count} ข้อความ)\nเดิม: `{parent}`\nสาขา: `{new}`\nใช้ `/resume` เพื่อกลับไปที่ต้นฉบับ"
+    branched_thread_one: "⑂ แยกไปที่ **{title}** ในเธรดใหม่ (คัดลอก {count} ข้อความ)\nเธรด: {thread}\nเดิม: `{parent}` — แชทนี้ยังอยู่กับเดิม\nสาขา: `{new}`\nใช้ `/branch --here` หากต้องการแยกในแชทนี้แทน"
+    branched_thread_many: "⑂ แยกไปที่ **{title}** ในเธรดใหม่ (คัดลอก {count} ข้อความ)\nเธรด: {thread}\nเดิม: `{parent}` — แชทนี้ยังอยู่กับเดิม\nสาขา: `{new}`\nใช้ `/branch --here` หากต้องการแยกในแชทนี้แทน"
     thread_fallback: สร้างเธรดที่นี่ไม่ได้ สาขาจึงแทนที่เซสชันของแชทนี้
   commands:
     usage: 'การใช้งาน: `/commands [หน้า]`'
@@ -2066,15 +2024,15 @@ gateway:
     denied_reason_plural: '❌ ปฏิเสธคำสั่งแล้ว ({count} คำสั่ง) เหตุผลที่ส่งต่อไปยังเอเจนต์: "{reason}"'
   fast:
     not_supported: ⚡ /fast ใช้ได้เฉพาะโมเดล OpenAI ที่รองรับ Priority Processing
-    status: "⚡ Priority Processing\n\n\n      โหมดปัจจุบัน: `{mode}`\n\n\n      _การใช้งาน:_ `/fast <normal|fast|auto|cold|ultrafast|status>`"
-    unknown_arg: "⚠️ อาร์กิวเมนต์ที่ไม่รู้จัก: `{arg}`\n\n\n      **ตัวเลือกที่ใช้ได้:** normal, fast, auto, cold, ultrafast, status"
-    saved: "⚡ ✓ Priority Processing: **{label}** (บันทึกลง config แล้ว)\n\n      _(มีผลกับข้อความถัดไป)_"
+    status: "⚡ Priority Processing\n\nโหมดปัจจุบัน: `{mode}`\n\n_การใช้งาน:_ `/fast <normal|fast|auto|cold|ultrafast|status>`"
+    unknown_arg: "⚠️ อาร์กิวเมนต์ที่ไม่รู้จัก: `{arg}`\n\n**ตัวเลือกที่ใช้ได้:** normal, fast, auto, cold, ultrafast, status"
+    saved: "⚡ ✓ Priority Processing: **{label}** (บันทึกลง config แล้ว)\n_(มีผลกับข้อความถัดไป)_"
     session_only: '⚡ ✓ Priority Processing: **{label}** (เฉพาะเซสชันนี้)'
     label_fast: เร็ว
     label_normal: ปกติ
     status_fast: เร็ว
     status_normal: ปกติ
-    picker_title: "⚡ **Priority Processing**\n\n\n      โหมดปัจจุบัน: `{mode}`\n\n\n      เลือกตัวเลือก:"
+    picker_title: "⚡ **Priority Processing**\n\nโหมดปัจจุบัน: `{mode}`\n\nเลือกตัวเลือก:"
     choice_fast: fast — เปิด Priority Processing
     choice_normal: normal — ประมวลผลแบบมาตรฐาน
     choice_auto: auto — เร็วในช่วงแรกของทุกเทิร์น
@@ -2082,10 +2040,10 @@ gateway:
     choice_ultrafast: ultrafast — OpenAI Ultrafast (GPT-6 Astra, ราคา 6 เท่า)
     ultrafast_not_supported: '⚡ Ultrafast ใช้ได้เฉพาะ GPT-6 Astra (โมเดลปัจจุบัน: `{model}`)'
   footer:
-    status: "\U0001F4CE ฟุตเตอร์รันไทม์: **{state}**\n\n      ฟิลด์: `{fields}`\n\n      แพลตฟอร์ม: `{platform}`"
+    status: "\U0001F4CE ฟุตเตอร์รันไทม์: **{state}**\nฟิลด์: `{fields}`\nแพลตฟอร์ม: `{platform}`"
     usage: 'การใช้งาน: `/footer [on|off|status]`'
-    saved: "\U0001F4CE ฟุตเตอร์รันไทม์: **{state}**{example}\n\n      _(บันทึกแบบโกลบอลแล้ว — มีผลกับข้อความถัดไป)_"
-    example_line: "\n\n      ตัวอย่าง: `{preview}`"
+    saved: "\U0001F4CE ฟุตเตอร์รันไทม์: **{state}**{example}\n_(บันทึกแบบโกลบอลแล้ว — มีผลกับข้อความถัดไป)_"
+    example_line: "\nตัวอย่าง: `{preview}`"
     state_on: เปิด
     state_off: ปิด
   goal:
@@ -2093,14 +2051,14 @@ gateway:
     no_goal_set: ยังไม่ได้ตั้งเป้าหมาย
     paused: '⏸ หยุดเป้าหมายชั่วคราว: {goal}'
     no_resume: ไม่มีเป้าหมายให้ทำต่อ
-    resumed: "▶ ทำเป้าหมายต่อ: {goal}\n\n      ดำเนินการตอนนี้ — จะทำขั้นตอนถัดไปทันที"
+    resumed: "▶ ทำเป้าหมายต่อ: {goal}\nดำเนินการตอนนี้ — จะทำขั้นตอนถัดไปทันที"
     invalid: 'เป้าหมายไม่ถูกต้อง: {error}'
-    set: "⊙ ตั้งเป้าหมายแล้ว (งบ {budget} เทิร์น): {goal}\n\n      จะทำงานต่อจนเป้าหมายสำเร็จ คุณหยุดชั่วคราว/ล้าง หรืองบหมด\n\n      ควบคุมด้วย: /goal status · /goal pause · /goal resume · /goal clear"
+    set: "⊙ ตั้งเป้าหมายแล้ว (งบ {budget} เทิร์น): {goal}\nจะทำงานต่อจนเป้าหมายสำเร็จ คุณหยุดชั่วคราว/ล้าง หรืองบหมด\nควบคุมด้วย: /goal status · /goal pause · /goal resume · /goal clear"
     gate_add_admin_only: ⛔ /goal gate add ต้องมีการตั้งค่าผู้ดูแลเกตเวย์อย่างชัดเจน (allow_admin_from สำหรับ DM, group_allow_admin_from สำหรับกลุ่ม)
   help:
-    header: "\U0001F4D6 **คำสั่งของ Hermes**\n\n      "
-    skill_header: "\n\n      ⚡ **คำสั่งสกิล** ({count} รายการที่ใช้งานอยู่):"
-    more_use_commands: "\n\n      ... และอีก {count} รายการ ใช้ `/commands` เพื่อดูลิสต์ทั้งหมดแบบแบ่งหน้า"
+    header: "\U0001F4D6 **คำสั่งของ Hermes**\n"
+    skill_header: "\n⚡ **คำสั่งสกิล** ({count} รายการที่ใช้งานอยู่):"
+    more_use_commands: "\n... และอีก {count} รายการ ใช้ `/commands` เพื่อดูลิสต์ทั้งหมดแบบแบ่งหน้า"
   insights:
     invalid_days: 'ค่า --days ไม่ถูกต้อง: {value}'
     error: 'สร้างอินไซต์ผิดพลาด: {error}'
@@ -2120,9 +2078,9 @@ gateway:
       block_loop_detected: ส่งต่อไปยังการคัดกรองหลังจากติดขัดซ้ำหลายครั้ง; ต้องการความสนใจด้านออร์เคสตรেশন
       status_default: สถานะเปลี่ยน
       status_joiner: ', '
-      message: "[kanban] งาน {task_id} {status}.\n\n        หัวข้อ: {title}\n\n        ผู้รับผิดชอบ: @{assignee}\n\n        บอร์ด: {board}\n\n\n        ตรวจสอบผลลัพธ์หรือตัดสินใจขั้นตอนถัดไป"
+      message: "[kanban] งาน {task_id} {status}.\nหัวข้อ: {title}\nผู้รับผิดชอบ: @{assignee}\nบอร์ด: {board}\n\nตรวจสอบผลลัพธ์หรือตัดสินใจขั้นตอนถัดไป"
       handoff: 'ผลลัพธ์: {summary}'
-      review_detail: "ความคิดเห็นจากการตรวจสอบ: {reason}\n\n        ตรวจสอบการ์ดที่มีอยู่และรอบตรวจสอบปัจจุบัน แล้วส่งงานกลับไปยังงาน implement เดิม อย่าถือว่า BLOCK นี้เป็นการอนุมัติ และอย่าสร้างงานซ้ำ"
+      review_detail: "ความคิดเห็นจากการตรวจสอบ: {reason}\nตรวจสอบการ์ดที่มีอยู่และรอบตรวจสอบปัจจุบัน แล้วส่งงานกลับไปยังงาน implement เดิม อย่าถือว่า BLOCK นี้เป็นการอนุมัติ และอย่าสร้างงานซ้ำ"
       guidance: นี่คือการแจ้งเตือนสถานะงานอัตโนมัติ ไม่ใช่คำขอให้แยกงานใหม่อีกครั้ง ตรวจสอบบอร์ดปัจจุบันก่อนสร้างงานต่อเนื่อง อย่าสร้างงานหรือกราฟที่มีอยู่แล้วใหม่
     ping:
       completed: ✔ {head} เสร็จแล้ว — {title}{handoff}
@@ -2151,59 +2109,59 @@ gateway:
       head: '{board_tag}{assignee_tag}Kanban {task_id}'
   personality:
     none_configured: ยังไม่ได้ตั้งค่าพรีซอนาลิตี้ใน `{path}/config.yaml`
-    header: "\U0001F3AD **พรีซอนาลิตี้ที่มี**\n\n      "
+    header: "\U0001F3AD **พรีซอนาลิตี้ที่มี**\n"
     none_option: • `none` — (ไม่ใช้พรีซอนาลิตี้)
     item: • `{name}` — {preview}
-    usage: "\n\n      การใช้งาน: `/personality <name>`"
+    usage: "\nการใช้งาน: `/personality <name>`"
     save_failed: '⚠️ บันทึกการเปลี่ยนพรีซอนาลิตี้ไม่สำเร็จ: {error}'
-    cleared: "\U0001F3AD ล้างพรีซอนาลิตี้แล้ว — ใช้พฤติกรรมพื้นฐานของเอเจนต์\n\n      _(มีผลกับข้อความถัดไป)_"
-    set_to: "\U0001F3AD ตั้งพรีซอนาลิตี้เป็น **{name}** แล้ว\n\n      _(มีผลกับข้อความถัดไป)_"
-    unknown: "ไม่รู้จักพรีซอนาลิตี้: `{name}`\n\n\n      ที่มี: {available}"
+    cleared: "\U0001F3AD ล้างพรีซอนาลิตี้แล้ว — ใช้พฤติกรรมพื้นฐานของเอเจนต์\n_(มีผลกับข้อความถัดไป)_"
+    set_to: "\U0001F3AD ตั้งพรีซอนาลิตี้เป็น **{name}** แล้ว\n_(มีผลกับข้อความถัดไป)_"
+    unknown: "ไม่รู้จักพรีซอนาลิตี้: `{name}`\n\nที่มี: {available}"
     err_config_write: บันทึก config ไม่สำเร็จ
   profile:
     header: 👤 **โปรไฟล์:** `{profile}`
     home: 📂 **โฮม:** `{home}`
-    plain: "โปรไฟล์: {profile}\n\n      โฮม: {home}"
+    plain: "โปรไฟล์: {profile}\nโฮม: {home}"
   reasoning:
     level_default: ปานกลาง (ค่าเริ่มต้น)
     level_disabled: ไม่มี (ปิดใช้)
     scope_session: โอเวอร์ไรด์ของเซสชัน
     scope_global: config โกลบอล
-    status: "\U0001F9E0 **การตั้งค่าการให้เหตุผล**\n\n\n      **ระดับความพยายาม:** `{level}`\n\n      **ขอบเขต:** {scope}\n\n      **การแสดงผล:** {display}\n\n\n      _การใช้งาน:_ `/reasoning <none|minimal|low|medium|high|xhigh|max|ultra|reset|show|hide> [--global]`"
+    status: "\U0001F9E0 **การตั้งค่าการให้เหตุผล**\n\n**ระดับความพยายาม:** `{level}`\n**ขอบเขต:** {scope}\n**การแสดงผล:** {display}\n\n_การใช้งาน:_ `/reasoning <none|minimal|low|medium|high|xhigh|max|ultra|reset|show|hide> [--global]`"
     display_on: เปิด ✓
     display_off: ปิด
-    display_set_on: "\U0001F9E0 ✓ การแสดงการให้เหตุผล: **เปิด**\n\n      จะแสดงความคิดของโมเดลก่อนการตอบแต่ละครั้งบน **{platform}**"
+    display_set_on: "\U0001F9E0 ✓ การแสดงการให้เหตุผล: **เปิด**\nจะแสดงความคิดของโมเดลก่อนการตอบแต่ละครั้งบน **{platform}**"
     display_set_off: '🧠 ✓ การแสดงการให้เหตุผล: **ปิด** สำหรับ **{platform}**'
     reset_global_unsupported: ⚠️ ไม่รองรับ `/reasoning reset --global` ใช้ `/reasoning <level> --global` เพื่อเปลี่ยนค่าเริ่มต้นโกลบอล
     reset_done: 🧠 ✓ ล้างโอเวอร์ไรด์การให้เหตุผลของเซสชันแล้ว; จะย้อนกลับไปใช้ config โกลบอล
-    unknown_arg: "⚠️ อาร์กิวเมนต์ที่ไม่รู้จัก: `{arg}`\n\n\n      **ระดับที่ใช้ได้:** none, minimal, low, medium, high, xhigh, max, ultra\n\n      **การแสดงผล:** show, hide\n\n      **บันทึกถาวร:** เพิ่ม `--global` เพื่อบันทึกเกินกว่าระยะเซสชันนี้"
-    picker_title: "\U0001F9E0 **การตั้งค่าการให้เหตุผล**\n\n\n      **ระดับความพยายาม:** `{level}`\n\n      **ขอบเขต:** {scope}\n\n      **การแสดงผล:** {display}\n\n\n      เลือกตัวเลือก:"
+    unknown_arg: "⚠️ อาร์กิวเมนต์ที่ไม่รู้จัก: `{arg}`\n\n**ระดับที่ใช้ได้:** none, minimal, low, medium, high, xhigh, max, ultra\n**การแสดงผล:** show, hide\n**บันทึกถาวร:** เพิ่ม `--global` เพื่อบันทึกเกินกว่าระยะเซสชันนี้"
+    picker_title: "\U0001F9E0 **การตั้งค่าการให้เหตุผล**\n\n**ระดับความพยายาม:** `{level}`\n**ขอบเขต:** {scope}\n**การแสดงผล:** {display}\n\nเลือกตัวเลือก:"
     choice_none: none — ปิดการให้เหตุผล
     choice_reset: reset — ล้างโอเวอร์ไรด์ของเซสชัน
     choice_show: แสดงการให้เหตุผลในการตอบกลับ
     choice_hide: ซ่อนการให้เหตุผลจากการตอบกลับ
-    set_global: "\U0001F9E0 ✓ ตั้งระดับการให้เหตุผลเป็น `{effort}` (บันทึกลง config แล้ว)\n\n      _(มีผลกับข้อความถัดไป)_"
-    set_global_save_failed: "\U0001F9E0 ✓ ตั้งระดับการให้เหตุผลเป็น `{effort}` (เฉพาะเซสชันนี้ — บันทึก config ไม่สำเร็จ)\n\n      _(มีผลกับข้อความถัดไป)_"
-    set_session: "\U0001F9E0 ✓ ตั้งระดับการให้เหตุผลเป็น `{effort}` (เฉพาะเซสชันนี้ — เพิ่ม `--global` เพื่อบันทึกถาวร)\n\n      _(มีผลกับข้อความถัดไป)_"
+    set_global: "\U0001F9E0 ✓ ตั้งระดับการให้เหตุผลเป็น `{effort}` (บันทึกลง config แล้ว)\n_(มีผลกับข้อความถัดไป)_"
+    set_global_save_failed: "\U0001F9E0 ✓ ตั้งระดับการให้เหตุผลเป็น `{effort}` (เฉพาะเซสชันนี้ — บันทึก config ไม่สำเร็จ)\n_(มีผลกับข้อความถัดไป)_"
+    set_session: "\U0001F9E0 ✓ ตั้งระดับการให้เหตุผลเป็น `{effort}` (เฉพาะเซสชันนี้ — เพิ่ม `--global` เพื่อบันทึกถาวร)\n_(มีผลกับข้อความถัดไป)_"
     quote_label_discord: -# 💭 การให้เหตุผล
     quote_label_md: '> 💭 **การให้เหตุผล:**'
-    more_lines: "\n\n      _... (อีก {count} บรรทัด)_"
-    block: "\U0001F4AD **การให้เหตุผล:**\n\n      ```\n\n      {reasoning}\n\n      ```\n\n\n      {response}"
+    more_lines: "\n_... (อีก {count} บรรทัด)_"
+    block: "\U0001F4AD **การให้เหตุผล:**\n```\n{reasoning}\n```\n\n{response}"
   reload_mcp:
     cancelled: 🟡 ยกเลิก /reload-mcp แล้ว เครื่องมือ MCP ไม่เปลี่ยน
     always_followup: 'ℹ️ การเรียก `/reload-mcp` ในครั้งถัดไปจะทำงานโดยไม่ต้องยืนยัน เปิดใหม่อีกครั้งด้วย `approvals.mcp_reload_confirm: true` ใน config.yaml'
-    confirm_prompt: "⚠️ **ยืนยัน /reload-mcp**\n\n\n      การโหลด MCP servers ใหม่จะสร้างชุดเครื่องมือของเซสชันนี้ใหม่ทั้งหมด และ**ทำให้แคชพรอมต์ของผู้ให้บริการใช้การไม่ได้** — ข้อความถัดไปจะต้องส่งโทเค็นอินพุตทั้งหมดอีกครั้ง  สำหรับโมเดลบริบทยาวหรือการให้เหตุผลสูง อาจมีค่าใช้จ่ายสูง\n\n\n      เลือก:\n\n      • **อนุมัติครั้งเดียว** — โหลดใหม่ตอนนี้\n\n      • **อนุมัติเสมอ** — โหลดใหม่ตอนนี้และปิดคำถามนี้ถาวร\n\n      • **ยกเลิก** — ไม่เปลี่ยนเครื่องมือ MCP\n\n\n      _ทางเลือกสำรองด้วยข้อความ: ตอบกลับ `/approve`, `/always`, หรือ `/cancel`._"
-    header: "\U0001F504 **โหลด MCP Servers ใหม่แล้ว**\n\n      "
+    confirm_prompt: "⚠️ **ยืนยัน /reload-mcp**\n\nการโหลด MCP servers ใหม่จะสร้างชุดเครื่องมือของเซสชันนี้ใหม่ทั้งหมด และ**ทำให้แคชพรอมต์ของผู้ให้บริการใช้การไม่ได้** — ข้อความถัดไปจะต้องส่งโทเค็นอินพุตทั้งหมดอีกครั้ง  สำหรับโมเดลบริบทยาวหรือการให้เหตุผลสูง อาจมีค่าใช้จ่ายสูง\n\nเลือก:\n• **อนุมัติครั้งเดียว** — โหลดใหม่ตอนนี้\n• **อนุมัติเสมอ** — โหลดใหม่ตอนนี้และปิดคำถามนี้ถาวร\n• **ยกเลิก** — ไม่เปลี่ยนเครื่องมือ MCP\n\n_ทางเลือกสำรองด้วยข้อความ: ตอบกลับ `/approve`, `/always`, หรือ `/cancel`._"
+    header: "\U0001F504 **โหลด MCP Servers ใหม่แล้ว**\n"
     reconnected: '♻️ เชื่อมต่อใหม่: {names}'
     added: '➕ เพิ่ม: {names}'
     removed: '➖ ลบออก: {names}'
     none_connected: ไม่มี MCP server ที่เชื่อมต่ออยู่
-    tools_available: "\n\n      \U0001F527 มีเครื่องมือ {tools} รายการจาก {servers} server"
+    tools_available: "\n\U0001F527 มีเครื่องมือ {tools} รายการจาก {servers} server"
     failed: '❌ โหลด MCP ใหม่ไม่สำเร็จ: {error}'
   reload_skills:
-    header: "\U0001F504 **โหลดสกิลใหม่แล้ว**\n\n      "
+    header: "\U0001F504 **โหลดสกิลใหม่แล้ว**\n"
     no_new: ไม่พบสกิลใหม่
-    total: "\n\n      \U0001F4DA มีสกิล {count} รายการ"
+    total: "\n\U0001F4DA มีสกิล {count} รายการ"
     added_header: ➕ **สกิลที่เพิ่ม:**
     removed_header: ➖ **สกิลที่ลบออก:**
     item_with_desc: '    - {name}: {desc}'
@@ -2213,32 +2171,32 @@ gateway:
     header_default: ✨ รีเซ็ตเซสชันแล้ว! เริ่มใหม่
     header_new: ✨ เริ่มเซสชันใหม่แล้ว!
     header_titled: '✨ เริ่มเซสชันใหม่แล้ว: {title}'
-    title_rejected: "\n\n      ⚠️ ชื่อเรื่องถูกปฏิเสธ: {error}"
-    title_error_untitled: "\n\n      ⚠️ {error} — เริ่มเซสชันแบบไม่มีชื่อเรื่องแล้ว"
-    title_empty_untitled: "\n\n      ⚠️ ชื่อเรื่องว่างหลังจากทำความสะอาด — เริ่มเซสชันแบบไม่มีชื่อเรื่องแล้ว"
-    tip: "\n\n      ✦ เคล็ดลับ: {tip}"
+    title_rejected: "\n⚠️ ชื่อเรื่องถูกปฏิเสธ: {error}"
+    title_error_untitled: "\n⚠️ {error} — เริ่มเซสชันแบบไม่มีชื่อเรื่องแล้ว"
+    title_empty_untitled: "\n⚠️ ชื่อเรื่องว่างหลังจากทำความสะอาด — เริ่มเซสชันแบบไม่มีชื่อเรื่องแล้ว"
+    tip: "\n✦ เคล็ดลับ: {tip}"
   restart:
     in_progress: ⏳ กำลังรีสตาร์ทเกตเวย์อยู่แล้ว...
     restarting: ♻ กำลังรีสตาร์ทเกตเวย์ หากไม่มีการแจ้งเตือนภายใน 60 วินาที ให้รีสตาร์ทจากคอนโซลด้วย `hermes gateway restart`
   resume:
     db_unavailable: ฐานข้อมูลเซสชันไม่พร้อมใช้งาน
-    parse_error: "⚠️ แปลงอาร์กิวเมนต์ของ `/resume` ไม่ได้: {error}\n\n      ใส่วงเล็บครอบชื่อเรื่องที่มีเว้นวรรค เช่น: `/resume \"Project A Plan\"`"
-    matrix_no_named_sessions: "ไม่พบเซสชันที่มีชื่อในห้อง Matrix นี้\n\n      ใช้ `/title My Session` เพื่อตั้งชื่อเซสชันของห้องปัจจุบัน, `/resume --all` เพื่อดูลิสต์เซสชัน Matrix ทั้งหมด หรือ `/resume --cross-room <session name>` เพื่อข้ามขอบเขตห้องโดยชัดเจน"
-    matrix_blocked_no_origin: '⚠️ Matrix /resume ถูกบล็อก: เซสชันที่มีชื่อนี้ไม่มีบันทึกห้องต้นทาง จึงไม่จะ resume ภายในห้องปัจจุบันตามค่าเริ่มต้น ใช้ `/resume --cross-room {name}` หากคุณตั้งใจข้ามขอบเขตห้องจริง ๆ'
+    parse_error: "⚠️ แปลงอาร์กิวเมนต์ของ `/resume` ไม่ได้: {error}\nใส่วงเล็บครอบชื่อเรื่องที่มีเว้นวรรค เช่น: `/resume \"Project A Plan\"`"
+    matrix_no_named_sessions: "ไม่พบเซสชันที่มีชื่อในห้อง Matrix นี้\nใช้ `/title My Session` เพื่อตั้งชื่อเซสชันของห้องปัจจุบัน, `/resume --all` เพื่อดูลิสต์เซสชัน Matrix ทั้งหมด หรือ `/resume --cross-room <session name>` เพื่อข้ามขอบเขตห้องโดยชัดเจน"
+    matrix_blocked_no_origin: '⚠️ Matrix /resume ถูกบล็อก: เซสชันที่มีชื่อนี้ไม่มีบันทึกห้องต้นทาง จึงจะไม่ resume ภายในห้องปัจจุบันตามค่าเริ่มต้น ใช้ `/resume --cross-room {name}` หากคุณตั้งใจข้ามขอบเขตห้องจริง ๆ'
     matrix_blocked_other_room: '⚠️ Matrix /resume ถูกบล็อก: เซสชันนั้นอยู่ในห้อง Matrix อื่น ({room}) ใช้ `/resume --cross-room {name}` หากคุณตั้งใจจะ resume ที่นี่จริง ๆ'
-    matrix_cross_room_success: "⚠️ Resume ข้ามห้อง: ทำ **{title}** ต่อในห้อง Matrix **{room}** แล้ว\n\n      ข้อความในห้องนี้ต่อไปจะใช้ทรานสคริปต์นั้นจนกว่าจะมี `/reset` หรือ `/resume` อื่น{msg_part}"
+    matrix_cross_room_success: "⚠️ Resume ข้ามห้อง: ทำ **{title}** ต่อในห้อง Matrix **{room}** แล้ว\nข้อความในห้องนี้ต่อไปจะใช้ทรานสคริปต์นั้นจนกว่าจะมี `/reset` หรือ `/resume` อื่น{msg_part}"
     blocked_not_owner: '⚠️ /resume ถูกบล็อก: **{name}** เป็นของผู้ใช้หรือแชทอื่น คุณ resume เซสชันจากแชทนี้ได้เท่านั้น'
-    no_named_sessions: "ไม่พบเซสชันที่มีชื่อ\n\n      ใช้ `/title My Session` เพื่อตั้งชื่อเซสชันปัจจุบันของคุณ แล้วใช้ `/resume My Session` เพื่อกลับมาภายหลัง"
+    no_named_sessions: "ไม่พบเซสชันที่มีชื่อ\nใช้ `/title My Session` เพื่อตั้งชื่อเซสชันปัจจุบันของคุณ แล้วใช้ `/resume My Session` เพื่อกลับมาภายหลัง"
     all_requires_admin: 'หมายเหตุ: `--all` (ดูลิสต์ข้ามแชท) ต้องมีการตั้งค่าผู้ดูแล; จึงแสดงเฉพาะเซสชันของแชทนี้'
-    list_header: "\U0001F4CB **เซสชันที่มีชื่อ**\n\n      "
+    list_header: "\U0001F4CB **เซสชันที่มีชื่อ**\n"
     list_item: • **{title}**{preview_part}
     list_item_numbered: '{index}. **{title}**{preview_part}'
     list_preview_suffix: ' — _{preview}_'
-    list_footer: "\n\n      การใช้งาน: `/resume <session name>`"
-    list_footer_numbered: "\n\n      การใช้งาน: `/resume <session name>` หรือ `/resume <number>` (เช่น `/resume 1` สำหรับรายการล่าสุด)"
+    list_footer: "\nการใช้งาน: `/resume <session name>`"
+    list_footer_numbered: "\nการใช้งาน: `/resume <session name>` หรือ `/resume <number>` (เช่น `/resume 1` สำหรับรายการล่าสุด)"
     list_failed: 'ดูลิสต์เซสชันไม่ได้: {error}'
-    out_of_range: "ดัชนีการ resume {index} เกินช่วง\n\n      ใช้ `/resume` โดยไม่มีอาร์กิวเมนต์เพื่อดูเซสชันที่มี"
-    not_found: "ไม่พบเซสชันที่ตรงกับ **{name}**\n\n      ใช้ `/resume` โดยไม่มีอาร์กิวเมนต์เพื่อดูเซสชันที่มี"
+    out_of_range: "ดัชนีการ resume {index} เกินช่วง\nใช้ `/resume` โดยไม่มีอาร์กิวเมนต์เพื่อดูเซสชันที่มี"
+    not_found: "ไม่พบเซสชันที่ตรงกับ **{name}**\nใช้ `/resume` โดยไม่มีอาร์กิวเมนต์เพื่อดูเซสชันที่มี"
     already_on: 📌 อยู่ในเซสชัน **{name}** อยู่แล้ว
     switch_failed: สลับเซสชันไม่สำเร็จ
     resumed_one: ↻ ทำเซสชัน **{title}** ต่อแล้ว ({count} ข้อความ) กู้คืนบทสนทนาแล้ว
@@ -2254,8 +2212,8 @@ gateway:
     not_enabled: "ยังไม่ได้เปิดใช้งานเช็กพอยต์\nเปิดใช้งานใน config.yaml:\n```\ncheckpoints:\n  enabled: true\n```"
     none_found: ไม่พบเช็กพอยต์สำหรับ {cwd}
     invalid_number: หมายเลขเช็กพอยต์ไม่ถูกต้อง ใช้ 1-{max}
-    restored: "✅ กู้คืนไปยังเช็กพอยต์ {hash}: {reason}\n\n      บันทึกสแนปชอตก่อนการย้อนกลับอัตโนมัติแล้ว"
-    kept_user_edits: "↷ คงการแก้ไขของคุณไว้: {files}\n\n      ใช้ /rollback <N> --all เพื่อกู้คืนพวกนั้นด้วย"
+    restored: "✅ กู้คืนไปยังเช็กพอยต์ {hash}: {reason}\nบันทึกสแนปชอตก่อนการย้อนกลับอัตโนมัติแล้ว"
+    kept_user_edits: "↷ คงการแก้ไขของคุณไว้: {files}\nใช้ /rollback <N> --all เพื่อกู้คืนพวกนั้นด้วย"
     kept_oversize: '↷ คงไว้ (ใหญ่เกินไปสำหรับเช็กพอยต์ ไม่มีสำเนาให้ย้อนกลับ): {files}'
     failed_deletes: '⚠️ ลบไม่ได้ (คงไว้เหมือนเดิม): {files}'
     restore_failed: ❌ {error}
@@ -2264,12 +2222,12 @@ gateway:
     no_changes: ไม่มีการเปลี่ยนแปลง
     failed: '{error}'
     err_default: สร้าง diff ไม่ได้
-    more_untracked: "\n\n      ... และอีก {count} รายการ"
+    more_untracked: "\n... และอีก {count} รายการ"
     untracked_label: '**ยังไม่ถูกติดตาม:**'
-    truncated_note: "\n\n      ... (ตัดทอน — ทั้งหมด {lines} บรรทัด; ใช้ /diff --stat เพื่อดูสรุป)"
+    truncated_note: "\n... (ตัดทอน — ทั้งหมด {lines} บรรทัด; ใช้ /diff --stat เพื่อดูสรุป)"
   set_home:
     save_failed: 'บันทึกโฮมแชนเนิลไม่สำเร็จ: {error}'
-    success: "✅ ตั้งโฮมแชนเนิลเป็น **{name}** (ID: {chat_id}) แล้ว\n\n      งาน cron และข้อความข้ามแพลตฟอร์มจะถูกส่งมาที่นี่"
+    success: "✅ ตั้งโฮมแชนเนิลเป็น **{name}** (ID: {chat_id}) แล้ว\nงาน cron และข้อความข้ามแพลตฟอร์มจะถูกส่งมาที่นี่"
     err_missing_platform: ไม่มีแพลตฟอร์มเชิงตรรกะ
     err_relay_unauthenticated: รีเลย์ไม่ได้ยืนยันตัวตนเป้าหมายโฮมเชิงตรรกะนี้
   context:
@@ -2350,33 +2308,33 @@ gateway:
     empty_after_clean: ⚠️ ชื่อเรื่องว่างหลังจากทำความสะอาด โปรดใช้อักขระที่พิมพ์ได้
     set_to: '✏️ ตั้งชื่อเรื่องเซสชันแล้ว: **{title}**'
     not_found: ไม่พบเซสชันในฐานข้อมูล
-    current_with_title: "\U0001F4CC เซสชัน: `{session_id}`\n\n      ชื่อเรื่อง: **{title}**"
-    current_no_title: "\U0001F4CC เซสชัน: `{session_id}`\n\n      ยังไม่ได้ตั้งชื่อเรื่อง การใช้งาน: `/title My Session Name`"
+    current_with_title: "\U0001F4CC เซสชัน: `{session_id}`\nชื่อเรื่อง: **{title}**"
+    current_no_title: "\U0001F4CC เซสชัน: `{session_id}`\nยังไม่ได้ตั้งชื่อเรื่อง การใช้งาน: `/title My Session Name`"
   topic:
     not_telegram_dm: คำสั่ง /topic ใช้ได้เฉพาะในแชทส่วนตัวของ Telegram
     no_session_db: ฐานข้อมูลเซสชันไม่พร้อมใช้งาน
     unauthorized: คุณไม่มีสิทธิ์ใช้ /topic บนบอทนี้
     restore_needs_topic: หากต้องการกู้คืนเซสชัน ให้สร้างหรือเปิดท็อปปิก Telegram ก่อน แล้วส่ง /topic <session-id> ภายในท็อปปิกนั้น หากต้องการสร้างท็อปปิกใหม่ ให้เปิด All Messages แล้วส่งข้อความใดก็ได้ที่นั่น
-    topics_disabled: "ยังไม่ได้เปิดใช้ท็อปปิก Telegram สำหรับบอทนี้\n\n\n      วิธีเปิดใช้:\n\n      1. เปิด @BotFather\n\n      2. เลือกบอทของคุณ\n\n      3. เปิด Bot Settings → Threads Settings\n\n      4. เปิด Threaded Mode และตรวจสอบว่าผู้ใช้สร้างเธรดใหม่ได้\n\n\n      แล้วส่ง /topic อีกครั้ง"
-    topics_user_disallowed: "เปิดใช้ท็อปปิก Telegram แล้ว แต่ผู้ใช้ยังสร้างท็อปปิกไม่ได้\n\n\n      เปิด @BotFather → เลือกบอทของคุณ → Bot Settings → Threads Settings แล้วปิด ''Disallow users to create new threads''\n\n\n      แล้วส่ง /topic อีกครั้ง"
+    topics_disabled: "ยังไม่ได้เปิดใช้ท็อปปิก Telegram สำหรับบอทนี้\n\nวิธีเปิดใช้:\n1. เปิด @BotFather\n2. เลือกบอทของคุณ\n3. เปิด Bot Settings → Threads Settings\n4. เปิด Threaded Mode และตรวจสอบว่าผู้ใช้สร้างเธรดใหม่ได้\n\nแล้วส่ง /topic อีกครั้ง"
+    topics_user_disallowed: "เปิดใช้ท็อปปิก Telegram แล้ว แต่ผู้ใช้ยังสร้างท็อปปิกไม่ได้\n\nเปิด @BotFather → เลือกบอทของคุณ → Bot Settings → Threads Settings แล้วปิด 'Disallow users to create new threads'\n\nแล้วส่ง /topic อีกครั้ง"
     enable_failed: 'เปิดใช้โหมดท็อปปิก Telegram ไม่สำเร็จ: {error}'
-    bound_status: "ท็อปปิกนี้เชื่อมกับ:\n\n      เซสชัน: {label}\n\n      ID: {session_id}\n\n\n      ใช้ /new เพื่อแทนท็อปปิกนี้ด้วยเซสชันใหม่\n\n      สำหรับงานแบบขนาน ให้เปิด All Messages แล้วส่งข้อความที่นั่นเพื่อสร้างท็อปปิกอีกอัน"
-    thread_ready: "เปิดใช้ท็อปปิกหลายเซสชันของ Telegram แล้ว\n\n\n      ท็อปปิกนี้จะใช้เป็นเซสชัน Hermes อิสระ ใช้ /new เพื่อแทนเซสชันปัจจุบันของท็อปปิกนี้ สำหรับงานแบบขนาน ให้เปิด All Messages แล้วส่งข้อความที่นั่นเพื่อสร้างท็อปปิกอีกอัน"
+    bound_status: "ท็อปปิกนี้เชื่อมกับ:\nเซสชัน: {label}\nID: {session_id}\n\nใช้ /new เพื่อแทนท็อปปิกนี้ด้วยเซสชันใหม่\nสำหรับงานแบบขนาน ให้เปิด All Messages แล้วส่งข้อความที่นั่นเพื่อสร้างท็อปปิกอีกอัน"
+    thread_ready: "เปิดใช้ท็อปปิกหลายเซสชันของ Telegram แล้ว\n\nท็อปปิกนี้จะใช้เป็นเซสชัน Hermes อิสระ ใช้ /new เพื่อแทนเซสชันปัจจุบันของท็อปปิกนี้ สำหรับงานแบบขนาน ให้เปิด All Messages แล้วส่งข้อความที่นั่นเพื่อสร้างท็อปปิกอีกอัน"
     untitled_session: เซสชันที่ไม่มีชื่อเรื่อง
     restore_step_1: 1. สร้างหรือเปิดท็อปปิก หากต้องการสร้างใหม่ ให้เปิด All Messages แล้วส่งข้อความใดก็ได้ที่นั่น
     restore_step_2: 2. ส่ง /topic <session-id> ภายในท็อปปิกนั้น
     default_title: แชท Hermes
-    root_lobby: "แชทหลักนี้สงวนไว้สำหรับคำสั่งระบบ\n\n\n      หากต้องการเริ่มแชท Hermes ใหม่ ให้เปิดท็อปปิก All Messages ที่ด้านบนของอินเทอร์เฟซบอทนี้ แล้วส่งข้อความใดก็ได้ที่นั่น Telegram จะสร้างท็อปปิกใหม่สำหรับข้อความนั้น แต่ละท็อปปิกทำหน้าที่เป็นเซสชัน Hermes อิสระ"
-    root_new: "หากต้องการเริ่มแชท Hermes แบบขนานใหม่ ให้เปิดท็อปปิก All Messages ที่ด้านบนของอินเทอร์เฟซบอทนี้ แล้วส่งข้อความใดก็ได้ที่นั่น Telegram จะสร้างท็อปปิกใหม่ให้\n\n\n      แต่ละท็อปปิกเป็นเซสชัน Hermes อิสระ ใช้ /new ภายในท็อปปิกที่มีอยู่เท่านั้นเมื่อคุณต้องการแทนเซสชันปัจจุบันของท็อปปิกนั้น"
-    new_header: "เริ่มเซสชัน Hermes ใหม่ในท็อปปิกนี้แล้ว\n\n      เคล็ดลับ: สำหรับงานแบบขนาน ให้เปิด All Messages แล้วส่งข้อความที่นั่นเพื่อสร้างท็อปปิกแยกต่างหาก แทนการใช้ /new ที่นี่ /new จะแทนเซสชันที่ผูกกับท็อปปิกปัจจุบัน"
-    help: "/topic — เปิดโหมด DM หลายเซสชัน (บอทเดียว แชทขนานได้หลายอัน)\n\nการใช้งาน:\n  /topic             เปิดโหมดท็อปปิก หรือแสดงสถานะหากเปิดอยู่แล้ว\n  /topic help        แสดงข้อความนี้\n  /topic off         ปิดโหมดท็อปปิกและล้างการผูกท็อปปิก\n  /topic <id>        ภายในท็อปปิก: กู้คืนเซสชันก่อนหน้าด้วย ID\n\nวิธีทำงาน:\n1. รัน /topic ครั้งเดียวใน DM นี้ — Hermes จะตรวจสอบว่าการตั้งค่า Threads ของ BotFather เปิดอยู่ แล้วเปิดโหมดหลายเซสชัน\n2. แตะ All Messages ที่ด้านบนของบอท แล้วส่งข้อความใดก็ได้\n   Telegram จะสร้างท็อปปิกใหม่สำหรับข้อความนั้น แต่ละท็อปปิก\n   เป็นเซสชัน Hermes อิสระ (ประวัติใหม่ บริบทใหม่)\n3. DM หลักจะกลายเป็นล็อบบี้ระบบ — ส่ง /topic, /status,\n   /help, /usage ที่นั่น พรอมต์ปกติส่งในท็อปปิก\n4. /new ในท็อปปิกจะรีเซ็ตเฉพาะเซสชันของท็อปปิกนั้น\n5. /topic <id> ในท็อปปิกจะกู้คืนเซสชันเก่าเข้ามาในท็อปปิกนั้น"
+    root_lobby: "แชทหลักนี้สงวนไว้สำหรับคำสั่งระบบ\n\nหากต้องการเริ่มแชท Hermes ใหม่ ให้เปิดท็อปปิก All Messages ที่ด้านบนของอินเทอร์เฟซบอทนี้ แล้วส่งข้อความใดก็ได้ที่นั่น Telegram จะสร้างท็อปปิกใหม่สำหรับข้อความนั้น แต่ละท็อปปิกทำหน้าที่เป็นเซสชัน Hermes อิสระ"
+    root_new: "หากต้องการเริ่มแชท Hermes แบบขนานใหม่ ให้เปิดท็อปปิก All Messages ที่ด้านบนของอินเทอร์เฟซบอทนี้ แล้วส่งข้อความใดก็ได้ที่นั่น Telegram จะสร้างท็อปปิกใหม่ให้\n\nแต่ละท็อปปิกเป็นเซสชัน Hermes อิสระ ใช้ /new ภายในท็อปปิกที่มีอยู่เท่านั้นเมื่อคุณต้องการแทนเซสชันปัจจุบันของท็อปปิกนั้น"
+    new_header: "เริ่มเซสชัน Hermes ใหม่ในท็อปปิกนี้แล้ว\n\nเคล็ดลับ: สำหรับงานแบบขนาน ให้เปิด All Messages แล้วส่งข้อความที่นั่นเพื่อสร้างท็อปปิกแยกต่างหาก แทนการใช้ /new ที่นี่ /new จะแทนเซสชันที่ผูกกับท็อปปิกปัจจุบัน"
+    help: "/topic — เปิดโหมด DM หลายเซสชัน (บอทเดียว แชทขนานได้หลายอัน)\n\nการใช้งาน:\n  /topic             เปิดโหมดท็อปปิก หรือแสดงสถานะหากเปิดอยู่แล้ว\n  /topic help        แสดงข้อความนี้\n  /topic off         ปิดโหมดท็อปปิกและล้างการผูกท็อปปิก\n  /topic <id>        ภายในท็อปปิก: กู้คืนเซสชันก่อนหน้าด้วย ID\n\nวิธีทำงาน:\n1. รัน /topic ครั้งเดียวใน DM นี้ — Hermes จะตรวจสอบว่าการตั้งค่า Threads ของ BotFather เปิดอยู่\n   แล้วเปิดโหมดหลายเซสชัน\n2. แตะ All Messages ที่ด้านบนของบอท แล้วส่งข้อความใดก็ได้\n   Telegram จะสร้างท็อปปิกใหม่สำหรับข้อความนั้น แต่ละท็อปปิก\n   เป็นเซสชัน Hermes อิสระ (ประวัติใหม่ บริบทใหม่)\n3. DM หลักจะกลายเป็นล็อบบี้ระบบ — ส่ง /topic, /status,\n   /help, /usage ที่นั่น พรอมต์ปกติส่งในท็อปปิก\n4. /new ในท็อปปิกจะรีเซ็ตเฉพาะเซสชันของท็อปปิกนั้น\n5. /topic <id> ในท็อปปิกจะกู้คืนเซสชันเก่าเข้ามาในท็อปปิกนั้น"
     system_topic_name: ระบบ
     system_topic_intro: ท็อปปิกระบบสำหรับคำสั่งและสถานะของ Hermes
     setup_image_caption: BotFather → Bot Settings → Threads Settings
     no_chat_id: ระบุรหัสแชทไม่ได้
     mode_not_enabled: ยังไม่ได้เปิดใช้โหมดท็อปปิกหลายเซสชันสำหรับแชทนี้
     disable_failed: 'ปิดโหมดท็อปปิกไม่สำเร็จ: {error}'
-    mode_disabled: "ปิดโหมดท็อปปิกหลายเซสชันสำหรับแชทนี้แล้ว\n\n\n      ท็อปปิกที่มีอยู่ใน Telegram จะไม่ถูกลบ — เพียงจะหยุดถูกกำหนดให้เป็นเซสชันอิสระ DM หลักจะทำงานเป็นแชท Hermes ปกติอีกครั้ง รัน /topic เพื่อเปิดใช้อีกครั้งภายหลัง"
+    mode_disabled: "ปิดโหมดท็อปปิกหลายเซสชันสำหรับแชทนี้แล้ว\n\nท็อปปิกที่มีอยู่ใน Telegram จะไม่ถูกลบ — เพียงจะหยุดถูกกำหนดให้เป็นเซสชันอิสระ DM หลักจะทำงานเป็นแชท Hermes ปกติอีกครั้ง รัน /topic เพื่อเปิดใช้อีกครั้งภายหลัง"
     status_enabled: เปิดใช้ท็อปปิกหลายเซสชันของ Telegram แล้ว
     status_how_to: หากต้องการสร้างแชท Hermes ใหม่ ให้เปิด All Messages ที่ด้านบนของอินเทอร์เฟซบอทนี้ แล้วส่งข้อความใดก็ได้ที่นั่น Telegram จะสร้างท็อปปิกใหม่ให้
     previous_unlinked: 'เซสชันก่อนหน้าที่ยังไม่ได้เชื่อม:'
@@ -2389,10 +2347,10 @@ gateway:
     not_your_session: เซสชันนั้นไม่ได้เป็นของผู้ใช้ Telegram นี้
     already_linked: เซสชันนั้นเชื่อมกับท็อปปิก Telegram อื่นอยู่แล้ว
     restored: 'กู้คืนเซสชันแล้ว: {title}'
-    restored_last_message: "\n\n\n      ข้อความล่าสุดของ Hermes:\n\n      {text}"
+    restored_last_message: "\n\nข้อความล่าสุดของ Hermes:\n{text}"
   undo:
     nothing: ไม่มีอะไรให้เลิกทำ
-    removed: "↩️ เลิกทำ {turns} เทิร์น ({count} ข้อความ)\n\n      สำรองไว้ที่: \"{preview}\"\n\n      คัดลอก/แก้ไขข้อความด้านบน แล้วส่งเพื่อเริ่มพรอมต์ใหม่จากจุดนี้"
+    removed: "↩️ เลิกทำ {turns} เทิร์น ({count} ข้อความ)\nสำรองไว้ที่: \"{preview}\"\nคัดลอก/แก้ไขข้อความด้านบน แล้วส่งเพื่อเริ่มพรอมต์ใหม่จากจุดนี้"
     invalid_count: จำนวน "{arg}" ไม่ถูกต้อง — ใช้ /undo หรือ /undo N
   update:
     platform_not_messaging: ✗ /update ใช้ได้เฉพาะจากแพลตฟอร์มข้อความ รัน `hermes update` จากเทอร์มินัล
@@ -2404,13 +2362,13 @@ gateway:
     reply_sent: ✓ ส่ง `{label}` ไปยังโพรเซสอัปเดตแล้ว
     failed_notice: ❌ การอัปเดต Hermes ล้มเหลว; เวอร์ชันก่อนหน้ายังทำงานอยู่ รัน `hermes update` บนโฮสต์เพื่อดูข้อผิดพลาดทั้งหมด หรือลอง /update อีกครั้งในภายหลัง
     prompt_default: ' (ค่าเริ่มต้น: {default})'
-    prompt: "☤ **การอัปเดตต้องการข้อมูลจากคุณ:**\n\n\n      {prompt}{default_hint}\n\n\n      ตอบกลับ `{prefix}approve` (ใช่) หรือ `{prefix}deny` (ไม่ใช่) หรือพิมพ์คำตอบของคุณโดยตรง"
+    prompt: "☤ **การอัปเดตต้องการข้อมูลจากคุณ:**\n\n{prompt}{default_hint}\n\nตอบกลับ `{prefix}approve` (ใช่) หรือ `{prefix}deny` (ไม่ใช่) หรือพิมพ์คำตอบของคุณโดยตรง"
     finished: ✅ การอัปเดต Hermes เสร็จแล้ว
     timed_out: ❌ การอัปเดต Hermes หมดเวลาหลังจาก 30 นาที
     finished_success: ✅ การอัปเดต Hermes เสร็จสมบูรณ์
-    last_lines: "{msg}\n\n\n      บรรทัดล่าสุด:\n\n      ```\n\n      {tail}\n\n      ```"
+    last_lines: "{msg}\n\nบรรทัดล่าสุด:\n```\n{tail}\n```"
     managed_action: อัปเดต Hermes Agent
-    not_applicable: "✗ `hermes update` ใช้ไม่ได้กับการติดตั้งนี้ ({method})\n      อัปเดตด้วย: {command}"
+    not_applicable: "✗ `hermes update` ใช้ไม่ได้กับการติดตั้งนี้ ({method})\nอัปเดตด้วย: {command}"
   usage:
     rate_limits: ⏱️ **ขีดจำกัดอัตรา:** {state}
     header_session: 📊 **การใช้โทเค็นของเซสชัน**
@@ -2454,9 +2412,9 @@ gateway:
     saved_suffix: _(บันทึกสำหรับ **{platform}** แล้ว — มีผลกับข้อความถัดไป)_
     save_failed: '_(บันทึกลง config ไม่ได้: {error})_'
   voice:
-    enabled_voice_only: "เปิดโหมดเสียงแล้ว\n\n      จะตอบด้วยเสียงเมื่อคุณส่งข้อความเสียง\n\n      ใช้ /voice tts เพื่อรับการตอบกลับด้วยเสียงสำหรับข้อความทั้งหมด"
+    enabled_voice_only: "เปิดโหมดเสียงแล้ว\nจะตอบด้วยเสียงเมื่อคุณส่งข้อความเสียง\nใช้ /voice tts เพื่อรับการตอบกลับด้วยเสียงสำหรับข้อความทั้งหมด"
     disabled_text: ปิดโหมดเสียงแล้ว ตอบกลับเป็นข้อความเท่านั้น
-    tts_enabled: "เปิด Auto-TTS แล้ว\n      การตอบกลับทั้งหมดจะมีข้อความเสียงประกอบ"
+    tts_enabled: "เปิด Auto-TTS แล้ว\nการตอบกลับทั้งหมดจะมีข้อความเสียงประกอบ"
     status_mode: 'โหมดเสียง: {label}'
     status_channel: 'แชนเนลเสียง: #{channel}'
     status_participants: 'ผู้เข้าร่วม: {count}'
@@ -2467,8 +2425,8 @@ gateway:
     label_off: ปิด (ข้อความเท่านั้น)
     label_voice_only: เปิด (ตอบด้วยเสียงเมื่อคุณส่งข้อความเสียง)
     label_all: TTS (ตอบด้วยเสียงสำหรับข้อความทั้งหมด)
-    help: "{toggle}\n\n\n      **/voice ทำงานอย่างไร**\n\n      • `/voice on` — ตอบด้วยเสียงเมื่อคุณส่งข้อความเสียง\n\n      • `/voice tts` — ตอบด้วยเสียงสำหรับ*ทุก*ข้อความ\n\n      • `/voice off` — กลับมาตอบเป็นข้อความเท่านั้น\n\n      • `/voice status` — แสดงโหมดปัจจุบัน\n\n      • `/voice` (ไม่มีอาร์กิวเมนต์) — สลับเร็ว ๆ ระหว่างเปิดและปิด{channels}"
-    help_channels: "\n\n\n      **แชนเนลเสียงสด (Discord)**\n\n      • เข้าแชนเนลเสียงก่อน แล้วใช้ `/voice channel` — ฉันจะเข้า ฟัง และพูดตอบกลับด้วยเสียง\n\n      • `/voice leave` — ออกจากแชนเนลเสียง"
+    help: "{toggle}\n\n**/voice ทำงานอย่างไร**\n• `/voice on` — ตอบด้วยเสียงเมื่อคุณส่งข้อความเสียง\n• `/voice tts` — ตอบด้วยเสียงสำหรับ*ทุก*ข้อความ\n• `/voice off` — กลับมาตอบเป็นข้อความเท่านั้น\n• `/voice status` — แสดงโหมดปัจจุบัน\n• `/voice` (ไม่มีอาร์กิวเมนต์) — สลับเร็ว ๆ ระหว่างเปิดและปิด{channels}"
+    help_channels: "\n\n**แชนเนลเสียงสด (Discord)**\n• เข้าแชนเนลเสียงก่อน แล้วใช้ `/voice channel` — ฉันจะเข้า ฟัง และพูดตอบกลับด้วยเสียง\n• `/voice leave` — ออกจากแชนเนลเสียง"
     transcript_echo_short: 🎙️ "{text}"
     channel_unsupported: แพลตฟอร์มนี้ไม่รองรับแชนเนลเสียง
     channel_guild_only: คำสั่งนี้ใช้ได้เฉพาะในเซิร์ฟเวอร์ Discord
@@ -2476,7 +2434,7 @@ gateway:
     channel_join_failed: 'เข้าแชนเนลเสียงไม่สำเร็จ: {error}'
     channel_deps_missing: 'ขาดไลบรารีที่เสียงต้องใช้ (PyNaCl / davey) รัน: `{hint}`'
     channel_join_permissions: เข้าแชนเนลเสียงไม่สำเร็จ ตรวจสอบสิทธิ์ของบอท (Connect + Speak)
-    channel_joined: "เข้าแชนเนลเสียง **{name}** แล้ว\n\n      จะพูดตอบกลับด้วยเสียงและฟังคุณ ใช้ /voice leave เพื่อออก"
+    channel_joined: "เข้าแชนเนลเสียง **{name}** แล้ว\nจะพูดตอบกลับด้วยเสียงและฟังคุณ ใช้ /voice leave เพื่อออก"
     channel_not_joined: ไม่ได้อยู่ในแชนเนลเสียง
     channel_left: ออกจากแชนเนลเสียงแล้ว
     transcript_echo: '**[เสียง]** <@{user}>: {text}'
@@ -2502,7 +2460,7 @@ gateway:
     smart_deny_line: 'Smart DENY: การโอเวอร์ไรด์ของเจ้าของมีผลกับเฉพาะการทำงานนี้ครั้งเดียว'
     smart_deny_heading: ⚠️ **Smart DENY — การโอเวอร์ไรด์ของเจ้าของสำหรับการทำงานครั้งเดียว:**
     timed_out_notice: ⌛ การอนุมัติหมดเวลาหลังจาก {window} — คำสั่ง**ไม่ได้**ถูกเรียก หากยังต้องการ ให้ขอให้ฉันลองอีกครั้ง หรือเพิ่ม approvals.timeout ใน config.yaml
-    timed_out_card_body: "{notice}\n\n      ```\n\n      {command}\n\n      ```"
+    timed_out_card_body: "{notice}\n```\n{command}\n```"
     action_once: อนุญาตครั้งเดียว
     action_session: อนุญาตตลอดเซสชัน
     action_always: อนุญาตเสมอ
@@ -2513,8 +2471,8 @@ gateway:
     text_choice_always: '`{prefix}approve always` เพื่ออนุญาตแบบถาวร'
     text_choice_deny: '`{prefix}deny` เพื่อยกเลิก'
     text_choice_joiner: ', '
-    text_choice_last: ", หรือ {choice}\n\n      "
-    text_body: "{heading}\n\n      ```\n\n      {command}\n\n      ```\n\n      {reason_label}: {reason}\n\n\n      "
+    text_choice_last: ", หรือ {choice}\n"
+    text_body: "{heading}\n```\n{command}\n```\n{reason_label}: {reason}\n\n"
   notify:
     media_kind:
       audio: เสียง
@@ -2524,12 +2482,12 @@ gateway:
     media_delivery_failed: ⚠️ ส่งไฟล์แนบชนิด {kind} ไม่สำเร็จ
     media_delivery_failed_with_name: ⚠️ ส่งไฟล์แนบชนิด {kind} ไม่สำเร็จ ({file_name})
     delivery_failed_retry: ⚠️ ส่งข้อความไม่สำเร็จแม้ลองหลายครั้ง โปรดลองอีกครั้ง — คำขอของคุณถูกดำเนินการแล้ว แต่การตอบกลับส่งไม่ได้
-    plain_fallback_prefix: "(จัดรูปแบบการตอบกลับล้มเหลว ข้อความดิบ:)\n\n\n      {content}"
+    plain_fallback_prefix: "(จัดรูปแบบการตอบกลับล้มเหลว ข้อความดิบ:)\n\n{content}"
     turn_error_no_details: ไม่มีรายละเอียด
-    turn_error_detailed: "ขอโทษ เกิดข้อผิดพลาด ({error_type})\n\n      {error_detail}\n\n      ลองอีกครั้ง หรือใช้ /reset เพื่อเริ่มเซสชันใหม่"
+    turn_error_detailed: "ขอโทษ เกิดข้อผิดพลาด ({error_type})\n{error_detail}\nลองอีกครั้ง หรือใช้ /reset เพื่อเริ่มเซสชันใหม่"
     turn_error: ขอโทษ เกิดข้อผิดพลาด
     context_injection_refused: ปฏิเสธการแทรกบริบท
-    no_home_channel: "\U0001F4EC ยังไม่ได้ตั้งโฮมแชนเนิลสำหรับ {platform} โฮมแชนเนิลคือที่ที่ Hermes ส่งผลงาน cron และข้อความข้ามแพลตฟอร์ม\n\n\n      พิมพ์ {sethome_cmd} เพื่อทำให้แชทนี้เป็นโฮมแชนเนลของคุณ หรือปล่อยว่างไว้เพื่อข้าม"
+    no_home_channel: "\U0001F4EC ยังไม่ได้ตั้งโฮมแชนเนิลสำหรับ {platform} โฮมแชนเนิลคือที่ที่ Hermes ส่งผลงาน cron และข้อความข้ามแพลตฟอร์ม\n\nพิมพ์ {sethome_cmd} เพื่อทำให้แชทนี้เป็นโฮมแชนเนลของคุณ หรือปล่อยว่างไว้เพื่อข้าม"
   unauthorized:
     action_notice: บอทนี้เป็นส่วนตัวและคุณไม่อยู่ในรายการที่อนุญาต หากคุณเป็นเจ้าของ ให้รัน `hermes pairing approve {platform} <request-id>` บนโฮสต์ (`hermes pairing list` แสดงรหัส)
     admin_only_can_run: 'คุณใช้คำสั่งเหล่านี้ได้: '
@@ -2578,18 +2536,18 @@ gateway:
     hint_usage_limit_resets: ' ถึงขีดจำกัดการใช้งานของแพ็กเกจของคุณแล้ว จะรีเซ็ตใน ~{hours} ชั่วโมง'
     hint_usage_limit: ' ถึงขีดจำกัดการใช้งานของแพ็กเกจของคุณแล้ว โปรดรอจนกว่าจะรีเซ็ต'
     hint_rejected: ' บริการโมเดล AI ปฏิเสธคำขอนี้'
-    generic_failed_with_hint: "⚠️ มีบางอย่างผิดพลาดและฉันตอบกลับนี้ไม่เสร็จ{hint}\n\n      ใช้ /retry เพื่อลองใหม่ หรือ /new เพื่อเริ่มบทสนทนาใหม่ รายละเอียดทางเทคนิคอยู่ในล็อกเกตเวย์ (`hermes logs`)"
+    generic_failed_with_hint: "⚠️ มีบางอย่างผิดพลาดและฉันตอบกลับนี้ไม่เสร็จ{hint}\nใช้ /retry เพื่อลองใหม่ หรือ /new เพื่อเริ่มบทสนทนาใหม่ รายละเอียดทางเทคนิคอยู่ในล็อกเกตเวย์ (`hermes logs`)"
     history_unavailable: ⚠️ ประวัติของเซสชันนี้ใช้ไม่ได้ชั่วคราว จึงไม่ประมวลผลข้อความนี้ ขอให้ผู้ดูแลตรวจสอบ state.db แล้วส่งใหม่เมื่อสถานะปกติ ใช้ /reset ก็ต่อเมื่อคุณตั้งใจเริ่มบทสนทนาใหม่จริง ๆ
     no_credentials: ⚠️ ฉันเชื่อมต่อบริการโมเดล AI ไม่ได้ จึงไม่ประมวลผลข้อความนี้ ใช้ /login เพื่อลงชื่อเข้าใช้ใหม่ หรือ /model เพื่อเลือกโมเดลอื่น หากยังล้มเหลวซ้ำ ให้รัน `hermes doctor` บนโฮสต์
   skills:
-    disabled: "สกิล **{name}** ถูกติดตั้งแล้วแต่ปิดใช้งานอยู่\n\n      เปิดใช้งานด้วย: `hermes skills config`"
-    not_installed: "สกิล **{name}** มีอยู่แต่ยังไม่ถูกติดตั้ง\n\n      ติดตั้งด้วย: `hermes skills install {install_name}`"
-    disabled_for_platform: "สกิล **{name}** ถูกปิดใช้งานสำหรับ {platform}\n\n      เปิดใช้งานด้วย: `hermes skills config`"
-    stacked_disabled: "สกิล **{names}** ในการเรียกแบบสแต็กนี้ถูกปิดใช้งานสำหรับ {platform}\n\n      เปิดใช้งานด้วย: `hermes skills config`"
+    disabled: "สกิล **{name}** ถูกติดตั้งแล้วแต่ปิดใช้งานอยู่\nเปิดใช้งานด้วย: `hermes skills config`"
+    not_installed: "สกิล **{name}** มีอยู่แต่ยังไม่ถูกติดตั้ง\nติดตั้งด้วย: `hermes skills install {install_name}`"
+    disabled_for_platform: "สกิล **{name}** ถูกปิดใช้งานสำหรับ {platform}\nเปิดใช้งานด้วย: `hermes skills config`"
+    stacked_disabled: "สกิล **{names}** ในการเรียกแบบสแต็กนี้ถูกปิดใช้งานสำหรับ {platform}\nเปิดใช้งานด้วย: `hermes skills config`"
     stacked_load_failed: โหลดสกิลแบบสแต็กสำหรับ /{command} ไม่สำเร็จ
     gate_off: การอนุมัติการเขียนสกิลปิดอยู่ (skills.write_approval) เปิดด้วย /skills approval on แล้วตรวจสอบการเขียนที่รออยู่ที่นี่ด้วย /skills pending
     unknown_subcommand: 'ไม่รู้จักคำสั่งย่อย /skills บนแพลตฟอร์มนี้ ใช้: pending, approve <id>, reject <id>, diff <id>, approval <on|off> (ค้นหา/ติดตั้งใช้ได้เฉพาะ CLI)'
-    diff_truncated: "\n\n      … (ตัดทอน — diff เต็มอยู่ใน ~/.hermes/pending/skills/{pending_id}.json)"
+    diff_truncated: "\n… (ตัดทอน — diff เต็มอยู่ใน ~/.hermes/pending/skills/{pending_id}.json)"
   busy:
     action_restarting: กำลังรีสตาร์ท
     action_shutting_down: กำลังปิดระบบ
@@ -2628,10 +2586,10 @@ gateway:
     behavior_steer_long: ข้อความจะถูกป้อนเข้ารันปัจจุบัน (หลังการเรียกเครื่องมือถัดไป)
     behavior_interrupt_short: ขัดจังหวะรันปัจจุบัน
     behavior_interrupt_long: ข้อความจะขัดจังหวะรันปัจจุบันขณะที่ Hermes กำลังทำงาน
-    status: "**โหมดอินพุตขณะทำงาน: `{mode}`\n\n      ข้อความขณะทำงาน: _{behavior}_\n\n      เปลี่ยนด้วย `/busy queue`, `/busy steer`, หรือ `/busy interrupt`"
+    status: "**โหมดอินพุตขณะทำงาน: `{mode}`\nข้อความขณะทำงาน: _{behavior}_\nเปลี่ยนด้วย `/busy queue`, `/busy steer`, หรือ `/busy interrupt`"
     unknown_mode: ไม่รู้จักโหมด `{arg}` ใช้ `/busy queue`, `/busy steer`, หรือ `/busy interrupt`
     save_failed: บันทึกโหมดอินพุตขณะทำงานลง config ไม่ได้ โหมดไม่เปลี่ยน
-    set: "ตั้งโหมดอินพุตขณะทำงานเป็น **`{mode}`** แล้ว (บันทึกแล้ว)\n\n      _{behavior}_"
+    set: "ตั้งโหมดอินพุตขณะทำงานเป็น **`{mode}`** แล้ว (บันทึกแล้ว)\n_{behavior}_"
   pause:
     resumed: ▶️ ทำต่อแล้ว — รับงานใหม่อีกครั้ง
     not_paused: Hermes ไม่ได้หยุดชั่วคราวอยู่
@@ -2651,15 +2609,15 @@ gateway:
     rejected_empty: ปฏิเสธการป้อนเข้ารัน (เพย์โหลดว่าง)
     target_subagents: รันและซับเอเจนต์ที่ทำงานอยู่
     target_run: รัน
-    queued: '⏩ ป้อนเข้ารัน {target} ปัจจุบันแล้ว — ถึงหลังการเรียกเครื่องมือถัดไป: ''''{preview}'''''
+    queued: '⏩ ป้อนเข้ารัน {target} ปัจจุบันแล้ว — ถึงหลังการเรียกเครื่องมือถัดไป: ''{preview}'''
   suggestions:
     failed: 'คำสั่งคำแนะนำล้มเหลว: {error}'
   blueprint:
     failed: 'คำสั่งบลูพรินต์ cron ล้มเหลว: {error}'
   confirm:
-    destructive_prompt: "⚠️ **ยืนยัน /{command}**\n\n\n      {detail}\n\n\n      เลือก:\n\n      • **อนุมัติครั้งเดียว** — ดำเนินการครั้งนี้เท่านั้น\n\n      • **อนุมัติเสมอ** — ดำเนินการและปิดคำถามนี้ถาวร\n\n      • **ยกเลิก** — คงบทสนทนาปัจจุบันไว้\n\n\n      _ทางเลือกสำรองด้วยข้อความ: ตอบกลับ `{prefix}approve`, `{prefix}always`, หรือ `{prefix}cancel`._"
-    destructive_optout: "\n\n\n      ℹ️ /clear, /new, /reset และ /undo ในครั้งถัดไปจะทำงานโดยไม่ต้องยืนยัน เปิดใหม่อีกครั้งด้วย `approvals.destructive_slash_confirm: true` ใน config.yaml"
-    destructive_optout_save_failed: "\n\n\n      ⚠️ บันทึกการตั้งค่านี้ไม่ได้ (config.yaml เขียนไม่ได้) ดังนั้น /clear, /new, /reset และ /undo จะถามอีกครั้งครั้งหน้า หากต้องการปิดถาวร ให้ตั้งค่า `approvals.destructive_slash_confirm: false` ใน config.yaml"
+    destructive_prompt: "⚠️ **ยืนยัน /{command}**\n\n{detail}\n\nเลือก:\n• **อนุมัติครั้งเดียว** — ดำเนินการครั้งนี้เท่านั้น\n• **อนุมัติเสมอ** — ดำเนินการและปิดคำถามนี้ถาวร\n• **ยกเลิก** — คงบทสนทนาปัจจุบันไว้\n\n_ทางเลือกสำรองด้วยข้อความ: ตอบกลับ `{prefix}approve`, `{prefix}always`, หรือ `{prefix}cancel`._"
+    destructive_optout: "\n\nℹ️ /clear, /new, /reset และ /undo ในครั้งถัดไปจะทำงานโดยไม่ต้องยืนยัน เปิดใหม่อีกครั้งด้วย `approvals.destructive_slash_confirm: true` ใน config.yaml"
+    destructive_optout_save_failed: "\n\n⚠️ บันทึกการตั้งค่านี้ไม่ได้ (config.yaml เขียนไม่ได้) ดังนั้น /clear, /new, /reset และ /undo จะถามอีกครั้งครั้งหน้า หากต้องการปิดถาวร ให้ตั้งค่า `approvals.destructive_slash_confirm: false` ใน config.yaml"
     cancelled: 🟡 ยกเลิก /{command} แล้ว บทสนทนาไม่เปลี่ยน
     detail_new: การนี้จะเริ่มเซสชันใหม่และทิ้งประวัติบทสนทนาปัจจุบัน
     detail_undo_one: การนี้จะลบการแลกเปลี่ยนระหว่างผู้ใช้และผู้ช่วยล่าสุดออกจากประวัติ
@@ -2687,12 +2645,12 @@ gateway:
     timed_out: คำสั่งด่วนหมดเวลา (30s)
     error: 'ข้อผิดพลาดคำสั่งด่วน: {error}'
     no_command: คำสั่งด่วน '/{command}' ยังไม่ได้กำหนดคำสั่ง
-    unsupported_type: 'คำสั่งด่วน ''''/{command}'''' มีชนิดที่ไม่รองรับ (รองรับ: ''''exec'''', ''''alias'''')'
+    unsupported_type: 'คำสั่งด่วน ''/{command}'' มีชนิดที่ไม่รองรับ (รองรับ: ''exec'', ''alias'')'
     no_target: คำสั่งด่วน '/{command}' ยังไม่ได้กำหนดเป้าหมาย
   unknown_command: ไม่รู้จักคำสั่ง `/{command}` พิมพ์ /commands เพื่อดูที่มี หรือส่งใหม่โดยไม่มีเครื่องหมายสแลชนำเพื่อส่งเป็นข้อความปกติ
   session:
-    auto_reset_notice: "◐ รีเซ็ตเซสชันหลังจากถูกหยุด ล้างประวัติบทสนทนาแล้ว\n\n      ใช้ /resume เพื่อเรียกดูและกู้คืนเซสชันก่อนหน้า\n\n      "
-    auto_reset_context_exhausted: "\n\n\n      \U0001F504 รีเซ็ตเซสชันอัตโนมัติ — บทสนทนาเกินขนาดบริบทสูงสุดและบีบอัดต่อไม่ได้ ข้อความถัดไปของคุณจะเริ่มเซสชันใหม่"
+    auto_reset_notice: "◐ รีเซ็ตเซสชันหลังจากถูกหยุด ล้างประวัติบทสนทนาแล้ว\nใช้ /resume เพื่อเรียกดูและกู้คืนเซสชันก่อนหน้า\n"
+    auto_reset_context_exhausted: "\n\n\U0001F504 รีเซ็ตเซสชันอัตโนมัติ — บทสนทนาเกินขนาดบริบทสูงสุดและบีบอัดต่อไม่ได้ ข้อความถัดไปของคุณจะเริ่มเซสชันใหม่"
     info_model: '◆ โมเดล: `{model}`'
     info_provider: '◆ ผู้ให้บริการ: {provider}'
     info_context: '◆ บริบท: {tokens} โทเค็น ({source})'
@@ -2712,11 +2670,11 @@ gateway:
     timeout_header: ⏱️ เอเจนต์ไม่มีกิจกรรมมา {minutes} นาที — ไม่มีการเรียกเครื่องมือหรือการตอบกลับ API
     timeout_stuck_tool: เอเจนต์ดูเหมือนติดขัดกับเครื่องมือ `{tool}` ({seconds}s นับจากกิจกรรมล่าสุด, {progress})
     timeout_last_activity: 'กิจกรรมล่าสุด: {activity} ({seconds}s ที่แล้ว, {progress}) เอเจนต์อาจกำลังรอการตอบกลับ API'
-    timeout_hint: "หากต้องการเพิ่มขีดจำกัด ให้ตั้งค่า agent.gateway_timeout ใน config.yaml (ค่าเป็นวินาที, 0 = ไม่จำกัด) แล้วรีสตาร์ทเกตเวย์\n\n      ลองอีกครั้ง หรือใช้ /reset เพื่อเริ่มใหม่"
+    timeout_hint: "หากต้องการเพิ่มขีดจำกัด ให้ตั้งค่า agent.gateway_timeout ใน config.yaml (ค่าเป็นวินาที, 0 = ไม่จำกัด) แล้วรีสตาร์ทเกตเวย์\nลองอีกครั้ง หรือใช้ /reset เพื่อเริ่มใหม่"
     working_heartbeat: ⏳ กำลังทำงาน — {minutes} นาที{detail}
     thinking_prefix: 💬 {text}
     tool_head: '{emoji} {tool}'
-    tool_verbose: "{emoji} {tool}({keys})\n\n      {args}"
+    tool_verbose: "{emoji} {tool}({keys})\n{args}"
     tool_preview: '{emoji} {tool}: "{preview}"'
     tool_pending: '{emoji} {tool}...'
     task_status_running: กำลังทำงาน
@@ -2727,7 +2685,7 @@ gateway:
   pairing:
     validity_hour: '{hours} ชั่วโมง'
     validity_hours: '{hours} ชั่วโมง'
-    code_reply: "สวัสดี! ฉันยังไม่รู้จักคุณ จึงตอบกลับไม่ได้จนกว่าผู้ที่รันบอทนี้จะอนุมัติคุณ\n\n\n      โค้ดจับคู่ของคุณ: `{code}` (ใช้ได้ {validity})\n\n\n      หากคุณเป็นผู้รันบอทนี้ ให้เปิดเทอร์มินัลแล้วรัน: `{approve_cmd}` หรือส่งคำสั่งนั้นไปยังเจ้าของบอท หลังได้รับการอนุมัติ ให้ส่งข้อความของคุณอีกครั้ง"
+    code_reply: "สวัสดี! ฉันยังไม่รู้จักคุณ จึงตอบกลับไม่ได้จนกว่าผู้ที่รันบอทนี้จะอนุมัติคุณ\n\nโค้ดจับคู่ของคุณ: `{code}` (ใช้ได้ {validity})\n\nหากคุณเป็นผู้รันบอทนี้ ให้เปิดเทอร์มินัลแล้วรัน: `{approve_cmd}` หรือส่งคำสั่งนั้นไปยังเจ้าของบอท หลังได้รับการอนุมัติ ให้ส่งข้อความของคุณอีกครั้ง"
     rate_limited: มีคำขอจับคู่มากเกินไปในขณะนี้ รอสักสองสามนาที แล้วส่งข้อความของคุณอีกครั้ง
   shutdown:
     action_shutting_down: กำลังปิดระบบ
@@ -2750,10 +2708,10 @@ gateway:
   whoami:
     scope_dm: DM
     scope_group: กลุ่ม/แชนเนล
-    header: "**คุณ** — {platform} ({scope})\n\n      รหัสผู้ใช้: `{user_id}`\n\n      "
-    tier_unrestricted: "ระดับ: ไม่จำกัด (ไม่ได้ตั้งค่ารายการผู้ดูแลสำหรับขอบเขตนี้)\n\n      คำสั่งสแลช: ใช้ได้ทั้งหมด"
-    tier_admin: "ระดับ: **ผู้ดูแล**\n\n      คำสั่งสแลช: ใช้ได้ทั้งหมด"
-    tier_user: "ระดับ: ผู้ใช้\n      คำสั่งสแลชที่คุณใช้ได้: {commands}"
+    header: "**คุณ** — {platform} ({scope})\nรหัสผู้ใช้: `{user_id}`\n"
+    tier_unrestricted: "ระดับ: ไม่จำกัด (ไม่ได้ตั้งค่ารายการผู้ดูแลสำหรับขอบเขตนี้)\nคำสั่งสแลช: ใช้ได้ทั้งหมด"
+    tier_admin: "ระดับ: **ผู้ดูแล**\nคำสั่งสแลช: ใช้ได้ทั้งหมด"
+    tier_user: "ระดับ: ผู้ใช้\nคำสั่งสแลชที่คุณใช้ได้: {commands}"
   platform:
     usage: "การใช้งาน: /platform <list|pause|resume> [name]\n  /platform list — แสดงสถานะแพลตฟอร์ม\n  /platform pause <name> — หยุดลองใหม่แพลตฟอร์มที่ล้มเหลว\n  /platform resume <name> — ใส่แพลตฟอร์มที่หยุดไว้กลับเข้าคิว"
     header: '**แพลตฟอร์มของเกตเวย์**'
@@ -2774,7 +2732,7 @@ gateway:
   bundles:
     unavailable: 'ระบบบัณเดิลใช้ไม่ได้: {error}'
     default_desc: โหลด {count} สกิล
-    none_plain: "ยังไม่มีบัณเดิลสกิลที่ติดตั้ง\n\n      สร้างด้วย: hermes bundles create <name> --skill <s1> --skill <s2>\n\n      ไดเรกทอรี: {dir}"
+    none_plain: "ยังไม่มีบัณเดิลสกิลที่ติดตั้ง\nสร้างด้วย: hermes bundles create <name> --skill <s1> --skill <s2>\nไดเรกทอรี: {dir}"
     header_plain: 'บัณเดิลสกิล ({count} รายการที่ติดตั้ง):'
     item_plain: /{slug} — {desc} ({count} สกิล)
     invoke_hint_plain: เรียกบัณเดิลด้วย /<slug> เพื่อโหลดสกิลทั้งหมดของมัน
@@ -2793,11 +2751,11 @@ gateway:
     no_resume: ไม่มีฮาร์ตบีทให้ทำต่อ
     resumed: '▶ ทำฮาร์ตบีทต่อแล้ว (ทุก {interval}): {prompt}'
     cleared: ✓ ล้างฮาร์ตบีทแล้ว
-    usage: "การใช้งาน: /heartbeat every <interval> <prompt>  (เช่น /heartbeat every 10m Check CI)\n\n      อีกตัวเลือก: /heartbeat status | pause | resume | clear"
+    usage: "การใช้งาน: /heartbeat every <interval> <prompt>  (เช่น /heartbeat every 10m Check CI)\nอีกตัวเลือก: /heartbeat status | pause | resume | clear"
     interval_too_small: ช่วงเวลาเล็กเกินไป — ขั้นต่ำคือ {min_seconds}s
     prompt_required: 'การใช้งาน: /heartbeat every <interval> <prompt> — ต้องระบุพรอมต์'
     invalid_prefix: ฮาร์ตบีทไม่ถูกต้อง
-    set: "♥ ตั้งฮาร์ตบีทแล้ว (ทุก {interval}): {prompt}\n\n      จะทำงานเป็นเทิร์นปกติเมื่อเซสชันนี้ว่างและถึงช่วงเวลาที่กำหนด มีผลตราบเท่าที่เกตเวย์ทำงาน — ใช้ `hermes cron` สำหรับกำหนดเวลาที่คงทนถาวร"
+    set: "♥ ตั้งฮาร์ตบีทแล้ว (ทุก {interval}): {prompt}\nจะทำงานเป็นเทิร์นปกติเมื่อเซสชันนี้ว่างและถึงช่วงเวลาที่กำหนด มีผลตราบเท่าที่เกตเวย์ทำงาน — ใช้ `hermes cron` สำหรับกำหนดเวลาที่คงทนถาวร"
   refine:
     unavailable: Refine ใช้ไม่ได้ (ไม่มีเซสชัน)
     nothing_yet: ยังไม่มีอะไรให้ปรับแต่ง — ส่งข้อความก่อน
@@ -2821,7 +2779,7 @@ gateway:
   loop:
     unavailable: ลูปใช้ไม่ได้
     no_session: ลูปใช้ไม่ได้ (ไม่มีเซสชันที่ทำงานอยู่)
-    goal_defers_note: "\n\n      หมายเหตุ: มี /goal ที่ทำงานอยู่กำกับเซสชันนี้ — การตื่นของลูปจะเลื่อนออกจนกว่าเป้าหมายจะสำเร็จ หยุดชั่วคราว หรือพาร์ก"
+    goal_defers_note: "\nหมายเหตุ: มี /goal ที่ทำงานอยู่กำกับเซสชันนี้ — การตื่นของลูปจะเลื่อนออกจนกว่าเป้าหมายจะสำเร็จ หยุดชั่วคราว หรือพาร์ก"
   save:
     no_messages: ไม่พบข้อความที่จัดเก็บไว้สำหรับเซสชันนี้ ({session_id})
     no_adapter: ไม่พบอะแดปเตอร์ของแพลตฟอร์มเพื่อส่งเอกสาร
@@ -2841,7 +2799,7 @@ gateway:
     portal_link: 'จัดการการเรียกเก็บเงินบนพอร์ทัล: {url}'
     hint: เติมเงินและจัดการการเรียกเก็บเงินในเบราว์เซอร์ — ยอดคงเหลือของคุณจะอัปเดตที่นี่ภายหลัง
   login:
-    free_tier_remaining: "\n\n      บางแชทยังอยู่บนฟรีเทียร์; ใช้ /model ในแชทเหล่านั้นเพื่อสลับ"
+    free_tier_remaining: "\nบางแชทยังอยู่บนฟรีเทียร์; ใช้ /model ในแชทเหล่านั้นเพื่อสลับ"
 platform:
   whatsapp:
     clarify_other_title: ✏️ อื่น ๆ
@@ -2861,10 +2819,7 @@ platform:
     slow_response_notice: งานนี้ซับซ้อนหน่อย — กำลังทำต่ออยู่ กรุณารอสักครู่...
     owner_command_denied: ⚠️ {command} ใช้ได้เฉพาะผู้สร้างในโหมดแชทส่วนตัวเท่านั้น
   shared:
-    truncated_suffix: '
-
-
-      ...(ถูกตัดทอน)'
+    truncated_suffix: "\n...(ถูกตัดทอน)"
     unknown: ไม่ทราบ
     approval_expired: ⌛ หมดเวลาอนุมัติ — คำสั่งไม่ถูกดำเนินการ (หมดเวลาหรือถูกจัดการที่อื่นแล้ว)
     model_picker_expired: ⏳ ตัวเลือกโมเดลนี้หมดเวลา — กรุณารัน /model อีกครั้ง
@@ -2886,14 +2841,7 @@ platform:
     provider_auth_failed: การยืนยันตัวตนผู้ให้บริการล้มเหลว
     provider_rate_limited: ผู้ให้บริการจำกัดอัตราการเรียกใช้
     provider_error_line: '⚠️ {label}: {error}'
-    transformed_notice: '
-
-
-
-      [ตอบกลับถูกแปลงหลังสตรีมแล้ว]
-
-
-      '
+    transformed_notice: "\n\n[ตอบกลับถูกแปลงหลังสตรีมแล้ว]\n"
   discord:
     approval:
       question: ต้องการให้ Hermes รันคำสั่งนี้หรือไม่?
@@ -2931,14 +2879,7 @@ platform:
       awaiting_typed: รอการพิมพ์คำตอบจาก {user}…
     picker:
       title: ⚙ กำหนดค่าโมเดล
-      select_provider: 'โมเดลปัจจุบัน: `{model}`
-
-
-        ผู้ให้บริการ: {provider}
-
-
-
-        เลือกผู้ให้บริการ:'
+      select_provider: "โมเดลปัจจุบัน: `{model}`\nผู้ให้บริการ: {provider}\n\nเลือกผู้ให้บริการ:"
       unknown_model: ไม่ทราบ
       choice_default_title: เลือกตัวเลือก
       provider_option: '{provider} ({count} โมเดล)'
@@ -2949,10 +2890,7 @@ platform:
       back: ◀ ย้อนกลับ
       switch_anyway: สลับเลย
       more_available: มีอีก {count} รายการ — พิมพ์ `/model <name>` ได้โดยตรง
-      select_model: 'ผู้ให้บริการ: **{provider}**
-
-
-        เลือกโมเดล:{extra}'
+      select_model: "ผู้ให้บริการ: **{provider}**\nเลือกโมเดล:{extra}"
       already_resolved: ได้รับการจัดการแล้ว~
       switching: กำลังสลับไป `{model}`...
       switching_title: ⚙ กำลังสลับโมเดล
@@ -3033,10 +2971,10 @@ platform:
         description: รีสตาร์ทเกตเวย์ Hermes อย่างนุ่มนวล
         followup: ร้องขอรีสตาร์ทแล้ว~
       approve:
-        arg_scope: 'ตัวเลือกเสริม: ''''all'''', ''''session'''', ''''always'''', ''''all session'''', ''''all always'''''
+        arg_scope: 'ตัวเลือกเสริม: ''all'', ''session'', ''always'', ''all session'', ''all always'''
       deny:
         description: ปฏิเสธคำสั่งที่รออนุมัติ
-        arg_scope: 'ตัวเลือกเสริม: ''''all'''' เพื่อปฏิเสธคำสั่งที่รออยู่ทั้งหมด'
+        arg_scope: 'ตัวเลือกเสริม: ''all'' เพื่อปฏิเสธคำสั่งที่รออยู่ทั้งหมด'
       thread:
         description: สร้างเธรดใหม่และเริ่มเซสชัน Hermes ในนั้น
         arg_name: ชื่อเธรด
@@ -3081,19 +3019,7 @@ platform:
       ack_5: รับทราบ
       left_inactivity: ออกจากช่องเสียงแล้ว (หมดเวลาเนื่องจากไม่มีกิจกรรม)
     security:
-      unauthorized_slash_alert: '⚠️ มีการพยายามใช้ Discord slash โดยไม่มีสิทธิ์
-
-
-        ผู้ใช้: {user_name} ({user_id})
-
-
-        ช่องทาง: {chan_id} (กิลด์ {guild_id})
-
-
-        คำสั่ง: {command_text}
-
-
-        เหตุผล: {reason}'
+      unauthorized_slash_alert: "⚠️ มีการพยายามใช้ Discord slash โดยไม่มีสิทธิ์\nผู้ใช้: {user_name} ({user_id})\nช่องทาง: {chan_id} (กิลด์ {guild_id})\nคำสั่ง: {command_text}\nเหตุผล: {reason}"
     thread:
       seed_message: '🧵 เธรดสร้างโดย Hermes: **{name}**'
       default_name: Hermes
@@ -3214,29 +3140,9 @@ platform:
       resolved_always: 🔒 อนุมัติเสมอแล้วโดย {user}
       resolved_cancel: ❌ ยกเลิกแล้วโดย {user}
     picker:
-      more_available: '
-
-
-        *มีอีก {count} รายการ — พิมพ์ `/model <name>` ได้โดยตรง*'
-      provider_header: '*⚙ กำหนดค่าโมเดล*
-
-
-        โมเดลปัจจุบัน: `{model}`
-
-
-        ผู้ให้บริการ: {provider}
-
-
-
-        เลือกผู้ให้บริการ:{extra}'
-      model_header: '*⚙ กำหนดค่าโมเดล*
-
-
-
-        ผู้ให้บริการ: *{provider}*
-
-
-        เลือกโมเดล:{extra}'
+      more_available: "\n*มีอีก {count} รายการ — พิมพ์ `/model <name>` ได้โดยตรง*"
+      provider_header: "*⚙ กำหนดค่าโมเดล*\nโมเดลปัจจุบัน: `{model}`\nผู้ให้บริการ: {provider}\n\nเลือกผู้ให้บริการ:{extra}"
+      model_header: "*⚙ กำหนดค่าโมเดล*\n\nผู้ให้บริการ: *{provider}*\nเลือกโมเดล:{extra}"
       choose_provider: เลือกผู้ให้บริการ…
       choose_model: เลือกโมเดลจาก {provider}…
       cancel: ยกเลิก
@@ -3267,11 +3173,7 @@ platform:
     task_card:
       title: Hermes กำลังทำงาน
     slash:
-      reply_truncated: '
-
-
-
-        _[ตอบกลับถูกตัดทอน: มีอีก {count} ส่วนเกินขีดจำกัดการตอบกลับชั่วคราวของ Slack]_'
+      reply_truncated: "\n\n_[ตอบกลับถูกตัดทอน: มีอีก {count} ส่วนเกินขีดจำกัดการตอบกลับชั่วคราวของ Slack]_"
       running: กำลังรัน `/{command}`…
     handoff:
       seed: ':thread: Hermes ส่งต่อ — *{name}*'
@@ -3319,11 +3221,7 @@ platform:
       resolved_by_user: '{icon} **{label}** โดย {user}'
     update_prompt:
       title: ☤ อัปเดตต้องการข้อมูลจากคุณ
-      default_hint: '
-
-
-
-        ค่าเริ่มต้น: `{default}`'
+      default_hint: "\n\nค่าเริ่มต้น: `{default}`"
       answer_yes: ✓ ใช่
       answer_no: ✗ ไม่
       word_yes: ใช่
@@ -3332,10 +3230,7 @@ platform:
       answered_by: ตอบโดย **{user}**
     media:
       gif_downgraded: '[GIF ถูกแปลงเป็นไฟล์]'
-      gif_downgraded_caption: '[GIF ถูกแปลงเป็นไฟล์]
-
-
-        {caption}'
+      gif_downgraded_caption: "[GIF ถูกแปลงเป็นไฟล์]\n{caption}"
   google_chat:
     clarify:
       other_button: อื่น ๆ / พิมพ์คำตอบ
@@ -3351,38 +3246,8 @@ platform:
       activate: '**วิธีเปิดใช้งาน:** ส่ง `/setup-files` แล้วทำตามคำแนะนำ'
       host_path: 'ระหว่างนี้ไฟล์อยู่ที่โฮสต์: `{path}`'
     setup_files:
-      not_configured: '🔧 ยังไม่ได้**กำหนดค่า**การส่งไฟล์แนบแบบเนทีฟ
-
-
-        **ขั้นตอนที่ 1 (ครั้งเดียว บนโฮสต์):** สร้าง OAuth client credentials ที่ https://console.cloud.google.com/apis/credentials → *Create credentials* → *OAuth client ID* → *Desktop app* แล้วดาวน์โหลดไฟล์ JSON จากนั้นบนโฮสต์รัน:
-
-
-        ```
-
-
-        python -m plugins.platforms.google_chat.oauth --client-secret /path/to/client_secret.json
-
-
-        ```
-
-
-        **ขั้นตอนที่ 2:** กลับมาที่นี่แล้วส่ง `/setup-files start`'
-      start_instructions: '1. เปิด URL นี้ในเบราว์เซอร์และอนุญาต:
-
-
-        {auth_url}
-
-
-
-        2. หลังจากคลิก *Allow* เบราว์เซอร์ของคุณจะโหลด `http://localhost:1/?...&code=...` ไม่สำเร็จ ซึ่งเป็นเรื่องปกติ
-
-
-
-        3. คัดลอก URL ทั้งหมดจากแถบที่อยู่ของเบราว์เซอร์ แล้ววางกลับมาที่นี่ในรูปแบบ: `/setup-files <วาง_URL>` (หรือเพียงค่า `code=...`)
-
-
-
-        เคล็ดลับ: URL นี้มีสิทธิ์การเข้าถึงของคุณ — เก็บเป็นความลับ'
+      not_configured: "🔧 ยังไม่ได้**กำหนดค่า**การส่งไฟล์แนบแบบเนทีฟ\n**ขั้นตอนที่ 1 (ครั้งเดียว บนโฮสต์):** สร้าง OAuth client credentials ที่ https://console.cloud.google.com/apis/credentials → *Create credentials* → *OAuth client ID* → *Desktop app* แล้วดาวน์โหลดไฟล์ JSON จากนั้นบนโฮสต์รัน:\n```\npython -m plugins.platforms.google_chat.oauth --client-secret /path/to/client_secret.json\n```\n**ขั้นตอนที่ 2:** กลับมาที่นี่แล้วส่ง `/setup-files start`"
+      start_instructions: "1. เปิด URL นี้ในเบราว์เซอร์และอนุญาต:\n{auth_url}\n\n2. หลังจากคลิก *Allow* เบราว์เซอร์ของคุณจะโหลด `http://localhost:1/?...&code=...` ไม่สำเร็จ ซึ่งเป็นเรื่องปกติ\n\n3. คัดลอก URL ทั้งหมดจากแถบที่อยู่ของเบราว์เซอร์ แล้ววางกลับมาที่นี่ในรูปแบบ: `/setup-files <วาง_URL>` (หรือเพียงค่า `code=...`)\n\nเคล็ดลับ: URL นี้มีสิทธิ์การเข้าถึงของคุณ — เก็บเป็นความลับ"
       start_failed: ❌ ไม่สามารถสร้าง OAuth URL ได้ ตรวจสอบบันทึกของเกตเวย์และยืนยันว่า client_secret.json ถูกต้อง
       exchange_failed: ❌ การแลกเปลี่ยนโทเคนล้มเหลว โค้ดอาจหมดอายุหรือ URL มีรูปแบบผิด ส่ง `/setup-files start` เพื่อรับ OAuth URL ใหม่
       revoke_completed: ถอนสิทธิ์เสร็จสิ้น (บางขั้นตอนอาจถูกข้าม)
@@ -3390,39 +3255,12 @@ platform:
       helper_error: '❌ ข้อผิดพลาด: {error}'
       revoke_error: '❌ ข้อผิดพลาดในการถอนสิทธิ์: {error}'
       who_shared: แชร์ (แบบเก่า)
-      active: '✅ การส่งไฟล์แนบแบบเนทีฟ**เปิดใช้งาน**แล้วสำหรับ `{who}`
-
-
-        โทเค็น: `{token_path}`
-
-
-        ส่ง `/setup-files revoke` เพื่อปิดใช้งาน'
+      active: "✅ การส่งไฟล์แนบแบบเนทีฟ**เปิดใช้งาน**แล้วสำหรับ `{who}`\nโทเค็น: `{token_path}`\nส่ง `/setup-files revoke` เพื่อปิดใช้งาน"
       not_authorized_yet: 🔧 มี client credentials เก็บอยู่ แต่คุณยังไม่ได้อนุญาต ส่ง `/setup-files start` เพื่อเริ่มต้น
       no_client_credentials: ⚠️ ไม่มี client credentials สำหรับโปรไฟล์นี้ ส่ง `/setup-files` (ไม่มีอาร์กิวเมนต์) เพื่อดูคำแนะนำการตั้งค่า
-      done_output: '✅ เสร็จสิ้น
-
-
-        ```
-
-
-        {output}
-
-
-        ```'
+      done_output: "✅ เสร็จสิ้น\n```\n{output}\n```"
       authorized: ✅ อนุญาตแล้ว! การส่งไฟล์แนบแบบเนทีฟเปิดใช้งานแล้ว ลองขอบอให้ส่ง PDF ดูสิ
-      exchanged_not_loaded: '⚠️ แลกเปลี่ยนโทเคนแล้ว แต่เกตเวย์โหลดข้อมูลรับรองใหม่ในหน่วยความจำไม่สำเร็จ รีสตาร์ทเกตเวย์แล้วโทเคนที่ `{token_path}` จะถูกนำไปใช้
-
-
-        ผลลัพธ์ของตัวช่วย:
-
-
-        ```
-
-
-        {output}
-
-
-        ```'
+      exchanged_not_loaded: "⚠️ แลกเปลี่ยนโทเคนแล้ว แต่เกตเวย์โหลดข้อมูลรับรองใหม่ในหน่วยความจำไม่สำเร็จ รีสตาร์ทเกตเวย์แล้วโทเคนที่ `{token_path}` จะถูกนำไปใช้\nผลลัพธ์ของตัวช่วย:\n```\n{output}\n```"
   teams:
     approval:
       resolved_once: ✅ อนุญาต (ครั้งเดียว)

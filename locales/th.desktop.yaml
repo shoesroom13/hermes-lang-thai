@@ -1640,7 +1640,6 @@ desktop:
   warningLine: 'คำเตือน: {0}'
   yoloArmed: YOLO พร้อมใช้สำหรับแชทนี้
   yoloOff: YOLO ปิด
-  yoloSystem: สถานะ YOLO สำหรับเซสชันนี้
   yoloTitle: YOLO
   yoloToggleFailed: สลับ YOLO ไม่สำเร็จ
   zoomIn: ซูมเข้า
